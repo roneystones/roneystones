@@ -19,6 +19,7 @@
   "homepage": "https://roneystones.github.io/roneystones/",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
     "gulp-imagemin": "^3.1.1"
   }
 }
