@@ -6,10 +6,6 @@ var gulp = require('gulp')
   ,uglify = require('gulp-uglify')
   ,usemin = require('gulp-usemin')
   ,cssmin = require('gulp-cssmin')
-  ,browserSync = require('browser-sync').create()
-  ,jshint = require('gulp-jshint')
-  ,jshintStylish = require('jshint-stylish')
-  ,csslint = require('gulp-csslint')
   ,autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('default', ['copy'], function() {
@@ -40,28 +36,4 @@ gulp.task('usemin', function() {
       css: [autoprefixer, cssmin]
     }))
     .pipe(gulp.dest('dist'));
-});
-
-gulp.task('server', function() {
-    browserSync.init({
-        server: {
-            baseDir: 'src'
-        }
-    });
-
-    gulp.watch('src/**/*').on('change', browserSync.reload);
-
-    gulp.watch('src/js/**/*.js').on('change', function(event) {
-        console.log("Linting " + event.path);
-        gulp.src(event.path)
-            .pipe(jshint())
-            .pipe(jshint.reporter(jshintStylish));
-    });
-
-    gulp.watch('src/css/**/*.css').on('change', function(event) {
-        console.log("Linting " + event.path);
-        gulp.src(event.path)
-            .pipe(csslint())
-            .pipe(csslint.reporter());
-    });
 });
