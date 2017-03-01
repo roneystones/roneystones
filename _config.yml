@@ -33,6 +33,8 @@ sass:
   style: :compressed
 
 # Build settings
+include: ["_pages"]
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -40,3 +42,4 @@ exclude:
 # Plugin settings
 gems:
   - jekyll-feed
+
