@@ -2,14 +2,22 @@
 layout: default
 ---
 
-<div class="home">
+<section class="hero is-light is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1">
+        Medium title
+      </h1>
+      <h2 class="subtitle">
+        Medium subtitle
+      </h2>
+    </div>
+  </div>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
-
-  {% include post-list.html %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-</div>
+<section class="section">
+  <div class="container">
+    {{ content }}
+    {% include post-list.html %}
+  </div>
+</section>

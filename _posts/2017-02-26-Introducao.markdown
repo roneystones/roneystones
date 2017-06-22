@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Testing Jekyll!"
+title:  "Welcome to Jekyll!"
 date:   2017-02-26 21:31:29 -0300
-categories: jekyll update
+categories: teste
 tags: teste
 ---
 
