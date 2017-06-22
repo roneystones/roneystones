@@ -1,0 +1,26 @@
+{% for post in site.posts %}
+  <div class="level list-item">
+    <div class="level-left">
+      <span class="list-item-date">
+        {{ post.date | date: "%b %-d, %Y" }}
+      </span>
+      <a class="list-item-title" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </div>
+
+    <div class="level-right">
+      <span class="list-item-tag">
+        {{ post.tags | escape }}
+      </span>
+    </div>
+  </div>
+{% endfor %}
+
+<!-- {% for post in site.posts %}
+  <a class="list-item" href="{{ post.url | relative_url }}">
+    <span class="list-item-data">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <span class="list-item-title">{{ post.title | escape }}</span>
+    <span class="list-item-tag">{{ post.tags | escape }}</span>
+  </a>
+{% endfor %} -->
