@@ -1,15 +1,19 @@
-// .container
-//   max-width: 880px
-//
-// article p
-//   margin-bottom: 15px
+article p
+  margin-bottom: 15px
 
-.list-item
-  border-bottom: 1px solid $grey-lighter
-  padding-bottom: 1.5rem
+.index-item
+  border-bottom: 1px solid $white-ter
+  padding-bottom: 0.75rem
+  &:last-child
+    border-bottom: none
+    padding-bottom: 0
 
-.list-item-date, .list-item-tag
+.index-item-date, .index-item-tag
   color: $grey-light
+  font-size: $size-7
 
-.list-item-title
-  margin-left: 1.5rem
+.index-item-title
+  margin-left: .75rem
+
+.level:not(:last-child)
+  margin-bottom: .75rem

@@ -10,7 +10,7 @@ O que os profissionais de UX podem aprender com Robin Dunbar e seu estudo de com
 
 Robin Dunbar é antropólogo especializado no estudo da evolução da sociabilidade. Seu trabalho é fundamental para a área da Experiência do Usuário e suas descobertas são muito significativas quando tratamos de projetar espaços sociais. Este texto aborda principalmente aquilo que Robin apresentou em sua palestra “Connecting Anthropology and User Experience” na conferência UX Brighton 2011.
 
-##O Número de Dunbar
+<h3 class="title is-3">O Número de Dunbar</h3>
 
 Robin Dunbar é conhecido por ter formulado o Número de Dunbar, que segundo a Wikipedia pode ser definido como o limite cognitivo teórico do número de pessoas com as quais um indivíduo pode manter relações sociais estáveis.
 
@@ -24,7 +24,7 @@ Em sua pesquisa, Dunbar alerta sobre como a globalização e o aumento das redes
 
 Para se aprofundar mais, recomendo que você leia a entrevista Robin Dunbar: We can only ever have 150 friends at most.
 
-##Outros aprendizados sobre as relações
+<h3 class="title is-3">Outros aprendizados sobre as relações</h3>
 
 Abaixo, deixo uma lista com alguns dos aprendizados que pude extrair da palestra de Robin Dunbar na UX Brighton 2011:
 A tecnologia não expande nossos horizontes. Nossos horizontes são limitados pela nossa estrutura.

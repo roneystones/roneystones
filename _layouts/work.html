@@ -2,12 +2,11 @@
 layout: default
 ---
 
-<section class="hero is-light is-medium">
+<section class="hero is-light">
   <div class="hero-body">
     <div class="container">
       <h1 class="title is-1">
-        User Experience, Visual Design<br>
-        & Front-End Development
+        {{ page.title | escape }}
       </h1>
       <h2 class="subtitle">
         Medium subtitle
@@ -17,8 +16,9 @@ layout: default
 </section>
 
 <section class="section">
-  <div class="container">
-    {{ content }}
-    {% include post-list.html %}
+  <div class="container is-fluid">
+    <article>
+      {{ content }}
+    </article>
   </div>
 </section>
