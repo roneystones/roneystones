@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Write
-permalink: /write/
+title: Daily Log
+permalink: /dailylog/
 navigation_weight: 2
 ---
 

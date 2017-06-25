@@ -3,35 +3,33 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        <ul>
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-          </li>
-
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
+        <p>
+          {% if site.author %}
+            {{ site.author | escape }}
+          {% else %}
+            {{ site.title | escape }}
           {% endif %}
+        </p>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+        {% if site.github_username %}
+        <p>
+          {% include icon-github.html username=site.github_username %}
+        </p>
+        {% endif %}
 
-          {% if site.email %}
-          <li>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-          {% endif %}
+        {% if site.twitter_username %}
+        <p>
+          {% include icon-twitter.html username=site.twitter_username %}
+        </p>
+        {% endif %}
 
-          <li>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
-        </ul>
+        {% if site.email %}
+        <p>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+        {% endif %}
+
+        <p>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
       </div>
 
       <div class="column">
