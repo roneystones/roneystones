@@ -5,8 +5,43 @@ permalink: /about/
 navigation_weight: 3
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare felis justo, non sollicitudin libero ultrices id. Nunc tincidunt nunc non metus sagittis, a pulvinar neque dictum. Cras dictum dolor eleifend viverra elementum. Proin vitae sem felis. Phasellus a velit luctus ligula dignissim rutrum. Phasellus sed vehicula diam. Cras consectetur porta hendrerit. Duis quis felis eu massa ornare tempor. Cras ac fermentum urna. Morbi eget dolor finibus odio sodales luctus tincidunt eget mi. Curabitur faucibus maximus diam auctor mollis. Donec in magna eget odio dictum malesuada eu id leo. Ut a quam ipsum. Vestibulum elementum nec velit in dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<div class="cf pv5 mw7 center">
+  <div class="fl w-100 w-50-l pv3-m pv4-l mb3 mb5-l">
+    <h2 class="lh-title f3 b mt0">
+      Beginners and amateurs alike overestimate the importance of the
+      so-called brain wave, the sudden brilliant idea.
+    </h2>
+  </div>
 
-Donec sed ex turpis. Aenean nulla ipsum, molestie id fringilla sit amet, lobortis sit amet mauris. Nulla sed elit eget est consequat dignissim non id ipsum. Nunc in vulputate purus. Quisque non accumsan diam. Aliquam congue quis neque non volutpat. Morbi eget neque sed nisi hendrerit eleifend at a nibh.
-
-Fusce iaculis varius arcu, eu tincidunt ipsum sagittis ut. Cras eu libero pretium, interdum lacus sit amet, posuere risus. Proin sit amet malesuada arcu. Quisque rhoncus, urna ut facilisis aliquam, ligula lectus blandit nisi, nec lobortis ante nibh a nisl. Nunc pellentesque facilisis egestas. Mauris a accumsan diam, vitae maximus diam. Nulla iaculis est est, vitae luctus lacus elementum eget. Suspendisse sed mattis ante, sed hendrerit nisi. Integer tortor leo, maximus vel nunc in, rhoncus ornare nisl. Vestibulum euismod aliquet risus, in fermentum arcu. Suspendisse eu velit ligula. Vivamus ultricies ligula eget diam gravida cursus.
+  <div class="fl w-100">
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        Perfect typography depends on perfect harmony between all of its elements. 
+        Harmony is determined by relationships
+        or proportions. Proportions are hidden everywhere. words themselves. 
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        True book design, therefore, is a matter of tact (tempo, rhythm,
+        touch) alone. It flows from something rarely appreciated today:
+        good taste. The book designer strives for perfection.
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        In a masterpiece of typography, the artist's signature has been
+        eliminated. What some may praise as personal styles are in reality
+        small and empty peculiarities, frequently damaging, that masquerade
+        as innovations. 
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        Perfect typography depends on perfect harmony between all of its elements. 
+        Harmony is determined by relationships
+        or proportions. Proportions are hidden everywhere. words themselves. 
+      </p>
+    </div>
+  </div>
+</div>

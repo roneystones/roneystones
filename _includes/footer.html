@@ -1,41 +1,29 @@
-<footer class="section">
+<footer class="ph3 ph4-ns pv6 bt b--black-10 black-70">
+  <div class="mw7 center">
+    {% if site.email %}
+      <p>
+        <a href="mailto:" class="link b f3 f2-ns dim black-70 lh-solid">{{ site.email }}</a>
+      </p>
+    {% endif %}
 
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <p>
-          {% if site.author %}
-            {{ site.author | escape }}
-          {% else %}
-            {{ site.title | escape }}
-          {% endif %}
-        </p>
+    {% if site.author %}
+      <p class="f6 db b ttu lh-solid">{{ site.author | escape }}</p>
+    {% else %}
+      <p class="f6 db b ttu lh-solid">{{ site.title | escape }}</p>
+    {% endif %}
 
-        {% if site.github_username %}
-        <p>
-          {% include icon-github.html username=site.github_username %}
-        </p>
-        {% endif %}
+    <div class="mt5">
+      {% if site.github_username %}
+        {% include icon-github.html username=site.github_username %}
+      {% endif %}
 
-        {% if site.twitter_username %}
-        <p>
-          {% include icon-twitter.html username=site.twitter_username %}
-        </p>
-        {% endif %}
+      {% if site.twitter_username %}
+        {% include icon-twitter.html username=site.twitter_username %}
+      {% endif %}
 
-        {% if site.email %}
-        <p>
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
-        {% endif %}
+      <p class="f6 dib pr2 mid-gray dim">Subscribe <a class="link f6 dib pr2 mid-gray dim" href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
-        <p>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-      </div>
-
-      <div class="column">
-        <p>{{ site.description | escape }}</p>
-      </div>
+      <!-- <p class="f6 dib pr2 mid-gray">{{ site.description | escape }}</p> -->
     </div>
   </div>
-
 </footer>

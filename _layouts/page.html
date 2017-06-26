@@ -2,23 +2,13 @@
 layout: default
 ---
 
-<section class="hero is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title is-1">
-        {{ page.title | escape }}
-      </h1>
-      <h2 class="subtitle">
-        Medium subtitle
-      </h2>
-    </div>
+<header class="bg-gold dt w-100">
+  <div class="mw7 center mv5">
+    <h1 class="f1 fw9 lh-title mv0 measure">{{ page.title | escape }}</h1>
+    <h2 class="f6 fw6">Medium subtitle</h2>
   </div>
-</section>
+</header>
 
-<section class="section">
-  <div class="container">
-    <article>
-      {{ content }}
-    </article>
-  </div>
-</section>
+<article>
+  {{ content }}
+</article>

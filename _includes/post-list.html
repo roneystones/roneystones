@@ -1,25 +1,11 @@
-{% for post in site.posts %}
-  <div class="level index-item">
-    <div class="level-left">
-      <div class="level-item">
-        <span class="index-item-date">
-          {{ post.date | date: "%b %-d, %Y" }}
-        </span>
-      </div>
-      
-       <div class="level-item">
-        <a class="index-item-title" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </div>
-    </div>
-
-    <div class="level-right">
-      <div class="level-item">
-        <span class="index-item-tag">
-          {{ post.tags | escape }}
-        </span>
-      </div>
-    </div>
-  </div>
-{% endfor %}
+<ul class="list">
+  {% for post in site.posts %}
+    <a class="link" href="{{ post.url | relative_url }}">
+      <li class="flex content-center ph2 pv4 lh-0 bb b--black-10 bg-animate bg-white hover-bg-lightest-blue">
+        <span class="w-20 f7 ma0 gray ttu tracked">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="w-60 f4 ma0 black-90 athelas i">{{ post.title | escape }}</span>
+        <span class="w-20 f7 ma0 gray tr i">{{ post.tags | escape }}</span>
+      </li>
+    </a>
+  {% endfor %}
+</ul>

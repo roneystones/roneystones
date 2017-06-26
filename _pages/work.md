@@ -1,133 +1,96 @@
 ---
-layout: work
+layout: page
 title: Work
 permalink: /work/
 navigation_weight: 1
 ---
 
-<div class="tile is-ancestor">
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">One</p>
-      <p class="subtitle">Subtitle</p>
-    </article>
+<div class="cf">
+  <div class="fl w-50 w-25-ns">
+    <a href="https://www.amazon.com/BEYONCÉ-Beyonce/dp/B00KCOMBJC/ref=sr_1_2_twi_lp__3?s=music&ie=UTF8&qid=1480422067&sr=1-2&keywords=beyonce&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Beyoncé" style="background-image:url(http://mrmrs.github.io/photos/beyonce.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
   </div>
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Two</p>
-      <p class="subtitle">Subtitle</p>
-    </article>
+  <div class="fl w-50 w-25-ns">
+    <a href="https://www.amazon.com/99-9-KAYTRANADA/dp/B01D9DBNX2/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480422105&sr=1-1&keywords=kaytranada+vinyl&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Kaytranada" style="background-image:url(http://mrmrs.github.io/photos/kaytranada.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
   </div>
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Three</p>
-      <p class="subtitle">Subtitle</p>
-    </article>
+  <div class="fl w-50 w-25-ns">
+    <a href="https://www.amazon.com/Woman-2LP-Set-Full-Album/dp/B01LX3E0ET/ref=sr_1_1?s=music&ie=UTF8&qid=1480422119&sr=1-1&keywords=justice&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Woman - Justice" style="background-image:url(http://mrmrs.github.io/photos/justice.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
   </div>
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Four</p>
-      <p class="subtitle">Subtitle</p>
-    </article>
+  <div class="fl w-50 w-25-ns">
+    <a href="https://www.amazon.com/Skin-Flume/dp/B01DD5N35W/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480422133&sr=1-1&keywords=flume&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Skin - Flume" style="background-image:url(http://mrmrs.github.io/photos/flume.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
   </div>
-</div>
-
-<div class="tile is-ancestor">
-  <div class="tile is-vertical is-9">
-    <div class="tile">
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title">Five</p>
-          <p class="subtitle">Subtitle</p>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-          </div>
-        </article>
+  <div class="fl w-50">
+    <a href="https://www.amazon.com/Seat-at-Table-Solange/dp/B01LXP7I5N/ref=sr_tnr_p_1_195429011_1_twi_lp__3?s=music&ie=UTF8&qid=1480422087&sr=1-1&keywords=solange+seat+at+the+table&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Seat at Table Solange" style="background-image:url(http://mrmrs.github.io/photos/solange.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-50 w-25-ns">
+    <a href="https://www.amazon.com/untitled-unmastered-LP-Kendrick-Lamar/dp/B01DET9BV2/ref=sr_1_3_twi_lp__3?s=music&ie=UTF8&qid=1480370912&sr=1-3&keywords=kendrick+lamar&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Untitled Unmastered - Kendrick Lamar" style="background-image:url(http://mrmrs.github.io/photos/untitledunmastered.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-100 w-25-ns">
+    <a href="https://www.amazon.com/Moon-Shaped-Pool-2-LP-Download/dp/B01FDF12UI/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480370971&sr=1-1&keywords=moon+shaped+pool&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Moon Shaped Pool 2" style="background-image:url(http://mrmrs.github.io/photos/moonshapedpool.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-50 w-25-ns">
+    <a href="https://www.amazon.com/Colour-Anything-2-LP/dp/B01F8674B8/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480371036&sr=1-1&keywords=color+in+anything&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Colour Anything 2" style="background-image:url(http://mrmrs.github.io/photos/colouranything.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-50 w-25-ns">
+    <a href="https://www.amazon.com/Good-Luck-Do-Your-Best/dp/B01C3IHINI/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480371123&sr=1-1&keywords=good+luck+gold+panda&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Good Luck Do Your Best" style="background-image:url(http://mrmrs.github.io/photos/goldpanda.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-100 w-50-m w-25-ns">
+    <a href="https://www.amazon.com/32-Levels-Clams-Casino/dp/B01GU83I4K/ref=sr_1_2_twi_lp__1?s=music&ie=UTF8&qid=1480371183&sr=1-2&keywords=clams+casino&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="32 Levels Clams Casino" style="background-image:url(http://mrmrs.github.io/photos/clamscasino.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+    <a href="https://www.amazon.com/Danny-Brown-Atrocity-Exhibition-Exclusive/dp/B01M9F0LSQ/ref=sr_1_2?ie=UTF8&qid=1480421198&sr=8-2&keywords=danny+brown+vinyl&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Danny Brown Atrocity Exhibition Exclusive" style="background-image:url(http://mrmrs.github.io/photos/dannybrown.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-100 w-50-m w-25-l">
+    <div class="fl w-100">
+      <a href="https://www.amazon.com/Human-Energy-MACHINEDRUM/dp/B01HC7UTBI/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480371226&sr=1-1&keywords=human+energy&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+        <span role="img" aria-label="Human Energy - Machinedrum" style="background-image:url(http://mrmrs.github.io/photos/humanenergy.jpg);" class="bg-center cover aspect-ratio--object"></span>
+      </a>
+    </div>
+    <div class="fl w-100">
+      <div class="fl w-50">
+        <a href="https://www.amazon.com/Moodymann-DJ-Kicks-DJ-KICKS/dp/B01AEOM6D0/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480371894&sr=1-1&keywords=dj+kicks+moodymann&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Moodymann - DJ Kicks" style="background-image:url(http://mrmrs.github.io/photos/moodyman.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
       </div>
-      <div class="tile is-8 is-vertical">
-        <div class="tile">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Six</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Seven</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child box">
-            <p class="title">Eight</p>
-            <p class="subtitle">Subtitle</p>
-          </article>
-        </div>
+      <div class="fl w-50">
+        <a href="https://www.amazon.com/Stranger-Things-Netflix-Original-Soundtrack/dp/B01KA4MVF2/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480423240&sr=1-1&keywords=stranger+things&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Stranger Things Netflix Original Soundtrack" style="background-image:url(http://mrmrs.github.io/photos/strangerthings.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50">
+        <a href="https://www.amazon.com/How-Be-Human-Being-LP/dp/B01GQ7DIJA/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1480421224&sr=8-1&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="How Be Human Being LP" style="background-image:url(http://mrmrs.github.io/photos/glassanimals.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50">
+        <a href="https://www.amazon.com/22-Million-Bon-Iver/dp/B01KBKVK2K/ref=sr_tnr_p_6_195212011_1_twi_lp__3?s=music&ie=UTF8&qid=1480422776&sr=1-6&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="22 Million - Bon Iver" style="background-image:url(http://mrmrs.github.io/photos/boniver.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
       </div>
     </div>
-    <div class="tile">
-      <div class="tile is-8 is-parent">
-        <article class="tile is-child box">
-          <p class="title">Nine</p>
-          <p class="subtitle">Subtitle</p>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-          </div>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title">Ten</p>
-          <p class="subtitle">Subtitle</p>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-          </div>
-        </article>
-      </div>
-    </div>
   </div>
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <div class="content">
-        <p class="title">Eleven</p>
-        <p class="subtitle">Subtitle</p>
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-          <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
-        </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-<div class="tile is-ancestor">
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Twelve</p>
-      <p class="subtitle">Subtitle</p>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
-      </div>
-    </article>
-  </div>
-  <div class="tile is-parent is-6">
-    <article class="tile is-child box">
-      <p class="title">Thirteen</p>
-      <p class="subtitle">Subtitle</p>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-      </div>
-    </article>
-  </div>
-  <div class="tile is-parent">
-    <article class="tile is-child box">
-      <p class="title">Fourteen</p>
-      <p class="subtitle">Subtitle</p>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
-      </div>
-    </article>
+  <div class="fl w-100 w-50-l">
+    <a href="https://www.amazon.com/Malibu-Anderson-Paak/dp/B01BXNXBAS/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480422041&sr=1-1&keywords=paak&tag=mrmrs01-20" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <span role="img" aria-label="Malibu -  Anderson Paak" style="background-image:url(http://mrmrs.github.io/photos/paak.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
   </div>
 </div>

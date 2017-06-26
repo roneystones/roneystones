@@ -5,4 +5,6 @@ permalink: /dailylog/
 navigation_weight: 2
 ---
 
-{% include post-list.html %}
+<section class="cf pv5 mw7 center">
+  {% include post-list.html %}
+</section>
