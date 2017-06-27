@@ -16,9 +16,9 @@ navigation_weight: 3
   <div class="fl w-100">
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
       <p class="f6 lh-copy measure">
-        Perfect typography depends on perfect harmony between all of its elements. 
+        Perfect typography depends on perfect harmony between all of its elements.
         Harmony is determined by relationships
-        or proportions. Proportions are hidden everywhere. words themselves. 
+        or proportions. Proportions are hidden everywhere. words themselves.
       </p>
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
@@ -33,14 +33,14 @@ navigation_weight: 3
         In a masterpiece of typography, the artist's signature has been
         eliminated. What some may praise as personal styles are in reality
         small and empty peculiarities, frequently damaging, that masquerade
-        as innovations. 
+        as innovations.
       </p>
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
       <p class="f6 lh-copy measure">
-        Perfect typography depends on perfect harmony between all of its elements. 
+        Perfect typography depends on perfect harmony between all of its elements.
         Harmony is determined by relationships
-        or proportions. Proportions are hidden everywhere. words themselves. 
+        or proportions. Proportions are hidden everywhere. words themselves.
       </p>
     </div>
   </div>
