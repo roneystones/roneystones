@@ -14,7 +14,9 @@ var messages = {
  */
 gulp.task('jekyll-build', function(done) {
   browserSync.notify(messages.jekyllBuild);
-  return cp.spawn(jekyll, ['build'], { stdio: 'inherit' })
+  return cp.spawn(jekyll, ['build'], {
+      stdio: 'inherit'
+    })
     .on('close', done);
 });
 
@@ -45,9 +47,13 @@ gulp.task('sass', function() {
       includePaths: ['scss'],
       onError: browserSync.notify
     }))
-    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
+      cascade: true
+    }))
     .pipe(gulp.dest('_site/css'))
-    .pipe(browserSync.reload({ stream: true }))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
     .pipe(gulp.dest('css'));
 });
 
