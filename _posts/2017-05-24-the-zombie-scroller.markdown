@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "The Zombie Scroller"
-date:   2017-07-24 21:28:29 -0300
-categories: ux
-tags: apontamentos
+date:   2017-05-24 21:28:29 -0300
+author: Roney Stones
+categories: ux teste
+tags: [ux, teste]
 ---
 
 (https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/)
@@ -12,7 +13,7 @@ A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando 
 
 Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso "slow thinking" (https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 
-Quanto mais pontos de atenção (focus points) o usuário localiza em uma página, mais energia o cérebro consome, causando desgaste. 
+Quanto mais pontos de atenção (focus points) o usuário localiza em uma página, mais energia o cérebro consome, causando desgaste.
 
 Isso faz com que até conteúdo de qualidade perca atenção, fenômeno chamado "scrolling fatigue". O usuário fica desmotivado e perde o foco, não assimilando mais o conteúdo. Além que o usuário fica menos suscetível a recompensas e dedica menos esforço para assimilar o conteúdo.
 
@@ -30,5 +31,3 @@ Resumindo, manter o usuário o mais afastado possível do piloto automático.
   * Usuários perdem foco conforme o tamanho do scroll
   * A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo
   * Usuários reagem a conteúdos imprevistos
-
-

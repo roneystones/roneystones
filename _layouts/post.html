@@ -2,25 +2,21 @@
 layout: default
 ---
 
-<header class="bg-gold dt w-100">
-  <div class="mw7 center mv5">
-    <h1 class="f2 fw7 measure-narrow lh-title pb3">
-      <span class="bg-black-90 lh-copy white pa1 tracked">
-        {{ page.title | escape }}
-      </span>
-    </h1>
-    <h2 class="f6 fw1 georgia i">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-    </h2>
-    <!-- <h1 class="f1 fw9 lh-title mv0 measure">{{ page.title | escape }}</h1>
-    <h2 class="f6 fw6">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-    </h2> -->
+<header class="bt bb b--black-10 dt w-100">
+  <div class="mw7 center pv5">
+    <p class="f6 fw1 georgia i mb3">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </p>
+
+    <h1 class="f2 fw7 measure-narrow lh-title mt0 mb3">{{ page.title | escape }}</h1>
+
+    <p class="f6 fw1 georgia i mb2">
+      {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> — {% endif %}Categoria: {{ page.categories }} — Tags: {{ page.tags }}
+    </p>
   </div>
 </header>
 
-<article class="mw7 center pv5" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="mw7 center pv5 lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
   <div itemprop="articleBody">
     {{ content }}
-  </div>
 </article>

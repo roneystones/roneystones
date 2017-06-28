@@ -1,7 +1,7 @@
 <ul class="list">
   {% for post in site.posts %}
     <a class="link" href="{{ post.url }}">
-      <li class="flex content-center ph2 pv4 lh-0 bb b--black-10 bg-animate bg-white hover-bg-lightest-blue">
+      <li class="flex content-center ph2 pv4 lh-0 bb b--black-10 bg-animate bg-white hover-bg-light-gray">
         <span class="w-20 f7 ma0 gray ttu tracked">{{ post.date | date: "%B %e, %Y" }}</span>
         <span class="w-60 f4 ma0 black-90 athelas i">{{ post.title }}</span>
         <span class="w-20 f7 ma0 gray tr i">{{ post.tags }}</span>

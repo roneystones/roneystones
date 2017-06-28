@@ -5,43 +5,29 @@ permalink: /about/
 navigation_weight: 3
 ---
 
-<div class="cf pv5 mw7 center">
-  <div class="fl w-100 w-50-l pv3-m pv4-l mb3 mb5-l">
-    <h2 class="lh-title f3 b mt0">
-      Beginners and amateurs alike overestimate the importance of the
-      so-called brain wave, the sudden brilliant idea.
-    </h2>
-  </div>
+<div class="cf mw7 center pv5">
+  <p class="measure center">
+    The form of our letters, the older handwriting and inscriptions as much as
+    the cuttings in use today, reflects a convention that has slowly solidified,
+    an agreement hardened in many battles. Even after the Renaissance several
+    European countries retained broken, blackletter national scripts in opposition to roman, the obligatory type for all Latin material; yet even today, I hope, the last word about Fraktur has not been spoken.
+  </p>
 
-  <div class="fl w-100">
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f6 lh-copy measure">
-        Perfect typography depends on perfect harmony between all of its elements.
-        Harmony is determined by relationships
-        or proportions. Proportions are hidden everywhere. words themselves.
-      </p>
-    </div>
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f6 lh-copy measure">
-        True book design, therefore, is a matter of tact (tempo, rhythm,
-        touch) alone. It flows from something rarely appreciated today:
-        good taste. The book designer strives for perfection.
-      </p>
-    </div>
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f6 lh-copy measure">
-        In a masterpiece of typography, the artist's signature has been
-        eliminated. What some may praise as personal styles are in reality
-        small and empty peculiarities, frequently damaging, that masquerade
-        as innovations.
-      </p>
-    </div>
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f6 lh-copy measure">
-        Perfect typography depends on perfect harmony between all of its elements.
-        Harmony is determined by relationships
-        or proportions. Proportions are hidden everywhere. words themselves.
-      </p>
-    </div>
-  </div>
+  <blockquote class="ph0 pv5 f5 f1-ns measure-narrow center">
+    <p class="fw9 lh-copy lh-title-ns">The punches of Claude Garamond, cut around 1530 in Paris, are simply unsurpassed in their clarity, readability and beauty.
+    </p>
+  </blockquote>
+
+  <p class="measure center">
+    Apart from that, the roman minuscule has been our way of writing for hundreds
+    of years. What followed were merely fashionable variations, here and there even
+    deformations, of the noble basic form, but no improvement whatever. The
+    punches of Claude Garamond, cut around 1530 in Paris, are simply unsurpassed in
+    their clarity, readability and beauty. Garamond appeared on the scene at a
+    time when the occidental book, as an object, cast off its medieval
+    ponderousness and took up the form which today is still the best: the slender
+    and upright rectangular body, comprising folded sheets stitched or sewn at
+    the back, in a cover whose protruding edges protect the trimmed pages.
+  </p>
+
 </div>
