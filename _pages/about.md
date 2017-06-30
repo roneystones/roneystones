@@ -5,8 +5,8 @@ permalink: /about/
 navigation_weight: 3
 ---
 
-<div class="cf mw7 center pv5">
-  <p class="measure center">
+<div class="cf mw7 center ph4 ph0-l pv4 ph6-ns pv5-l">
+  <p class="measure">
     The form of our letters, the older handwriting and inscriptions as much as
     the cuttings in use today, reflects a convention that has slowly solidified,
     an agreement hardened in many battles. Even after the Renaissance several
@@ -18,7 +18,7 @@ navigation_weight: 3
     </p>
   </blockquote>
 
-  <p class="measure center">
+  <p>
     Apart from that, the roman minuscule has been our way of writing for hundreds
     of years. What followed were merely fashionable variations, here and there even
     deformations, of the noble basic form, but no improvement whatever. The
