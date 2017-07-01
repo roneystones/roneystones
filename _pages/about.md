@@ -5,12 +5,9 @@ permalink: /about/
 navigation_weight: 3
 ---
 
-<div class="cf mw7 center ph4 ph0-l pv4 ph6-ns pv5-l">
-  <p class="measure">
-    The form of our letters, the older handwriting and inscriptions as much as
-    the cuttings in use today, reflects a convention that has slowly solidified,
-    an agreement hardened in many battles. Even after the Renaissance several
-    European countries retained broken, blackletter national scripts in opposition to roman, the obligatory type for all Latin material; yet even today, I hope, the last word about Fraktur has not been spoken.
+<div class="cf mw7 center ph4 ph6-ns ph0-l pv4 pv5-l">
+  <p class="measure-narrow mb0">
+    Saudações! Nasci em 1984, me formei em Design Digital em 2006, cursei Arquitetura de Informação, migrei para o Design de Interação e hoje prefiro me considerar um eterno estudante das disciplinas que compreendem o Design de Experiência do Usuário.
   </p>
 
   <blockquote class="ph0 pv5 f5 f1-ns measure-narrow center">
@@ -18,16 +15,8 @@ navigation_weight: 3
     </p>
   </blockquote>
 
-  <p>
-    Apart from that, the roman minuscule has been our way of writing for hundreds
-    of years. What followed were merely fashionable variations, here and there even
-    deformations, of the noble basic form, but no improvement whatever. The
-    punches of Claude Garamond, cut around 1530 in Paris, are simply unsurpassed in
-    their clarity, readability and beauty. Garamond appeared on the scene at a
-    time when the occidental book, as an object, cast off its medieval
-    ponderousness and took up the form which today is still the best: the slender
-    and upright rectangular body, comprising folded sheets stitched or sewn at
-    the back, in a cover whose protruding edges protect the trimmed pages.
-  </p>
+  <p class="measure-narrow">Nos últimos 5 anos, na agência ActualSales, coordeno uma equipe de criação no desenvolvimento e otimização de Landing Pages (LPO).</p>
+
+  <p class="measure-narrow">Principalmente através de constantes testes A/B, busco entender o comportamento dos usuários, interpretar suas motivações e identificar oportunidades no aumento das conversões.</p>
 
 </div>
