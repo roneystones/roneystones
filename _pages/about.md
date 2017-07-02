@@ -11,7 +11,7 @@ navigation_weight: 3
   </p>
 
   <blockquote class="ph0 pv5 f5 f1-ns center">
-    <p class="fw9 lh-copy lh-title-ns">The punches of Claude Garamond, cut around 1530 in Paris, are simply unsurpassed in their clarity, readability and beauty.
+    <p class="fw9 lh-copy lh-title-ns">The punches of Claude Garamond, cut around 1530 in Paris.
     </p>
   </blockquote>
 
