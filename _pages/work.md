@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Work
+description: This is my awesome writup of this fantastic thing
 permalink: /work/
-navigation_weight: 1
+navigation_weight: 2
 ---
 
 <div class="cf">

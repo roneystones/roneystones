@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "O porquê não escrevo mais artigos"
-date:   2017-02-26 21:31:29 -0300
+title: "Sobre escrever artigos"
+description: This is my awesome writup of this fantastic thing
+date: 2017-02-26 21:31:29 -0300
 categories: teste
 tags: teste
 ---

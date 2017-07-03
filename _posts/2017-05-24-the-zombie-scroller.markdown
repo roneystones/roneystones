@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "The Zombie Scroller"
-date:   2017-05-24 21:28:29 -0300
+title: "The Zombie Scroller"
+date: 2017-05-24 21:28:29 -0300
+description: This is my awesome writup of this fantastic thing
 author: Roney Stones
 categories: ux teste
-tags: [ux, teste]
+tags: [ux teste]
 ---
 
 (https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/)

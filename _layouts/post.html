@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<header class="bt bb b--black-10 dt w-100">
-  <div class="measure-wide-l center ph4 ph6-ns ph0-l pv4 pv5-l">
+<header class="dt w-100">
+  <div class="measure-wide-l center ph4 ph6-ns ph0-l pv4 pv6-l">
     <p class="f6 fw1 georgia i mb3">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
     </p>
 
-    <h1 class="f2 fw7 lh-title mt0 mb3">{{ page.title | escape }}</h1>
+    <h1 class="f1 fw7 lh-title mt0 mb3">{{ page.title | escape }}</h1>
+    <h2 class="f6 fw1 georgia i">{{ page.description | escape }}</h2>
 
     <p class="f6 fw1 georgia i mb2">
       {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> — {% endif %}Categoria: {{ page.categories }} — Tags: {{ page.tags }}
@@ -16,7 +17,7 @@ layout: default
   </div>
 </header>
 
-<article class="measure-wide-l center ph4 ph6-ns ph0-l pv4 pv5-l lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="measure-wide-l center ph4 ph6-ns ph0-l pv4 lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
   <div itemprop="articleBody">
     {{ content }}
   </div>

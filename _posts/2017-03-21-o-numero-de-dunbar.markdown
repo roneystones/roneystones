@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "O Número de Dunbar"
-date:   2017-03-26 21:31:29 -0300
+title: "O Número de Dunbar"
+description: This is my awesome writup of this fantastic thing
+date: 2017-03-26 21:31:29 -0300
 categories: tecnologia
 tags: apontamentos
 ---
