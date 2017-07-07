@@ -4,7 +4,7 @@ title: "The Zombie Scroller"
 date: 2017-05-24 21:28:29 -0300
 description: This is my awesome writup of this fantastic thing
 author: Roney Stones
-categories: ux teste
+categories: teste
 tags: [ux teste]
 ---
 

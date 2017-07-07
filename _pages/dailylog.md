@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Daily Log
-description: This is my awesome writup of this fantastic thing
+description: Minhas anotações pessoais são úteis para quem sempre pula pro TL;DR
 permalink: /dailylog/
 navigation_weight: 1
 ---
 
-<section class="cf measure-wide-l center ph4 ph6-ns ph0-l pt4 pb4 pt0-l pb6-l">
+<section class="cf measure-wide-l center ph4 ph6-ns ph0-l pv4 pv5-l">
   {% include post-list.html %}
 </section>
