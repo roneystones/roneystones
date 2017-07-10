@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Work
+title: Projetos
 description: This is my awesome writup of this fantastic thing
-permalink: /work/
+permalink: /projetos/
 navigation_weight: 2
 ---
 
