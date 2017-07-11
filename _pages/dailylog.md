@@ -6,6 +6,6 @@ permalink: /dailylog/
 navigation_weight: 1
 ---
 
-<section class="cf measure-wide-l center ph4 ph6-ns ph0-l pv4 pv5-l">
+<section class="cf w-100 w-70-l center pa4 ph0-l pv6-l">
   {% include post-list.html %}
 </section>

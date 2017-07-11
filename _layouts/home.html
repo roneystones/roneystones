@@ -1,16 +1,105 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
+---
+layout: default
+---
 
-  <body>
-    {% include nav.html %}
+<header class="dt w-100 bb bt b--light-gray bg-near-white">
+  <div class="w-100 w-70-l center pa4 ph0-l pv6-l">
+    <h1 class="f1 f-headline-ns fw7 lh-title mt0 mb3">{{ page.title | escape }}</h1>
+    <h2 class="f6 f4-ns fw1 georgia i">{{ page.description | escape }}</h2>
+  </div>
+</header>
 
-    <main aria-label="content">
-      <article class="dt w-100 vh-100 bg-dark-pink">
-        <div class="dtc v-mid tc white ph3 ph7-l">
-          <h1 class="f6 f2-m f-subheadline-l fw6">Lorem ipsum dolor est sit amet</h1>
-        </div>
-      </article>
-    </main>
-  </body>
-</html>
+<article>
+  <div class="cf w-100 w-70-ns center ph4 ph0-ns pv4 pv5-l">
+    <div class="fl w-100 w-20-ns">
+      <h3 class="f7 silver ttu tracked">Concept</h3>
+    </div>
+    <div class="fl w-100 w-80-ns">
+      <p>Quisque in mattis dolor. Etiam in viverra neque. Etiam ac erat nunc. Vestibulum in dui eu risus condimentum laoreet. Praesent accumsan dictum eros, nec imperdiet nibh venenatis sit amet. In scelerisque sed urna vel pellentesque. Nam nec diam ac est aliquam convallis. Pellentesque dapibus sapien pulvinar est vulputate lacinia. Mauris arcu neque, bibendum vitae efficitur imperdiet, dictum et magna. Curabitur sed ultricies odio.</p>
+
+      <p>Nulla lacinia aliquet ex in bibendum. Donec lacinia quam et lorem aliquam, eget posuere magna vestibulum. Integer molestie tempus nunc. Donec pretium turpis nisi, id porta nulla pharetra sit amet. Mauris aliquet, erat ut fermentum maximus, dui diam feugiat risus, vel aliquet.</p>
+    </div>
+  </div>
+
+  <div class="cf w-100 w-70-ns center ph4 ph0-ns pv4 pv5-l">
+    <div class="fl w-100 w-20-ns">
+      <h3 class="f7 silver ttu tracked">Services</h3>
+    </div>
+    <div class="fl w-100 w-80-ns">
+      <div class="fl w-100 w-third-ns">
+        <h4 class="f3 fw7 ttu mb3">Strategy</h4>
+        <ul class="list">
+          <li class="bb b--light-gray mb2 pb2">Digital Marketing Strategy</li>
+          <li class="bb b--light-gray mb2 pb2">Search Engine Optimization</li>
+          <li>Social Media Integration</li>
+        </ul>
+      </div>
+
+      <div class="fl w-100 w-third-ns">
+        <h4 class="f3 fw7 ttu mb3">Design</h4>
+        <ul class="list">
+          <li class="bb b--light-gray mb2 pb2">Art Direction & Visual Design</li>
+          <li class="bb b--light-gray mb2 pb2">Product & Event Branding</li>
+          <li>Digital Advertising</li>
+        </ul>
+      </div>
+
+      <div class="fl w-100 w-third-ns">
+        <h4 class="f3 fw7 ttu mb3">Development</h4>
+        <ul class="list">
+          <li class="bb b--light-gray mb2 pb2">Web Design & Development</li>
+          <li class="bb b--light-gray mb2 pb2">Application Development</li>
+          <li>Mobile / Responsive</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="cf w-100 w-70-ns center ph4 ph0-ns pv4 pv5-l">
+    <div class="fl w-100 w-20-ns">
+      <h3 class="f7 silver ttu tracked">Projetos</h3>
+    </div>
+    <div class="fl w-100 w-80-ns">
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Beyoncé" style="background-image:url(http://mrmrs.github.io/photos/beyonce.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Kaytranada" style="background-image:url(http://mrmrs.github.io/photos/kaytranada.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Woman - Justice" style="background-image:url(http://mrmrs.github.io/photos/justice.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Skin - Flume" style="background-image:url(http://mrmrs.github.io/photos/flume.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Beyoncé" style="background-image:url(http://mrmrs.github.io/photos/beyonce.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Kaytranada" style="background-image:url(http://mrmrs.github.io/photos/kaytranada.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Woman - Justice" style="background-image:url(http://mrmrs.github.io/photos/justice.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+      <div class="fl w-50 w-25-ns">
+        <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+          <span role="img" aria-label="Skin - Flume" style="background-image:url(http://mrmrs.github.io/photos/flume.jpg);" class="bg-center cover aspect-ratio--object"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</article>

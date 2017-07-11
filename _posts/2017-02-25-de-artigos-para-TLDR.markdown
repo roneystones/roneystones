@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sobre escrever artigos"
+title: "De artigos para TL;DR"
 description: This is my awesome writup of this fantastic thing
 date: 2017-02-26 21:31:29 -0300
 categories: teste

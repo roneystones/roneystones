@@ -1,14 +1,14 @@
-<nav class="measure-wide-l center db dt-l w-100 border-box pv3">
-  <a class="db dtc-l v-mid link black hover-dark-pink f7 fw7 w-100 w-25-l tc tl-l mb4 mb0-l ttu" href="{{ "/" | relative_url}}" title="Home">
+<nav class="w-100 w-70-ns center db dt-ns border-box pv3">
+  <a class="db dtc-ns v-mid link near-black hover-dark-pink f7 fw7 w-100 w-25-ns tc tl-ns mb4 mb0-ns ttu" href="{{ "/" | relative_url}}" title="Home">
     <!-- <img src="http://tachyons.io/img/logo.jpg" class="dib w2 h2 br-100" alt="Site Name"> -->
     {{ site.title | escape }}
   </a>
 
-  <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+  <div class="db dtc-ns v-mid w-100 w-70-ns tc tr-ns">
     {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
     {% for p in navigation_pages %}
       {% if p.navigation_weight %}
-        <a class="dib link black hover-dark-pink f6 f7-l fw7 ml3 ml4-l ttu" href="{{ p.url }}"
+        <a class="dib link near-black hover-dark-pink f7 fw7 ml3 ml4-l ttu" href="{{ p.url }}"
           {% if p.url == page.url %}class="active"{% endif %}>
           {{ p.title }}
         </a>
