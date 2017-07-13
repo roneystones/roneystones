@@ -8,8 +8,6 @@ categories: teste
 tags: [ux teste]
 ---
 
-(https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/)
-
 A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando é de seu interesse. Ao invés disso, apenas escaneiam, assim como escaneiam rótulos de um produto no supermercado.
 
 Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso "slow thinking" (https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
@@ -32,3 +30,5 @@ Resumindo, manter o usuário o mais afastado possível do piloto automático.
   * Usuários perdem foco conforme o tamanho do scroll
   * A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo
   * Usuários reagem a conteúdos imprevistos
+
+  (https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/)

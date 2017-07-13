@@ -5,7 +5,7 @@ description: This is my awesome writup of this fantastic thing
 permalink: /categorias/
 ---
 
-<ul class="list ph3 ph5-ns pv4">
+<ul class="cf w-100 mw7 center pa4 ph2-l pv5-l list">
   <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Abyssinian</a></li>
   <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Aegean</a></li>
   <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Arabian</a></li>

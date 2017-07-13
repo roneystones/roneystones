@@ -1,10 +1,10 @@
-<nav class="w-100 w-70-ns center db dt-ns border-box pv3">
+<nav class="w-100 mw7 center db dt-ns border-box pv3 ph4 ph2-l">
   <a class="db dtc-ns v-mid link near-black hover-dark-pink f7 fw7 w-100 w-25-ns tc tl-ns mb4 mb0-ns ttu" href="{{ "/" | relative_url}}" title="Home">
     <!-- <img src="http://tachyons.io/img/logo.jpg" class="dib w2 h2 br-100" alt="Site Name"> -->
     {{ site.title | escape }}
   </a>
 
-  <div class="db dtc-ns v-mid w-100 w-70-ns tc tr-ns">
+  <div class="db dtc-ns v-mid w-100 mw7 tc tr-ns">
     {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
     {% for p in navigation_pages %}
       {% if p.navigation_weight %}

@@ -1,11 +1,11 @@
 <ul class="list">
   {% for post in site.posts %}
   <li class="db flex-l items-center mb3 ma0-l">
-    <p class="w-100 w-20-l f7 silver ttu tracked ma0 pa0">
+    <p class="w-100 w-20-l f7 silver ttu tracked ma0 pv0 ph2">
       {{ post.date | date: "%b %-d, %Y" }}
     </p>
 
-    <a class="w-100 w-80-l f4 f1-ns fw9 link near-black hover-dark-pink ma0 pa0" href="{{ post.url }}">
+    <a class="w-100 w-80-l f4 f1-ns fw7 link near-black hover-dark-pink ma0 pv0 ph2" href="{{ post.url }}">
       {{ post.title }}
     </a>
   </li>
