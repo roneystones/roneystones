@@ -3,7 +3,7 @@ layout: page
 title: Projetos
 description: This is my awesome writup of this fantastic thing
 permalink: /projetos/
-navigation_weight: 2
+navigation_weight: 3
 ---
 
 <div class="cf">
