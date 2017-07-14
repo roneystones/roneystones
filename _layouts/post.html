@@ -22,5 +22,34 @@ layout: default
 
   <div itemprop="articleBody" class="fl w-100 w-80-ns bl-ns b--light-gray pl5-ns pr2">
     {{ content }}
+
+    <div class="cf mt5 mb5 bt b--light-gray"></div>
+
+    <div class="cf">
+      <h3 class="f7 silver ttu tracked mb3">Outros textos</h3>
+      
+      {% for post in site.posts limit:4 %}
+        <div class="db fl w-100 w-50-ns bb b--light-gray pb3 ph2 mb3">
+          <a class="link near-black hover-dark-pink mb1" href="{{ post.url }}">
+            <p class="f4 fw7 mb0">{{ post.title }}</p>
+            <p class="f7 silver ttu tracked mb2">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <!-- {{ post.excerpt | strip_html | truncatewords: 10 }} -->
+            <!-- <a class="fw7 link dark-pink" href="{{ post.url }}">+</a> -->
+          </a>
+        </div>
+      {% endfor %}
+
+      {% for post in site.posts offset:4 limit:2 %}
+        <div class="db fl w-100 w-50-ns ph2">
+          <a class="link near-black hover-dark-pink mb1" href="{{ post.url }}">
+            <p class="f4 fw7 mb0">{{ post.title }}</p>
+            <p class="f7 silver ttu tracked mb2">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <!-- {{ post.excerpt | strip_html | truncatewords: 10 }} -->
+            <!-- <a class="fw7 link dark-pink" href="{{ post.url }}">+</a> -->
+          </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </article>
+
