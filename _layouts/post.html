@@ -3,7 +3,7 @@ layout: default
 ---
 
 <header class="dt w-100 bb bt b--light-gray">
-  <div class="w-100 mw7 center pa4 ph2-l pv5-l">
+  <div class="w-100 mw8 center pa4 ph2-l pv5-l">
     <h1 class="f1 f-headline-ns fw7 mt0 mb3 lh-title">{{ page.title | escape }}</h1>
     <h2 class="f6 f4-ns fw1 georgia i">{{ page.description | escape }}</h2>
 
@@ -13,7 +13,7 @@ layout: default
   </div>
 </header>
 
-<article itemscope itemtype="http://schema.org/BlogPosting" class="cf w-100 mw7 center pa4 ph2-l pv5-l">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="cf w-100 mw8 center pa4 ph2-l pv5-l">
   <div class="fl w-100 w-20-ns ph2-l mb2">
     <p class="f7 silver ttu tracked">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
@@ -27,7 +27,7 @@ layout: default
 
     <div class="cf">
       <h3 class="f7 silver ttu tracked mb3">Outros textos</h3>
-      
+
       {% for post in site.posts limit:4 %}
         <div class="db fl w-100 w-50-ns bb b--light-gray pb3 ph2 mb3">
           <a class="link near-black hover-dark-pink mb1" href="{{ post.url }}">
@@ -52,4 +52,3 @@ layout: default
     </div>
   </div>
 </article>
-

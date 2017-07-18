@@ -6,7 +6,7 @@ permalink: /contato/
 navigation_weight: 4
 ---
 
-<div class="cf w-100 mw7 center pa4 ph2-l pv5-l">
+<div class="cf w-100 mw8 center pa4 ph2-l pv5-l">
   <div class="fl w-100 w-20-ns ph2-l mb2">
     <p class="f7 silver ttu tracked">
       Oi
