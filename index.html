@@ -1,6 +1,21 @@
 ---
-layout: home
-title: Home
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate, arcu non tempus tempus, est magna egestas nisi, in fermentum mauris nisl posuere neque. Aenean eu laoreet lorem. Phasellus et elit a ante congue mollis vel ac lacus.
-navigation_weight: 1
+layout: page
+title: Tipo um Daily Log
+description: Anotações pessoais úteis para quem sempre pula pro TL;DR
 ---
+
+<section class="cf measure-wide center pa4 pv5-l">
+  <ul class="list">
+    {% for post in site.posts %}
+    <li class="db mb5">
+      <a class="f4 f2-ns fw7 link near-black hover-dark-pink ma0 pa0" href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+
+      <p class="f6 i silver ma0 pv0 ph0">
+        {{ post.date | date: "%b %-d" }} - {{ post.content | strip_html | truncatewords:30 }}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

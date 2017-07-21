@@ -3,52 +3,40 @@ layout: default
 ---
 
 <header class="dt w-100 bb bt b--light-gray">
-  <div class="w-100 mw8 center pa4 ph2-l pv5-l">
-    <h1 class="f1 f-headline-ns fw7 mt0 mb3 lh-title">{{ page.title | escape }}</h1>
-    <h2 class="f6 f4-ns fw1 georgia i">{{ page.description | escape }}</h2>
+  <div class="w-100 mw8 tc center pa4 pv5-l">
+    <p class="f7 silver ttu tracked">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </p>
 
-    <p class="f6 f4-ns fw1 georgia i mb2">
+    <h1 class="f1 f-headline-ns fw7 mt0 mb3 lh-title">{{ page.title | escape }}</h1>
+    <h2 class="f5 fw1 georgia i">{{ page.description | escape }}</h2>
+
+    <p class="f5 fw1 georgia i mb2">
       {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> — {% endif %}Categoria: {{ page.categories }} — Tags: {{ page.tags }}
     </p>
   </div>
 </header>
 
-<article itemscope itemtype="http://schema.org/BlogPosting" class="cf w-100 mw8 center pa4 ph2-l pv5-l">
-  <div class="fl w-100 w-20-ns ph2-l mb2">
-    <p class="f7 silver ttu tracked">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-    </p>
-  </div>
-
-  <div itemprop="articleBody" class="fl w-100 w-80-ns bl-ns b--light-gray pl5-ns pr2">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="cf w-100 measure-wide center pa4 pv5-l">
+  <div itemprop="articleBody">
     {{ content }}
 
-    <div class="cf mt5 mb5 bt b--light-gray"></div>
+    <div class="cf mt5">
+      <h3 class="f7 silver ttu tracked mb4">Talvez você se interesse por...</h3>
 
-    <div class="cf">
-      <h3 class="f7 silver ttu tracked mb3">Outros textos</h3>
-
-      {% for post in site.posts limit:4 %}
-        <div class="db fl w-100 w-50-ns bb b--light-gray pb3 ph2 mb3">
-          <a class="link near-black hover-dark-pink mb1" href="{{ post.url }}">
-            <p class="f4 fw7 mb0">{{ post.title }}</p>
-            <p class="f7 silver ttu tracked mb2">{{ post.date | date: "%b %-d, %Y" }}</p>
-            <!-- {{ post.excerpt | strip_html | truncatewords: 10 }} -->
-            <!-- <a class="fw7 link dark-pink" href="{{ post.url }}">+</a> -->
+      <ul class="list">
+        {% for post in site.posts limit:4 %}
+        <li class="db mb5">
+          <a class="f4 f2-ns fw7 link near-black hover-dark-pink ma0 pa0" href="{{ post.url }}">
+            {{ post.title }}
           </a>
-        </div>
-      {% endfor %}
 
-      {% for post in site.posts offset:4 limit:2 %}
-        <div class="db fl w-100 w-50-ns ph2">
-          <a class="link near-black hover-dark-pink mb1" href="{{ post.url }}">
-            <p class="f4 fw7 mb0">{{ post.title }}</p>
-            <p class="f7 silver ttu tracked mb2">{{ post.date | date: "%b %-d, %Y" }}</p>
-            <!-- {{ post.excerpt | strip_html | truncatewords: 10 }} -->
-            <!-- <a class="fw7 link dark-pink" href="{{ post.url }}">+</a> -->
-          </a>
-        </div>
-      {% endfor %}
+          <p class="f6 i silver ma0 pv0 ph0">
+            {{ post.date | date: "%b %-d" }} - {{ post.content | strip_html | truncatewords:30 }}
+          </p>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </article>

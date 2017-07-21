@@ -42,4 +42,4 @@ Abaixo, deixo uma lista com alguns dos aprendizados que pude extrair da palestra
 
   * Habilidades sociais são aprendidas, você não nasceu com elas.
 
-  Trabalhar com User Experience é um exercício de compreensão da Psicologia e da Sociologia, por isso há muito que a aprender com o estudo do comportamento social e de como os grupos funcionam.
+  Trabalhar com UX é um exercício de compreensão da Psicologia e da Sociologia, por isso há muito que a aprender com o estudo do comportamento social e de como os grupos funcionam.
