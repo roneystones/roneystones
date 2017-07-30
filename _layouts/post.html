@@ -11,9 +11,9 @@ layout: default
     <h1 class="f1 f-headline-ns fw7 mt0 mb3 lh-title">{{ page.title | escape }}</h1>
     <h2 class="f5 fw1 georgia i">{{ page.description | escape }}</h2>
 
-    <p class="f5 fw1 georgia i mb2">
+    <!-- <p class="f5 fw1 georgia i mb2">
       {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> — {% endif %}Categoria: {{ page.categories }} — Tags: {{ page.tags }}
-    </p>
+    </p> -->
   </div>
 </header>
 
@@ -26,14 +26,10 @@ layout: default
 
       <ul class="list">
         {% for post in site.posts limit:4 %}
-        <li class="db mb5">
-          <a class="f4 f2-ns fw7 link near-black hover-dark-pink ma0 pa0" href="{{ post.url }}">
+        <li class="db mb2">
+          <a class="f4 f3-ns fw7 link near-black hover-dark-pink ma0 pa0" href="{{ post.url }}">
             {{ post.title }}
           </a>
-
-          <p class="f6 i silver ma0 pv0 ph0">
-            {{ post.date | date: "%b %-d" }} - {{ post.content | strip_html | truncatewords:30 }}
-          </p>
         </li>
         {% endfor %}
       </ul>

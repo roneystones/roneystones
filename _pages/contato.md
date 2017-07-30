@@ -1,30 +1,33 @@
 ---
 layout: default
+title: Contato
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate, arcu non tempus tempus, est magna egestas nisi, in fermentum mauris nisl posuere neque. Aenean eu laoreet lorem. Phasellus et elit a ante congue mollis vel ac lacus.
+permalink: /contato/
 ---
 
 <header class="dt w-100 bb bt b--light-gray">
-  <div class="w-100 mw8 center pa4 ph2-l pv5-l">
+  <div class="w-100 mw8 center pa4 pv5-l">
     <h1 class="f1 f-headline-ns fw7 lh-title mt0 mb3">Interactive Digital Studio example</h1>
     <h2 class="f6 f4-ns fw1 georgia i">{{ page.description | escape }}</h2>
   </div>
 </header>
 
 <article>
-  <div class="cf w-100 mw8 center ph4 ph2-l pv4 pv5-l">
-    <div class="fl w-100 w-20-ns ph2">
+  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+    <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Concept</h3>
     </div>
-    <div class="fl w-100 w-80-ns ph2">
+    <div class="fl w-100 w-80-ns">
       <p>Quisque in mattis dolor. Etiam in viverra neque. Etiam ac erat nunc. Vestibulum in dui eu risus condimentum laoreet. Praesent accumsan dictum eros, nec imperdiet nibh venenatis sit amet. In scelerisque sed urna vel pellentesque. Nam nec diam ac est aliquam convallis. Pellentesque dapibus sapien pulvinar est vulputate lacinia. Mauris arcu neque, bibendum vitae efficitur imperdiet, dictum et magna. Curabitur sed ultricies odio.</p>
     </div>
   </div>
 
-  <div class="cf w-100 mw8 center ph4 ph2-l pv4 pv5-l">
-    <div class="fl w-100 w-20-ns ph2">
+  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+    <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Skills</h3>
     </div>
     <div class="fl w-100 w-80-ns">
-      <div class="fl w-100 w-third-ns ph2">
+      <div class="fl w-100 w-third-ns">
         <h4 class="f3 fw7 ttu mb3">Data</h4>
         <ul class="list mb4 mb0-ns">
           <li class="bb b--light-gray mb2 pb2">Web Analytics</li>
@@ -33,7 +36,7 @@ layout: default
         </ul>
       </div>
 
-      <div class="fl w-100 w-third-ns ph2">
+      <div class="fl w-100 w-third-ns">
         <h4 class="f3 fw7 ttu mb3">Design</h4>
         <ul class="list mb4 mb0-ns">
           <li class="bb b--light-gray mb2 pb2">Experiência do usuário</li>
@@ -42,7 +45,7 @@ layout: default
         </ul>
       </div>
 
-      <div class="fl w-100 w-third-ns ph2">
+      <div class="fl w-100 w-third-ns">
         <h4 class="f3 fw7 ttu mb3">Front-end</h4>
         <ul class="list mb4 mb0-ns">
           <li class="bb b--light-gray mb2 pb2">Web Design</li>
@@ -53,11 +56,11 @@ layout: default
     </div>
   </div>
 
-  <div class="cf w-100 mw8 center ph4 ph2-l pv4 pv5-l">
-    <div class="fl w-100 w-20-ns ph2">
+  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+    <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Projetos</h3>
     </div>
-    <div class="fl w-100 w-80-ns ph2">
+    <div class="fl w-100 w-80-ns">
       <div class="fl w-50 w-25-ns">
         <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
           <span role="img" aria-label="Beyoncé" style="background-image:url(http://mrmrs.github.io/photos/beyonce.jpg);" class="bg-center cover aspect-ratio--object"></span>
@@ -101,13 +104,13 @@ layout: default
     </div>
   </div>
 
-  <div class="cf w-100 mw8 center ph4 ph2-l pv4 pv5-l">
-    <div class="fl w-100 w-20-ns ph2">
+  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+    <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Artigos</h3>
     </div>
-    <div class="fl w-100 w-80-ns ph2">
+    <div class="fl w-100 w-80-ns">
       {% for post in site.posts limit:4 %}
-        <div class="db fl w-100 w-50-ns bb b--light-gray pb3 ph2 mb3">
+        <div class="db fl w-100 w-50-ns bb b--light-gray pb3 mb3">
           <a class="link near-black hover-dark-pink mb1" href="{{ post.url }}">
             <p class="f4 fw7 mb0">{{ post.title }}</p>
             <p class="f7 silver ttu tracked mb2">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -118,7 +121,7 @@ layout: default
       {% endfor %}
 
       {% for post in site.posts offset:4 limit:2 %}
-        <div class="db fl w-100 w-50-ns ph2">
+        <div class="db fl w-100 w-50-ns">
           <a class="link near-black hover-dark-pink mb1" href="{{ post.url }}">
             <p class="f4 fw7 mb0">{{ post.title }}</p>
             <p class="f7 silver ttu tracked mb2">{{ post.date | date: "%b %-d, %Y" }}</p>
