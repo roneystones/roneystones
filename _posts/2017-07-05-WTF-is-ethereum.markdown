@@ -13,3 +13,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare felis justo,
 Donec sed ex turpis. Aenean nulla ipsum, molestie id fringilla sit amet, lobortis sit amet mauris. Nulla sed elit eget est consequat dignissim non id ipsum. Nunc in vulputate purus. Quisque non accumsan diam. Aliquam congue quis neque non volutpat. Morbi eget neque sed nisi hendrerit eleifend at a nibh.
 
 Fusce iaculis varius arcu, eu tincidunt ipsum sagittis ut. Cras eu libero pretium, interdum lacus sit amet, posuere risus. Proin sit amet malesuada arcu. Quisque rhoncus, urna ut facilisis aliquam, ligula lectus blandit nisi, nec lobortis ante nibh a nisl. Nunc pellentesque facilisis egestas. Mauris a accumsan diam, vitae maximus diam. Nulla iaculis est est, vitae luctus lacus elementum eget. Suspendisse sed mattis ante, sed hendrerit nisi. Integer tortor leo, maximus vel nunc in, rhoncus ornare nisl. Vestibulum euismod aliquet risus, in fermentum arcu. Suspendisse eu velit ligula. Vivamus ultricies ligula eget diam gravida cursus.
+
+[Okay, WTF Is Ethereum?](https://motherboard.vice.com/en_us/article/newkqz/okay-wtf-is-ethereum)
+
+[Something called Ethereum is suddenly all over the news — here's what the bitcoin rival is all about](http://www.businessinsider.com/what-is-ethereum-2017-6)
