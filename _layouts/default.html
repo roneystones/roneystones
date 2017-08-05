@@ -4,13 +4,13 @@
   {% include head.html %}
 
   <body class="near-black lh-copy">
-    {% include nav.html %}
+    <header class="fl w-20 vh-100">
+      {% include nav.html %}
+    </header>
 
-    <main aria-label="content">
+    <main class="fl w-80 pa5">
       {{ content }}
     </main>
-
-    {% include footer.html %}
   </body>
 
 </html>

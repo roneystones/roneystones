@@ -1,21 +1,12 @@
 ---
-layout: page
+layout: default
 title: Tipo um Daily Log
 description: Anotações pessoais úteis para quem sempre pula pro TL;DR
 ---
 
-<section class="cf measure-wide center pa4 pv5-l">
-  <ul class="list">
-    {% for post in site.posts %}
-    <li class="db mb5">
-      <a class="f4 f2-ns fw7 link near-black hover-dark-pink ma0 pa0" href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-
-      <p class="f6 i silver ma0 pv0 ph0">
-        {{ post.date | date: "%b %-d" }} - {{ post.content | strip_html | truncatewords:30 }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
+{% for post in site.posts %}
+  <a class="link near-black hover-dark-pink flex items-baseline mb4" href="{{ post.url }}">
+    <span class="f7 mr4 mono tracked i silver">{{ post.date | date: "%d/%m/%Y" }}</span>
+    <span class="fw7">{{ post.title }}</span>
+  </a>
+{% endfor %}

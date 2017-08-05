@@ -2,37 +2,19 @@
 layout: default
 ---
 
-<header class="dt w-100 bb bt b--light-gray">
-  <div class="w-100 mw8 tc center pa4 pv5-l">
-    <p class="f7 silver ttu tracked">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-    </p>
+<header>
+  <p class="f7 ttu tracked-mega mono silver">
+    {{ page.date | date: "%b %-d, %Y" }}</time>
+  </p>
 
-    <h1 class="f1 f-headline-ns fw7 mt0 mb3 lh-title">{{ page.title | escape }}</h1>
-    <h2 class="f5 fw1 georgia i">{{ page.description | escape }}</h2>
+  <h1 class="f1 f-headline-ns fw7 mt0 mb3 lh-title">{{ page.title | escape }}</h1>
+  <h2 class="f5 georgia i measure-wide">{{ page.description | escape }}</h2>
 
-    <!-- <p class="f5 fw1 georgia i mb2">
-      {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> — {% endif %}Categoria: {{ page.categories }} — Tags: {{ page.tags }}
-    </p> -->
-  </div>
+  <p class="f5 georgia i measure-wide mb4">
+    {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> — {% endif %}Categoria: {{ page.categories }} — Tags: {{ page.tags }}
+  </p>
 </header>
 
-<article itemscope itemtype="http://schema.org/BlogPosting" class="cf w-100 measure-wide center pa4 pv5-l">
-  <div itemprop="articleBody">
-    {{ content }}
-
-    <div class="cf mt5">
-      <h3 class="f7 silver ttu tracked mb4">Talvez você se interesse por...</h3>
-
-      <ul class="list">
-        {% for post in site.posts limit:4 %}
-        <li class="db mb2">
-          <a class="f4 f3-ns fw7 link near-black hover-dark-pink ma0 pa0" href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+<article class="measure-wide">
+  {{ content }}
 </article>

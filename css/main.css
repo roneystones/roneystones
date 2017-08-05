@@ -711,7 +711,3 @@ article p {
 
 article p:last-child {
   margin-bottom: 0; }
-
-@media screen and (min-width: 60em) {
-  .lh-0-l {
-    line-height: 0; } }
