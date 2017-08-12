@@ -6,7 +6,7 @@ description: Anotações pessoais úteis para quem sempre pula pro TL;DR
 
 {% for post in site.posts %}
   <a class="link near-black hover-dark-pink flex items-baseline mb4" href="{{ post.url }}">
-    <span class="f7 mr4 mono tracked i silver">{{ post.date | date: "%d/%m/%Y" }}</span>
-    <span class="fw7">{{ post.title }}</span>
+    <span class="f7 mr4 mono tracked light-silver">{{ post.date | date: "%d %m %Y" }}</span>
+    <span class="fw5">{{ post.title }}</span>
   </a>
 {% endfor %}
