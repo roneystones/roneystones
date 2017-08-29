@@ -1,5 +1,7 @@
-
-# Created by https://www.gitignore.io/api/node
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
 
 ### Node ###
 # Logs
@@ -51,4 +53,8 @@ jspm_packages
 .yarn-integrity
 
 
-# End of https://www.gitignore.io/api/node
+
+### Sass ###
+*.css.map
+
+# End of https://www.gitignore.io/api/node,sass,jekyll

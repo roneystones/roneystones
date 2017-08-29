@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="near-black lh-copy">
+    <aside class="w-100 fl-ns w-30-ns vh-100-ns">
+      {% include nav.html %}
+    </aside>
+
+    <main class="w-100 fl-ns w-70-ns pa3 pa5-ns">
+      {{ content }}
+    </main>
+  </body>
+
+</html>

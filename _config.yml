@@ -1,0 +1,22 @@
+name: Roney Stones
+title: Roney Stones
+email: roneylacerda@gmail.com
+description: Data + Design + Front-end. Em busca de uma internet mais rápida e acessível.
+baseurl: ''
+url: ''
+permalink: /:title/
+twitter_username: roneystones
+github_username: roneystones
+markdown: kramdown
+highlighter: rouge
+
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - gulpfile.js
+plugins:
+  - jekyll-feed
