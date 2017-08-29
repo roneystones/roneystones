@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WEF Davos 2017 I"
+title: "WEF Davos 2017"
 description: Notas sobre o Fórum Econômico Mundial de 2017 em Davos
 date: 2017-02-26 21:31:29 -0300
 categories: tecnologia
