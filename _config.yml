@@ -3,7 +3,7 @@ title: Roney Stones
 email: roneylacerda@gmail.com
 description: Data + Design + Front-end. Em busca de uma internet mais rápida e acessível.
 baseurl: ''
-url: ''
+url: 'roneystones'
 permalink: /:title/
 twitter_username: roneystones
 github_username: roneystones
@@ -13,8 +13,6 @@ highlighter: rouge
 include:
   - _pages
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - package.json
   - node_modules
   - gulpfile.js
