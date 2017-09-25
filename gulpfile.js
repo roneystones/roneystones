@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
+var cssmin = require('gulp-cssmin');
 var cp = require('child_process');
 
 var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
@@ -46,6 +47,7 @@ gulp.task('sass', function() {
     .pipe(browserSync.reload({
       stream: true
     }))
+    .pipe(cssmin())
     .pipe(gulp.dest('css'));
 });
 
