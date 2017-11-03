@@ -1,12 +1,9 @@
-<div class="w-100 bb bb-0-ns b--light-gray pa5 w-30-ns vh-100-ns flex-ns items-center-ns justify-center-ns flex-column-ns fixed-ns br-ns pa0-ns">
+<a href="/" title="Index" class="link gray hover-dark-pink">
+  <h1 class="f5 fw5 mb2">{{ site.title | escape }}</h1>
+</a>
 
-  <a href="/" title="Index" class="db link gray hover-dark-pink tc mb4">
-    <h1 class="f3 fw5 ma0">{{ site.title | escape }}</h1>
-    <h2 class="f5 georgia i">UX Design & Front-end</h2>
-  </a>
+<h2 class="f6 georgia i mb4">UX Design & Front-end</h2>
 
-  <div class="mw5 w-70-m w-30-ns dt--fixed flex justify-between center">
-    {% include social.html %}
-  </div>
-
+<div class="flex justify-between w-50">
+  {% include social.html %}
 </div>

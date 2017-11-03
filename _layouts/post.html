@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<header>
+<header>  
+  <h1 class="f2 f1-m f-headline-ns fw5 mt0 mb4 lh-solid">{{ page.title | escape }}</h1>
+
   <p class="f7 ttu tracked-mega mono light-silver mb3">
     {{ page.date | date: "%b %-d, %Y" }}</time>
   </p>
-
-  <h1 class="f2 f1-m f-headline-ns fw5 mt0 mb4 lh-solid">{{ page.title | escape }}</h1>
   <!-- <h2 class="f5 georgia i measure-wide">{{ page.description | escape }}</h2> -->
 
   <!-- <p class="f5 georgia i measure-wide mb4">
@@ -15,6 +15,6 @@ layout: default
   </p> -->
 </header>
 
-<article class="measure-wide">
+<article class="measure">
   {{ content }}
 </article>
