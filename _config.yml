@@ -4,7 +4,7 @@ email:             roneylacerda@gmail.com
 description:       Data + Design + Front-end. Em busca de uma internet mais rápida e acessível.
 baseurl:           "" # the subpath of your site, e.g. /blog
 url:               "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink:         /:title/
+# permalink:         /:title/
 markdown:          kramdown
 highlighter:       rouge
 
