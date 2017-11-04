@@ -1,19 +1,17 @@
 ---
 layout: default
 title: Contato
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate, arcu non tempus tempus, est magna egestas nisi, in fermentum mauris nisl posuere neque. Aenean eu laoreet lorem. Phasellus et elit a ante congue mollis vel ac lacus.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate, arcu non tempus tempus, est magna egestas nisi, in fermentum mauris nisl posuere neque. Aenean eu laoreet lorem.
 permalink: /contato/
 ---
 
-<header class="dt w-100 bb bt b--light-gray">
-  <div class="w-100 mw8 center pa4 pv5-l">
-    <h1 class="f1 f-headline-ns fw7 lh-title mt0 mb3">Interactive Digital Studio example</h1>
-    <h2 class="f6 f4-ns fw1 georgia i">{{ page.description | escape }}</h2>
-  </div>
+<header class="pb5 bb bt b--light-gray">
+  <h1 class="f1 f-headline-ns fw7 lh-title mt0 mb3">Interactive Digital Studio</h1>
+  <h2 class="f6 f4-ns fw1 georgia i">{{ page.description | escape }}</h2>
 </header>
 
 <article>
-  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+  <div class="cf pv5">
     <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Concept</h3>
     </div>
@@ -22,7 +20,7 @@ permalink: /contato/
     </div>
   </div>
 
-  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+  <div class="cf pv5">
     <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Skills</h3>
     </div>
@@ -56,7 +54,7 @@ permalink: /contato/
     </div>
   </div>
 
-  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+  <div class="cf pv5">
     <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Projetos</h3>
     </div>
@@ -104,7 +102,7 @@ permalink: /contato/
     </div>
   </div>
 
-  <div class="cf w-100 mw8 center ph4 pv4 pv5-l">
+  <div class="cf pv5">
     <div class="fl w-100 w-20-ns">
       <h3 class="f7 silver ttu tracked mb2">Artigos</h3>
     </div>
