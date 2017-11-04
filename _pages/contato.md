@@ -5,8 +5,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputa
 permalink: /contato/
 ---
 
-<header class="pb5 bb bt b--light-gray">
-  <h1 class="f2 f1-m f-subheadline-ns fw5 mt0 mb4 lh-solid">Digital Designer since 2002</h1>
+<header class="mb5">
+  <h1 class="f2 f1-m f-subheadline-ns fw5 mt0 mb3 lh-solid">Digital Designer since 2002</h1>
   <h2 class="f6 f4-ns fw1 georgia i">{{ page.description | escape }}</h2>
 </header>
 
