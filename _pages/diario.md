@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diário
-description: Anotações pessoais úteis para quem pula direto para o TL;DR
+description: Anotações úteis para quem pula direto para o TL;DR
 permalink: /diario/
 ---
 
