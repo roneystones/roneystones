@@ -3,14 +3,15 @@
 
   {% include head.html %}
 
-  <body class="mw8 center ph4 near-black lh-copy">
-    <nav class="fn fl-ns w-30-ns mv6">
-      {% include nav.html %}
-    </nav>
+  <body class="mw7 center georgia f2 near-black lh-copy">
+    {% include nav.html %}
 
-    <div class="fn fl-ns w-70-ns mv5">
+    <main>
       {{ content }}
-    </div>
+    </main>
+
+    {% include footer.html %}
+
   </body>
 
 </html>
