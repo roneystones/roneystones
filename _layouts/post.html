@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<header>  
-  <h1 class="f-subheadline lh-title mb5">{{ page.title | escape }}</h1>
+<header class="cf w-70 center">  
+  <h1 class="f-subheadline fw4 lh-title mb5">{{ page.title | escape }}</h1>
 
   <p class="f7 ttu tracked-mega mono light-silver mb3">
     <time>{{ page.date | date: "%b %-d, %Y" }}</time>
@@ -15,6 +15,6 @@ layout: default
   </p> -->
 </header>
 
-<article class="measure f4 mb5">
+<article class="cf measure center">
   {{ content }}
 </article>

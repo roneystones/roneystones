@@ -1,9 +1,11 @@
-<nav class="dt w-100 mb5">
-  <a href="/" class="w-25 link dark-gray hover-dark-pink f7 fw6 helvetica tracked ttu">{{ site.title | escape }}</a>
+<nav class="cf w-90 center mb5">
+  <a href="/" class="fl link dark-gray hover-dark-pink f7 fw6 helvetica tracked ttu">{{ site.title | escape }}</a>
 
-  <div class="dtc w-75 tr">
-    <a href="/" class="link blue hover-dark-pink f5 i dib mr3 mr4-ns">Home</a>
-    <a href="diario" class="link blue hover-dark-pink f5 i dib mr3 mr4-ns">Diário</a>
-    <a href="#" class="link blue hover-dark-pink f5 i dib">Work</a>
+  <div class="fr dtc tr">
+    {% for page in site.pages | sort: 'weight' %}
+      <a href="{{ page.url }}" class="link blue hover-dark-pink f5 i dib mr3 mr4-ns">
+        {{ page.title }}
+      </a>
+    {% endfor %}
   </div>
 </nav>

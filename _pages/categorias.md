@@ -3,6 +3,7 @@ layout: default
 title: Categorias
 description: This is my awesome writup of this fantastic thing
 permalink: /categorias/
+weight: 0
 ---
 
 <ul class="cf list w-100 mw8 center pa4 pv5-l">
