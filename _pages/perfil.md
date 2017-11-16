@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projetos
+title: Perfil
 description: This is my awesome writup of this fantastic thing
-permalink: /projetos/
+permalink: /perfil/
 ---

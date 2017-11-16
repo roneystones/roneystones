@@ -3,7 +3,7 @@ title:             Roney Stones
 email:             roneylacerda@gmail.com
 description:       Data + Design + Front-end. Em busca de uma internet mais rápida e acessível.
 baseurl:           "roneystones" # the subpath of your site, e.g. /blog
-url:               "" # the base hostname & protocol for your site, e.g. http://example.com
+url:               "http://roneystones.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 permalink:         /:title/
 markdown:          kramdown
 highlighter:       rouge

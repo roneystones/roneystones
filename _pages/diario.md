@@ -1,16 +1,15 @@
 ---
-layout: page
+layout: default
 title: Diário
 description: Anotações úteis para quem pula direto para o TL;DR
 permalink: /diario/
-weight: 2
 ---
 
-<header class="mb5">
-  <h1 class="f1 fw4">{{ page.description | escape }}</h1>
+<header class="cf measure center f3 mb5">
+  <h1 class="f1 fw4">Anotações úteis para quem pula direto para o TL;DR <a class="f6 link dim underline i blue" href="/categorias">ver todas categorias</a></h1>
 </header>
 
-<section class="mb5">
+<section class="cf measure center f3 mb5">
   <ul class="list pl0">
     {% for post in site.posts %}
     <li>
