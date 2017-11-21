@@ -1,0 +1,48 @@
+---
+layout: default
+title: Cursos e Certificados
+description: This is my awesome writup of this fantastic thing
+permalink: /cursos/
+---
+
+<header class="cf measure center f3 mb5">
+  <h1 class="f1 fw4">{{ page.title | escape }}</h1>
+</header>
+
+<section class="cf measure center f3 mb5">
+  <h2 class="f5 fw4 dark-red mt0">UX, Arquitetura e Design</h2>
+  <ul class="list pl0 mb5">
+    <li class="flex items-baseline mb4">
+      <span class="f7 mr4 mono tracked light-silver">2017</span>
+      <span class="f3">Rapid Prototyping | Udacity <a class="link dim i blue" href="#">link</a></span>
+    </li>
+    <li class="flex items-baseline mb4">
+      <span class="f7 mr4 mono tracked light-silver">2017</span>
+      <span class="f3">Product Design: The Delft Design Approach | edx.org <a class="link dim i blue" href="#">link</a></span>
+    </li>
+    <li class="flex items-baseline mb4">
+      <span class="f7 mr4 mono tracked light-silver">2017</span>
+      <span class="f3">UX Design for Mobile Developers | Udacity <a class="link dim i blue" href="#">link</a></span>
+    </li>
+    <li class="flex items-baseline mb4">
+      <span class="f7 mr4 mono tracked light-silver">2017</span>
+      <span class="f3">Intro to the Design of Everyday Things | Udacity <a class="link dim i blue" href="#">link</a></span>
+    </li>
+    <li class="flex items-baseline mb4">
+      <span class="f7 mr4 mono tracked light-silver">2017</span>
+      <span class="f3">Software Architecture & Design | Udacity <a class="link dim i blue" href="#">link</a></span>
+    </li>
+  </ul>
+
+  <h2 class="f5 fw4 dark-red mt0">Front-end, Development e outras ferramentas</h2>
+  <ul class="list pl0">
+    <li class="flex items-baseline mb4">
+      <span class="f7 mr4 mono tracked light-silver">2017</span>
+      <span class="f3">Lógica de programação I & II | Alura <a class="link dim i blue" href="#">link</a></span>
+    </li>
+    <li class="flex items-baseline mb4">
+      <span class="f7 mr4 mono tracked light-silver">2017</span>
+      <span class="f3">Performance Web I & II | Alura <a class="link dim i blue" href="#">link</a></span>
+    </li>
+  </ul>
+</section>
