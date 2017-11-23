@@ -1,0 +1,50 @@
+---
+layout: default
+title: Experiência recente
+description: This is my awesome writup of this fantastic thing
+permalink: /experiencia/
+---
+
+<header class="cf measure center f3 mb5">
+  <h1 class="f1 fw4">{{ page.title | escape }}</h1>
+</header>
+
+<section class="cf measure center f3 mb5">
+  <h2 class="f5 fw4 dark-red mt0">ActualSales | 2010 - atual</h2>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat.</p>
+</section>
+
+<section class="cf mb5">
+  <img src="../images/simular-seguro-auto-2.png">
+</section>
+
+<section class="cf measure center f3 mb5">
+  <ul class="list pl0 mb5">
+    <li class="f3 flex items-baseline mb4">
+      Responsible for the graphic work and the further development of the performance marketing design activities
+    </li>
+    <li class="f3 flex items-baseline mb4">
+      Produce creatives that help improve performance, A/B testing concepts and working with client services to monitor outcome
+    </li>
+    <li class="f3 flex items-baseline mb4">
+      Design creatives in various formats (static, animated) for programmatic display (Facebook, Instagram, Google Search Ads), affiliate marketing and new platforms
+    </li>
+    <li class="f3 flex items-baseline mb4">
+      Collaborate with analysts for data driven creative approaches and test scenarios
+    </li>
+    <li class="f3 flex items-baseline mb4">
+      Constantly drive innovation in formats, templates for automation and creative concepts
+    </li>
+    <li class="f3 flex items-baseline mb4">
+      Drive projects from start to finish, collaborating with Analysts, Engineering, Copywriters and other Designers
+    </li>
+  </ul>
+</section>
+
+<section class="cf mb5">
+  <img src="../images/telas_inteiro.jpg">
+</section>

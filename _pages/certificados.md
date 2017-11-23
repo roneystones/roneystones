@@ -2,7 +2,7 @@
 layout: default
 title: Cursos e Certificados
 description: This is my awesome writup of this fantastic thing
-permalink: /cursos/
+permalink: /certificados/
 ---
 
 <header class="cf measure center f3 mb5">

@@ -1,0 +1,44 @@
+---
+layout: default
+title: Bulb
+description: This is my awesome writup of this fantastic thing
+permalink: /bulb/
+---
+
+<!-- <header class="cf measure center f3 mb5">
+  <h1 class="f1 fw4">{{ page.title | escape }}</h1>
+</header> -->
+
+<section class="cf measure center f3 mb5">
+  <p>UI & UX design for green energy startup, Bulb, whose aim was to have a digital presence to allow them to rival the ‘Big Six’ energy companies. I designed the online platform to help them achieve that goal.</p>
+</section>
+
+<div class="cf mb5">
+  <div class="fl w-100 w-50-ns">
+    <img src="../images/02_bulb-mobile-landing.jpg">
+  </div>
+  <div class="fl w-100 w-50-ns">
+    <img src="../images/03_bulb-mobile-quote.jpg">
+  </div>
+</div>
+
+<div class="cf mb5">
+	<img src="../images/04_bulb-screens.jpg">
+</div>
+
+<section class="cf measure center f3 mb5">
+  <blockquote class="ma0 pl4 bl bw2 b--dark-red">
+    <p class="i">
+      Discipline in typography is a prime virtue. Individuality
+      must be secured by means that are rational. Distinction
+      needs to be won by simplicity and restraint. It is equally
+      true that these qualities need to be infused wiht a
+      certain spirit and vitality, or they degenerate into
+      dullness and mediocrity.
+    </p>
+
+    <cite class="f6 ttu tracked">― Stanley Morison</cite>
+  </blockquote>
+</section>
+
+{% include lista-projetos.html %}
