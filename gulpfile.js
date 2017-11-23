@@ -15,9 +15,7 @@ var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-/**
- * Build the Jekyll Site
- */
+// Build the Jekyll Site
 gulp.task('jekyll-build', function(done) {
     browserSync.notify(messages.jekyllBuild);
     if (env === 'prod') {
@@ -29,16 +27,12 @@ gulp.task('jekyll-build', function(done) {
     }
 });
 
-/**
- * Rebuild Jekyll & do page reload
- */
+// Rebuild Jekyll & do page reload
 gulp.task('jekyll-rebuild', ['jekyll-build'], function() {
     browserSync.reload();
 });
 
-/**
- * Wait for jekyll-build, then launch the Server
- */
+// Wait for jekyll-build, then launch the Server
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     browserSync({
         server: {
@@ -47,9 +41,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     });
 });
 
-/**
- * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
- */
+// Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
 gulp.task('sass', function() {
     var processors = [
         prefix({ browsers: ['> 5%', 'last 3 versions'] }),
@@ -67,28 +59,22 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('assets/css'));
 });
 
-/**
- * Watch scss files for changes & recompile
- * Watch html/md/js/image/json files, run jekyll & reload BrowserSync
- */
+// Watch scss files for changes & recompile
+// Watch html/md/js/image/json files, run jekyll & reload BrowserSync
 gulp.task('watch', function() {
     gulp.watch('_scss/*.scss', ['sass']);
     gulp.watch(['./**/*.html', '_data/*.json', 'assets/scripts/*.js', 'assets/images/*.*', './**/*.md'], ['jekyll-rebuild']);
 });
 
-/**
- * Delete .publish directory
- */
+// Delete .publish directory
 gulp.task('clean', function() {
     return del('.publish/**/*');
 });
 
-/**
- * Default task, running just `gulp` will compile the sass,
- * compile the jekyll site, launch BrowserSync & watch files.
- * To run locally:
- * $ NODE_ENV=dev gulp
- */
+// Default task, running just `gulp` will compile the sass,
+// compile the jekyll site, launch BrowserSync & watch files.
+// To run locally:
+// $ NODE_ENV=dev gulp 
 gulp.task('default', ['browser-sync', 'watch']);
 
 /**
