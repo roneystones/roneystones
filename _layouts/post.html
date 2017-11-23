@@ -1,18 +1,13 @@
 ---
-layout: default
+layout: base
 ---
 
 <header class="cf measure center f3">  
-  <h1 class="f-subheadline fw4 lh-title mt0 mb5">{{ page.title | escape }}</h1>
+  <h1 class="f-subheadline fw4 lh-title mt0 mb5">{{ page.title }}</h1>
 
   <p class="f7 ttu tracked-mega mono light-silver mb0">
-    <time>{{ page.date | date: "%b %-d, %Y" }}</time>
+    <time>{{ page.date | date: "%d %m %Y" }}</time>
   </p>
-  <!-- <h2 class="f5 georgia i measure-wide">{{ page.description | escape }}</h2> -->
-
-  <!-- <p class="f5 georgia i measure-wide mb4">
-    {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> — {% endif %}Categoria: {{ page.categories }} — Tags: {{ page.tags }}
-  </p> -->
 </header>
 
 <article class="cf measure center f3 mb5">

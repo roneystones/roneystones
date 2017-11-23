@@ -1,19 +1,18 @@
 ---
-layout: default
+layout: base
 title: Diário
 description: Anotações úteis para quem pula direto para o TL;DR
-permalink: /diario/
 ---
 
 <header class="cf measure center f3 mb5">
-  <h1 class="f1 fw4">Anotações úteis para quem pula direto para o TL;DR <a class="f6 link dim underline i blue" href="/categorias">ver todas categorias</a></h1>
+  <h1 class="f1 fw4">Anotações úteis para quem pula direto para o TL;DR <a class="f6 link dim underline i blue" href="/categorias.html">ver todas categorias</a></h1>
 </header>
 
 <section class="cf measure center f3 mb5">
   <ul class="list pl0">
     {% for post in site.posts %}
     <li>
-      <a class="link dim i blue flex items-baseline mb4" href="{{ post.url | relative_url }}">
+      <a class="link dim i blue flex items-baseline mb4" href="{{ post.url }}">
         <span class="f7 mr4 mono tracked light-silver">{{ post.date | date: "%d %m %Y" }}</span>
         <span class="f3">{{ post.title }}</span>
       </a>
