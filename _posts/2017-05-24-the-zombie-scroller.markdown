@@ -8,25 +8,27 @@ categories: ['html', 'css']
 tags: ['html', 'css']
 ---
 
-A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando é de seu interesse. Ao invés disso, apenas escaneiam (como rótulos de um produto no supermercado).
+<p class="mb4">A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando é de seu interesse. Ao invés disso, apenas escaneiam (como rótulos de um produto no supermercado).</p>
 
-Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso ["slow thinking"](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+<p class="mb4">Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso ["slow thinking"](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)</p>
 
-Quanto mais pontos de atenção (focus points) o usuário localiza em uma página, mais energia se consome, causando desgaste.
+<p class="mb4">Quanto mais pontos de atenção (focus points) o usuário localiza em uma página, mais energia se consome, causando desgaste.</p>
 
-Isso faz com que até conteúdo de qualidade perca atenção, fenômeno chamado "scrolling fatigue". O usuário fica desmotivado e perde o foco, dedicando menos esforço para assimilar o conteúdo (não estou considerado legibilidade ou usabilidade, que são outros fatores que influenciam o tempo de foco dos usuários).
+<p class="mb4">Isso faz com que até conteúdo de qualidade perca atenção, fenômeno chamado "scrolling fatigue". O usuário fica desmotivado e perde o foco, dedicando menos esforço para assimilar o conteúdo (não estou considerado legibilidade ou usabilidade, que são outros fatores que influenciam o tempo de foco dos usuários).</p>
 
-O cérebro tem mecanismos automáticos que percebem estímulos externos mesmo quando está no piloto-automático. Mesmo sistema que ajudou antepassados pré-históricos a sobreviver diante os perigos (unconscious selective attention).
+<p class="mb4">O cérebro tem mecanismos automáticos que percebem estímulos externos mesmo quando está no piloto-automático. Mesmo sistema que ajudou antepassados pré-históricos a sobreviver diante os perigos (unconscious selective attention).</p>
 
-Esse processo permite que o cérebro, mesmo em baixa atenção, consiga capturar algo inesperado. Quando captura, ativa o slow thinking. Se você já percebeu uma aranha na parede pela visão periférica, sabe do que estou falando.
+<p class="mb4">Esse processo permite que o cérebro, mesmo em baixa atenção, consiga capturar algo inesperado. Quando captura, ativa o slow thinking. Se você já percebeu uma aranha na parede pela visão periférica, sabe do que estou falando.</p>
 
-Solução para o scrolling fatigue é criar conteúdo inesperado que se destaque de tempos em tempos. Reconquistar a atenção do usuário, mesmo que por um milésimo de segundo, acordando o cérebro e retomando atenção.
+<p class="mb4">Solução para o scrolling fatigue é criar conteúdo inesperado que se destaque de tempos em tempos. Reconquistar a atenção do usuário, mesmo que por um milésimo de segundo, acordando o cérebro e retomando atenção.</p>
 
-Resumindo, manter o usuário o mais afastado possível do piloto automático.
+<p class="mb4">Resumindo, manter o usuário o mais afastado possível do piloto automático.</p>
 
-  * Usuários tem um limite quanto ao tempo de atenção
-  * Usuários perdem foco conforme o tamanho do scroll
-  * A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo
-  * Usuários reagem a conteúdos imprevistos
+<ul class="mb4">	
+  <li>Usuários tem um limite quanto ao tempo de atenção</li>
+  <li>Usuários perdem foco conforme o tamanho do scroll</li>
+  <li>A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo</li>
+  <li>Usuários reagem a conteúdos imprevistos</li>
+</ul>
 
-  [link](https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/)
+<p>[link](https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/)</p>

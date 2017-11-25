@@ -1,12 +1,13 @@
 {
-  "name": "jekyll-gulp-boilerplate",
+  "name": "roneystones.github.io",
   "version": "0.0.1",
-  "description": "A boilerplate project including full setup for Jekyll, GulpJS, SASS, PostCSS, BrowserSync, Autoprefixer and deploy to GitHub Pages using Gulp.",
+  "description": "Jekyll, SASS, PostCSS, BrowserSync, Autoprefixer and deploy to GitHub Pages using Gulp",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Esau Silva",
+
+  "author": "Roney Stones",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
@@ -19,18 +20,21 @@
     "gulp-postcss": "^6.2.0",
     "gulp-sass": "^2.3.2"
   },
+  
   "repository": {
     "type": "git",
-    "url": "https://github.com/esausilva/jekyll-gulp-boilerplate.git"
+    "url": "https://github.com/roneystones/roneystones.github.io.git"
   },
-  "keywords": ["jekyll","gulp","sass","postcss","browsersync","gulp gh-pages","GitHub Pages","autoprefixer","bootstrap","jquery"],
+  
+  "keywords": ["jekyll","gulp","sass","postcss","browsersync","gulp gh-pages","GitHub Pages","autoprefixer"],
   "bugs": {
-    "url": "https://github.com/esausilva/jekyll-gulp-boilerplate/issues"
+    "url": "https://github.com/roneystones/roneystones.github.io/issues"
   },
-  "homepage": "https://github.com/esausilva/jekyll-gulp-boilerplate",
+  
+  "homepage": "https://github.com/roneystones/roneystones.github.io",
   "originalproject": {
-    "author": "Shane Osbourne",
+    "author": "Esau Silva",
     "license": "ISC",
-    "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync" 
+    "homepage": "https://github.com/esausilva/jekyll-gulp-boilerplate" 
   }
 }

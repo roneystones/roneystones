@@ -7,12 +7,12 @@ categories: ['html', 'css']
 tags: ['html', 'css']
 ---
 
-A Quarta Revolução Industrial é a fusão das atuais tecnologias exponenciais (conectividade, IoT, impressão 3D, Inteligência artificial) / Estas tecnologias proporcionam soluções inovadoras para problemas antigos.
+<p class="mb4">A Quarta Revolução Industrial é a fusão das atuais tecnologias exponenciais (conectividade, IoT, impressão 3D, Inteligência artificial) / Estas tecnologias proporcionam soluções inovadoras para problemas antigos.</p>
 
-Diferentes carreiras surgem todos os dias enquanto profissões que pareciam imprescindíveis desaparecem.
+<p class="mb4">Diferentes carreiras surgem todos os dias enquanto profissões que pareciam imprescindíveis desaparecem.</p>
 
-Estima-se que sistemas automatizados irão substituir 7 milhões de empregos; porém poderá criar 2.1 milhões de novos empregos que ainda não existem - 65% das crianças que estão hoje no primeiro ano do fundamental irão trabalhar nestes novos empregos.
+<p class="mb4">Estima-se que sistemas automatizados irão substituir 7 milhões de empregos; porém poderá criar 2.1 milhões de novos empregos que ainda não existem - 65% das crianças que estão hoje no primeiro ano do fundamental irão trabalhar nestes novos empregos.</p>
 
-Investir em formação sólida e ampla é melhor do que formação específica para o momento.
+<p class="mb4">Investir em formação sólida e ampla é melhor do que formação específica para o momento.</p>
 
-Não se trata apenas de formar pessoas em ciências da computação, mas pensar no médico que irá trabalhar com um robô, no arquiteto com IA, no engenheiro de produção com protipação 3D e no farmaceutico com sequenciamento de DNA. Aqueles que não investirem nessa formação correm o risco de entrar no contexto onde máquinas e softwares substituem pessoas. Esses formatos evoluem rapidamente, provocando uma concorrencia desproporcional.
+<p>Não se trata apenas de formar pessoas em ciências da computação, mas pensar no médico que irá trabalhar com um robô, no arquiteto com IA, no engenheiro de produção com protipação 3D e no farmaceutico com sequenciamento de DNA. Aqueles que não investirem nessa formação correm o risco de entrar no contexto onde máquinas e softwares substituem pessoas. Esses formatos evoluem rapidamente, provocando uma concorrencia desproporcional.</p>
