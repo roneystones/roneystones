@@ -11,37 +11,21 @@ description: This is my awesome writup of this fantastic thing
 <section class="cf measure center f4 mb5">
   <h2 class="f5 fw4 dark-red mb3">UX, Arquitetura e Design</h2>
   <ul class="list pl0 mb5">
-    <li class="flex items-baseline mb4">
-      <span class="f7 mr4 mono tracked light-silver">2017</span>
-      <span>Rapid Prototyping | Udacity <a class="link dim i blue" href="#">link</a></span>
-    </li>
-    <li class="flex items-baseline mb4">
-      <span class="f7 mr4 mono tracked light-silver">2017</span>
-      <span>Product Design: The Delft Design Approach | edx.org <a class="link dim i blue" href="#">link</a></span>
-    </li>
-    <li class="flex items-baseline mb4">
-      <span class="f7 mr4 mono tracked light-silver">2017</span>
-      <span>UX Design for Mobile Developers | Udacity <a class="link dim i blue" href="#">link</a></span>
-    </li>
-    <li class="flex items-baseline mb4">
-      <span class="f7 mr4 mono tracked light-silver">2017</span>
-      <span>Intro to the Design of Everyday Things | Udacity <a class="link dim i blue" href="#">link</a></span>
-    </li>
-    <li class="flex items-baseline">
-      <span class="f7 mr4 mono tracked light-silver">2017</span>
-      <span>Software Architecture & Design | Udacity <a class="link dim i blue" href="#">link</a></span>
-    </li>
+    {% for curso in site.data.certificados-design %}
+      <li class="flex items-baseline mb4">
+        <span class="f7 mr4 mono tracked light-silver">{{ curso.ano }}</span>
+        <span>{{ curso.curso }} <a class="link dim i blue" href="{{ curso.link }}">{{ curso.onde }}</a></span>
+      </li>
+    {% endfor %}
   </ul>
 
   <h2 class="f5 fw4 dark-red mb3">Front-end, Development e outras ferramentas</h2>
-  <ul class="list pl0">
-    <li class="flex items-baseline mb4">
-      <span class="f7 mr4 mono tracked light-silver">2017</span>
-      <span>Lógica de programação I & II | Alura <a class="link dim i blue" href="#">link</a></span>
-    </li>
-    <li class="flex items-baseline">
-      <span class="f7 mr4 mono tracked light-silver">2017</span>
-      <span>Performance Web I & II | Alura <a class="link dim i blue" href="#">link</a></span>
-    </li>
+    <ul class="list pl0">
+    {% for curso in site.data.certificados-frontend %}
+      <li class="flex items-baseline mb4">
+        <span class="f7 mr4 mono tracked light-silver">{{ curso.ano }}</span>
+        <span>{{ curso.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ curso.onde }}</a></span>
+      </li>
+    {% endfor %}
   </ul>
 </section>
