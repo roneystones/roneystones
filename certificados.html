@@ -9,22 +9,22 @@ description: This is my awesome writup of this fantastic thing
 </header>
 
 <section class="cf measure center f4 mb5">
-  <h2 class="f5 fw4 dark-red mb3">UX, Arquitetura e Design</h2>
+  <h2 class="f5 fw4 dark-red">UX, Arquitetura e Design</h2>
   <ul class="list pl0 mb5">
-    {% for curso in site.data.certificados-design %}
-      <li class="flex items-baseline mb4">
-        <span class="f7 mr4 mono tracked light-silver">{{ curso.ano }}</span>
-        <span>{{ curso.curso }} <a class="link dim i blue" href="{{ curso.link }}">{{ curso.onde }}</a></span>
+    {% for certificado in site.data.certificados-design %}
+      <li class="flex items-baseline mt4">
+        <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
+        <span>{{ certificado.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ certificado.onde }}</a></span>
       </li>
     {% endfor %}
   </ul>
 
-  <h2 class="f5 fw4 dark-red mb3">Front-end, Development e outras ferramentas</h2>
-    <ul class="list pl0">
-    {% for curso in site.data.certificados-frontend %}
-      <li class="flex items-baseline mb4">
-        <span class="f7 mr4 mono tracked light-silver">{{ curso.ano }}</span>
-        <span>{{ curso.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ curso.onde }}</a></span>
+  <h2 class="f5 fw4 dark-red">Front-end, Development e outras ferramentas</h2>
+  <ul class="list pl0">
+    {% for certificado in site.data.certificados-frontend %}
+      <li class="flex items-baseline mt4">
+        <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
+        <span>{{ certificado.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ certificado.onde }}</a></span>
       </li>
     {% endfor %}
   </ul>

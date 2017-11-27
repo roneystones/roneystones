@@ -11,7 +11,13 @@ canonical: http://roneystones.github.io/roneystones
   <p class="f3 measure-wide">Bem-vindo(a). Eu me chamo Roney, sou de São Paulo – SP e trabalho com pesquisa (UX), criação (design) e desenvolvimento (front-end). Atualmente <a class="link dim underline i blue" href="/experiencia.html">estou na ActualSales</a>. Confira meu trabalho e qualquer coisa <a class="link dim underline i blue" href="#">é só chamar</a> ✉</p>
 </header>
 
-{% include lista-projetos.html %}
+<section class="cf mb5">
+  {% for projeto in site.data.projetos %}
+    <a href="{{ projeto.link }}" class="fl w-50 w-25-l link overflow-hidden">
+      <div role="img" aria-label="{{ projeto.label }}" class="grow aspect-ratio--1x1" style="background: url({{ projeto.imagem }}) no-repeat center center; background-size: cover;"></div>
+    </a>
+  {% endfor %}
+ </section>
 
 <section class="cf measure center f4 mb5">
   <h2 class="f5 fw4 dark-red mb3">📊 Data Driven → User Experience → Visual Design</h2>
@@ -24,5 +30,5 @@ canonical: http://roneystones.github.io/roneystones
   <p class="mb5">Foco em Performance e Acessibilidade • Javascript intermediário, metodologia BEM e GIT • Mantenho um <a class="link dim underline i blue" href="https://github.com/roneystones/learning-chest">repositório com meus estudos</a>, lá você encontra brincadeiras com Gulp, SASS, Angular e etc.</p>
 
   <h2 class="f5 fw4 dark-red mb3">📚 Também tenho interesse em...</h2>
-  <p class="">Data Visualization, Data UX • bibliotecas e frameworks como Vue.js, D3.js • estatística descritiva, inferencial e probalidade.</p>
+  <p>Data Visualization, Data UX • bibliotecas e frameworks como Vue.js, D3.js • estatística descritiva, inferencial e probalidade.</p>
 </section>
