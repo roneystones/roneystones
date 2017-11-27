@@ -1,17 +1,17 @@
 ---
 
-- link: /bulb.html
+- nome: Bulb
   imagem: ../assets/images/bulb/01_bulb-cover.jpg
-  label: Bulb
+  link: /bulb.html
 
-- link: /bulb.html
+- nome: Bulb
   imagem: ../assets/images/bulb/01_bulb-cover.jpg
-  label: Bulb
+  link: /bulb.html
 
-- link: /bulb.html
+- nome: Bulb
   imagem: ../assets/images/bulb/01_bulb-cover.jpg
-  label: Bulb
+  link: /bulb.html
 
-- link: /bulb.html
+- nome: Bulb
   imagem: ../assets/images/bulb/01_bulb-cover.jpg
-  label: Bulb
+  link: /bulb.html

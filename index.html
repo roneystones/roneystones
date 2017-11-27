@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Roney Stones 💡 Desenha interfaces e interações
+title: Roney Stones – Desenha interfaces e interações
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 canonical: http://roneystones.github.io/roneystones
 ---
@@ -12,12 +12,8 @@ canonical: http://roneystones.github.io/roneystones
 </header>
 
 <section class="cf mb5">
-  {% for projeto in site.data.projetos %}
-    <a href="{{ projeto.link }}" class="fl w-50 w-25-l link overflow-hidden">
-      <div role="img" aria-label="{{ projeto.label }}" class="grow aspect-ratio--1x1" style="background: url({{ projeto.imagem }}) no-repeat center center; background-size: cover;"></div>
-    </a>
-  {% endfor %}
- </section>
+  {% include projetos.html %}
+</section>
 
 <section class="cf measure center f4 mb5">
   <h2 class="f5 fw4 dark-red mb3">📊 Data Driven → User Experience → Visual Design</h2>
