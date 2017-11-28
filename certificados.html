@@ -11,7 +11,7 @@ description: This is my awesome writup of this fantastic thing
 <section class="cf measure center f4 mb5">
   <h2 class="f5 fw4 dark-red">UX, Arquitetura e Design</h2>
   <ul class="list pl0 mb5">
-    {% for certificado in site.data.certificados-design %}
+    {% for certificado in site.data.certificados.ux %}
       <li class="flex items-baseline mt4">
         <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
         <span>{{ certificado.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ certificado.onde }}</a></span>
@@ -21,7 +21,7 @@ description: This is my awesome writup of this fantastic thing
 
   <h2 class="f5 fw4 dark-red">Front-end, Development e outras ferramentas</h2>
   <ul class="list pl0">
-    {% for certificado in site.data.certificados-frontend %}
+    {% for certificado in site.data.certificados.frontend %}
       <li class="flex items-baseline mt4">
         <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
         <span>{{ certificado.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ certificado.onde }}</a></span>

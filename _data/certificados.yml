@@ -1,0 +1,37 @@
+ux: 
+  - ano: 2017
+    curso: Rapid Prototyping
+    onde: Udacity
+    link: "#"
+
+  - ano: 2017
+    curso: 'Product Design: The Delft Design Approach'
+    onde: edx.org
+    link: "#"
+
+  - ano: 2017
+    curso: UX Design for Mobile Developers
+    onde: Udacity
+    link: "#"
+
+  - ano: 2017
+    curso: Intro to the Design of Everyday Things
+    onde: Udacity
+    link: "#"
+
+  - ano: 2017
+    curso: Software Architecture & Design
+    onde: Udacity
+    link: "#"
+
+
+frontend:
+  - ano: 2017
+    curso: Lógica de programação I & II
+    onde: Alura
+    link: "#"
+
+  - ano: 2017
+    curso: Performance Web I & II
+    onde: Alura
+    link: "#"
