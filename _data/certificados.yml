@@ -1,29 +1,28 @@
 ux: 
   - ano: 2017
-    curso: Rapid Prototyping
-    onde: Udacity
-    link: "#"
+    curso: "Rapid Prototyping: Building Apps for Web and Mobile"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/rapid-prototyping--ud723"
 
   - ano: 2017
-    curso: 'Product Design: The Delft Design Approach'
-    onde: edx.org
-    link: "#"
+    curso: "UX Design for Mobile Developers"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/ux-design-for-mobile-developers--ud849"
 
   - ano: 2017
-    curso: UX Design for Mobile Developers
-    onde: Udacity
-    link: "#"
+    curso: "Product Design: Validation and UX through Design Sprints"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/product-design--ud509"
 
   - ano: 2017
-    curso: Intro to the Design of Everyday Things
-    onde: Udacity
-    link: "#"
+    curso: "Product Design: The Delft Design Approach"
+    onde: "edx.org"
+    link: "https://www.edx.org/course/product-design-delft-design-approach-delftx-dda691x-2"
 
   - ano: 2017
-    curso: Software Architecture & Design
-    onde: Udacity
-    link: "#"
-
+    curso: "Intro to the Design of Everyday Things"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/intro-to-the-design-of-everyday-things--design101"
 
 frontend:
   - ano: 2017
