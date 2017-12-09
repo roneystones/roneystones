@@ -9,22 +9,40 @@ description: This is my awesome writup of this fantastic thing
 </header>
 
 <section class="cf measure center f4 mb5">
-  <h2 class="f5 fw4 dark-red">UX, Arquitetura e Design</h2>
-  <ul class="list pl0 mb5">
+  <h2 class="f5 fw4 dark-red mb3">UX, Arquitetura e Design</h2>
+  <ul class="cf list pl0 mb5">
     {% for certificado in site.data.certificados.ux %}
-      <li class="flex items-baseline mt4">
-        <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
-        <span>{{ certificado.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ certificado.onde }}</a></span>
+      <li class="cf mt3 pb3 bb b--light-gray">
+        <div class="fl w-100 w-10-ns">
+          <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
+        </div>
+        
+        <div class="fl w-100 w-70-ns">
+          {{ certificado.curso }}
+        </div>
+        
+        <div class="fl w-100 w-20-ns tr">
+          <a class="link" href="{{ post.url }}"><span class="f7 blue dim bb b--blue mr4 mono tracked">{{ certificado.onde }}</span></a>
+        </div>
       </li>
     {% endfor %}
   </ul>
 
-  <h2 class="f5 fw4 dark-red">Front-end, Development e outras ferramentas</h2>
-  <ul class="list pl0">
+  <h2 class="f5 fw4 dark-red mb3">Front-end, Development e outras ferramentas</h2>
+  <ul class="cf list pl0">
     {% for certificado in site.data.certificados.frontend %}
-      <li class="flex items-baseline mt4">
-        <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
-        <span>{{ certificado.curso }} <a class="link dim i blue" href="{{ certificado.link }}">{{ certificado.onde }}</a></span>
+      <li class="cf mt3 pb3 bb b--light-gray">
+        <div class="fl w-100 w-10-ns">
+          <span class="f7 mr4 mono tracked light-silver">{{ certificado.ano }}</span>
+        </div>
+        
+        <div class="fl w-100 w-70-ns">
+          {{ certificado.curso }}
+        </div>
+        
+        <div class="fl w-100 w-20-ns tr">
+          <a class="link" href="{{ post.url }}"><span class="f7 blue dim bb b--blue mr4 mono tracked">{{ certificado.onde }}</span></a>
+        </div>
       </li>
     {% endfor %}
   </ul>

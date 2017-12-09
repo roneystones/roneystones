@@ -1,0 +1,17 @@
+<ul class="cf list pl0">
+  {% for post in site.posts %}
+  <li class="cf mb3 pb3 bb b--light-gray">
+    <div class="fl w-100 w-20-ns">
+      <span class="f7 mr4 mono tracked light-silver">{{ post.date | date: "%d %m %Y" }}</span>
+    </div>
+    
+    <div class="fl w-100 w-60-ns">
+      <a class="link near-black hover-blue bb bw0 b--blue" href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+    
+    <div class="fl w-100 w-20-ns tr">
+      <span class="f7 mr4 mono tracked light-silver">{{ post.tags }}</span>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

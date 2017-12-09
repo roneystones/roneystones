@@ -9,16 +9,7 @@ description: Anotações úteis para quem pula direto para o TL;DR
 </header>
 
 <section class="cf measure center f4 mb5">
-  <ul class="list pl0 mb5">
-    {% for post in site.posts %}
-    <li class="flex items-baseline mb4">
-      <a class="link" href="{{ post.url }}">
-        <span class="f7 mr4 mono tracked light-silver">{{ post.date | date: "%d %m %Y" }}</span>
-        <span class="dim i blue">{{ post.title }}</span>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% include posts.html %}
 
-  <p><a class="f6 link dim underline i blue" href="/categorias.html">ver todas categorias</a></p>
+  <p class="cf mt5"><a class="f6 link blue dim bb b--blue" href="/categorias.html">ver todas categorias</a></p>
 </section>
