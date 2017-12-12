@@ -3,8 +3,9 @@ layout: post
 title: "WEF Davos 2017"
 description: Notas sobre o Fórum Econômico Mundial de 2017 em Davos
 date: 2017-02-26 21:31:29 -0300
-categories: ['html', 'css']
-tags: ['html', 'css']
+author: Roney Stones
+categories: cat-teste
+tags: tag-teste
 ---
 
 A Quarta Revolução Industrial é a fusão das atuais tecnologias exponenciais (conectividade, IoT, impressão 3D, Inteligência artificial) / Estas tecnologias proporcionam soluções inovadoras para problemas antigos.

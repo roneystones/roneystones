@@ -4,8 +4,8 @@ title: "The Zombie Scroller"
 description: This is my awesome writup of this fantastic thing
 date: 2017-05-24 21:28:29 -0300
 author: Roney Stones
-categories: ['html', 'css']
-tags: ['html', 'css']
+categories: cat-teste
+tags: tag-teste
 ---
 
 A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando é de seu interesse. Ao invés disso, apenas escaneiam (como rótulos de um produto no supermercado).

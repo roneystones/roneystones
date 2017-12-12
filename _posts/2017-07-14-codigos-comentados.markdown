@@ -4,8 +4,8 @@ title: "Códigos comentados"
 description: This is my awesome writup of this fantastic thing
 date: 2017-07-05 22:09:00 -0300
 author: Roney Stones
-categories: ['html', 'css']
-tags: html css
+categories: cat-teste
+tags: tag-teste
 ---
 
 Deixar comentários no código é uma prática comum para documentação e, para novos membros em uma equipe, facilita a compreensão.
