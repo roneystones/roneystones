@@ -1,5 +1,14 @@
 <ul class="cf list pl0">
   {% for post in site.posts %}
+  <li class="cf">
+    <a class="f2 fw7 link near-black hover-blue" href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+
+<!-- <ul class="cf list pl0">
+  {% for post in site.posts %}
   <li class="cf mb3 pb3 bb b--light-gray">
     <div class="fl w-100 w-20-ns">
       <span class="f7 mr4 mono tracked light-silver">{{ post.date | date: "%d %m %Y" }}</span>
@@ -14,4 +23,4 @@
     </div>
   </li>
   {% endfor %}
-</ul>
+</ul> -->
