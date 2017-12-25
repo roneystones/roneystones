@@ -20,9 +20,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- SEO Optimization -->
+  <title>{{ pageTitle | trim }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
   <link rel="canonical" href="{{ canonicalUrl | trim }}" />
-  <title>{{ pageTitle | trim }}</title>
 
   <!-- Open Graph -->
   <meta property="og:url" content="{{ canonicalUrl | trim }}" />
