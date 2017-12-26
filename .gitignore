@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/node,jekyll
+.publish
 
 ### Jekyll ###
 _site/
@@ -65,6 +64,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-
-# End of https://www.gitignore.io/api/node,jekyll
