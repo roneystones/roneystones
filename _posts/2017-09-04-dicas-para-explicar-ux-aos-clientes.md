@@ -21,7 +21,7 @@ Porém, sabemos que no dia a dia é inviável aplicar um curso para cada cliente
 
 Pensando nisso, resolvi deixar aqui três dicas baseadas na minha experiência sobre o assunto. Elas podem até não resolver diretamente o seu problema, mas serão ao menos capazes de apontar uma direção.
 
-## UX = ROI
+<h2 class="f3 b mb2 mb3">UX = ROI</h2>
 
 Se o nosso objetivo é criar experiências que alcançam as expectativas dos clientes e usuários, então por quê seria um mal investimento?
 
@@ -29,7 +29,7 @@ Todos nós sabemos que a falta de pesquisa e comunicação são desastrosos para
 
 A pesquisadora também revela que prever falhas e evitá-las na fase inicial resulta em apenas 10% do custo quando comparadas às mudanças em fases posteriores. Isso quer dizer que investir em UX é prever erros e cortar gastos, ou seja, é investir no caminho para melhorar a receita.
 
-## Testes A/B: altos ganhos com baixo custo
+<h2 class="f3 b mb2 mb3">Testes A/B: altos ganhos com baixo custo</h2>
 
 Diferente do que algumas pessoas acreditam, testes A/B não expõem os usuários à más experiências. Pelo contrário, os testes A/B nos mostram:
 
@@ -42,7 +42,7 @@ Nós sempre nos deparamos com clientes que insistem em adicionar elementos, gera
 Por ser um método científico, é uma das formas mais eficazes de investigar e provar que o cliente nem sempre tem razão.
 
 
-## Lançamento é experimento, não objetivo
+<h2 class="f3 b mb2 mb3">Lançamento é experimento, não objetivo</h2>
 
 Em alguns contratos a relação termina com a entrega do serviço ou produto. Isso não é exatamente um problema desde que ambas as partes tenham acordado com isso.
 
