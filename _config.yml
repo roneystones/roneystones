@@ -18,6 +18,3 @@ exclude:
 
 plugins:
   - jekyll-minifier
-
-jekyll-minifier:
-  exclude: ["assets/css/*.css","*.min.*"]
