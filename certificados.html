@@ -9,12 +9,13 @@ description: This is my awesome writup of this fantastic thing
 </header>
 
 <section class="cf measure-wide center mb5">
-  <h2 class="dark-red f5 fw7 mb2">UX, Arquitetura e Design</h2>
+  <h2 class="dark-red f5 fw7 mb4 pb2 bb b--moon-gray">UX, Arquitetura e Design</h2>
   <ul class="cf list pl0 mb5">
     {% for certificado in site.data.certificados.ux %}
-      <li class="cf mt3 pb3 bb b--light-gray">
+      <li class="cf mb4">
         <div class="fl w-100 w-80-ns">
-          <p>{{ certificado.curso }}</p>
+          <p class="fw7 mb2">{{ certificado.curso }}</p>
+          <p class="f6 gray">{{ certificado.ano }} | <span class="i">{{ certificado.descricao }}</span></p>
         </div>
         
         <div class="fl w-100 w-20-ns tr">
@@ -24,12 +25,13 @@ description: This is my awesome writup of this fantastic thing
     {% endfor %}
   </ul>
 
-  <h2 class="dark-red f5 fw7 mb2">Front-end, Development e outras ferramentas</h2>
+  <h2 class="dark-red f5 fw7 mb4 pb2 bb b--moon-gray">Front-end, Development e outras ferramentas</h2>
   <ul class="cf list pl0">
     {% for certificado in site.data.certificados.frontend %}
-      <li class="cf mt3 pb3 bb b--light-gray">
+      <li class="cf mb4">
         <div class="fl w-100 w-80-ns">
-          <p>{{ certificado.curso }}</p>
+          <p class="fw7 mb2">{{ certificado.curso }}</p>
+          <p class="f6 gray">{{ certificado.ano }} | <span class="i">{{ certificado.descricao }}</span></p>
         </div>
         
         <div class="fl w-100 w-20-ns tr">
