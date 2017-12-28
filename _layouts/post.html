@@ -3,7 +3,7 @@ layout: base
 ---
 
 <header class="cf measure-wide center">  
-  <h1 class="f-subheadline fw7 black lh-title mb5">{{ page.title }}</h1>
+  <h1 class="f2 f1-ns f-subheadline-l fw7 black lh-title mb5">{{ page.title }}</h1>
 
   <p class="f7 ttu tracked-mega mono light-silver mb4">
     <time>{{ page.date | date: "%d %m %Y" }}</time> • Tags: {{ page.tags }} 
@@ -15,6 +15,6 @@ layout: base
 </article>
 
 <section class="cf measure-wide center mb5">
-    <h2 class="f5 dark-red mb3">Talvez você se interesse por...</h2>
+    <h2 class="dark-red f5 fw7 mb2">Talvez você se interesse por...</h2>
 	{% include posts.html %}
 </section>
