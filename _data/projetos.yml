@@ -2,16 +2,16 @@
 
 - nome: Datbike
   imagem: ../assets/images/datbike/01_datbike-cover.jpg
-  link: /projeto_datbike.html
+  link: /datbike/
 
 - nome: Dodoievski
   imagem: ../assets/images/dodoievski/01_dodoievski-cover.jpg
-  link: /projeto_dodoievski.html
+  link: /dodoievski/
 
 - nome: Quintal Zen
   imagem: ../assets/images/quintalzen/01_quintalzen-cover.jpg
-  link: /projeto_quintalzen.html
+  link: /quintalzen/
 
 - nome: WikiAves
   imagem: ../assets/images/wikiaves/01_wikiaves-cover.jpg
-  link: /projeto_wikiaves.html
+  link: /wikiaves/
