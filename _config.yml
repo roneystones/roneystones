@@ -1,10 +1,11 @@
 name:              Roney Stones
-title:             Designer Digital desde 2002
+title:             Full Stack Designer & Freelancer
+author:            Roney Stones
 email:             roneylacerda@gmail.com
-description:       Full Stack Designer. Data, Design e Front-end. Em busca de uma internet mais rápida e acessível.
+description:       Full Stack Designer & Freelancer - Data, Design e Front-end. Em busca de uma internet mais rápida e acessível
 
-baseurl:           "" # the subpath of your site, e.g. /blog
-url:               "http://roneystones.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl:           ""
+url:               "http://roneystones.github.io"
 permalink:         "/:categories/:title/" 
 
 markdown: kramdown
@@ -12,10 +13,16 @@ markdown: kramdown
 include: 
   - _pages
 
-exclude:
-  - package.json
-  - node_modules
-  - gulpfile.js
-
-plugins:
-  - jekyll-minifier
+exclude: [
+  "node_modules",
+  "LICENSE",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "gulpfile.babel.js",
+  ".babelrc",
+  ".gitignore",
+  "sass",
+  "scss",
+  "validate"
+]
