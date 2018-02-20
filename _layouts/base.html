@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  {% include head.html %}
+
+  <body class="dark-gray f6 f5-ns f4-l lh-copy">
+    {% include nav.html %}
+
+    <main class="mh3">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+    {% include analytics.html %}
+
+    <script async src="{{ 'assets/scripts/main.min.js' | relative_url }}"></script>
+  </body>
+</html>

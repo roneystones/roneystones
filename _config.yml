@@ -1,22 +1,26 @@
-name: Roney Stones
-title: Roney Stones
-email: roneylacerda@gmail.com
-description: Data + Design + Front-end. Em busca de uma internet mais rápida e acessível.
-baseurl: ''
-url: ''
-permalink: /:title/
-twitter_username: roneystones
-github_username: roneystones
-markdown: kramdown
-highlighter: rouge
+name:              Roney Stones
+title:             Full Stack Designer & Freelancer
+author:            Roney Stones
+email:             roneylacerda@gmail.com
+description:       Full Stack Designer & Freelancer - Data, Design e Front-end. Em busca de uma internet mais rápida e acessível
 
-include:
+baseurl:           ""
+url:               "http://roneystones.github.io"
+permalink:         "/:categories/:title/" 
+
+markdown: kramdown
+
+include: 
   - _pages
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - node_modules
-  - gulpfile.js
-plugins:
-  - jekyll-feed
+
+exclude: [
+  "node_modules",
+  "LICENSE",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "gulpfile.babel.js",
+  ".babelrc",
+  ".gitignore",
+  "validate"
+]

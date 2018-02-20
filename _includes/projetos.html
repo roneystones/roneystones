@@ -1,0 +1,5 @@
+{% for projeto in site.data.projetos %}
+	<a href="{{ projeto.link }}" class="fl w-50 w-25-l link overflow-hidden">
+	  <div role="img" aria-label="{{ projeto.nome }}" class="grow aspect-ratio--1x1" style="background: url({{ projeto.imagem }}) no-repeat center center; background-size: cover;"></div>
+	</a>
+{% endfor %}

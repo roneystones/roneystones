@@ -1,22 +1,17 @@
 @charset "utf-8";
-
-@import "reset";
 @import "normalize";
+@import "reset";
 @import "syntax";
+@import "tachyons";
 
-html {
-  font-family: 'Fira Sans', sans-serif;
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 article p {
-  margin-bottom: 30px;
-}
-article p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 60em) {
-  .lh-0-l {
-    line-height: 0;
-  }
+article p:last-child {
+    margin-bottom: 0;
 }

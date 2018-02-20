@@ -1,0 +1,44 @@
+---
+layout: base
+title: Cursos e Certificados
+description: This is my awesome writup of this fantastic thing
+permalink: "/certificados/" 
+---
+
+<header class="cf measure-wide center mb5">
+  <h1 class="f2 f1-ns f-subheadline-l fw7 black lh-title">{{ page.title | escape }}</h1>
+</header>
+
+<section class="cf measure-wide center mb5">
+  <h2 class="dark-red f5 fw7 mb4 pb2 bb b--moon-gray">UX, Arquitetura e Design</h2>
+  <ul class="cf list pl0 mb5">
+    {% for certificado in site.data.certificados.ux %}
+      <li class="cf mb4">
+        <div class="w-100 fl-ns w-80-ns">
+          <p class="fw7 mb2">{{ certificado.curso }}</p>
+          <!-- <p class="f6 gray mb2 mb0-ns">{{ certificado.ano }} | <span class="i">{{ certificado.descricao }}</span></p> -->
+        </div>
+        
+        <div class="w-100 fl-ns w-20-ns tr-ns">
+          <a class="link" href="{{ post.url }}"><span class="f7 blue dim bb mr4 mono tracked">{{ certificado.onde }}</span></a>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="dark-red f5 fw7 mb4 pb2 bb b--moon-gray">Front-end, Development e outras ferramentas</h2>
+  <ul class="cf list pl0">
+    {% for certificado in site.data.certificados.frontend %}
+      <li class="cf mb4">
+        <div class="w-100 fl-ns w-80-ns">
+          <p class="fw7 mb2">{{ certificado.curso }}</p>
+          <!-- <p class="f6 gray mb2 mb0-ns">{{ certificado.ano }} | <span class="i">{{ certificado.descricao }}</span></p> -->
+        </div>
+        
+        <div class="w-100 fl-ns w-20-ns tr-ns">
+          <a class="link" href="{{ post.url }}"><span class="f7 blue dim bb mr4 mono tracked">{{ certificado.onde }}</span></a>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
