@@ -1,0 +1,27 @@
+name:              Roney Stones
+title:             Full Stack Designer & Freelancer
+author:            Roney Stones
+email:             roneylacerda@gmail.com
+description:       Full Stack Designer & Freelancer - Data, Design e Front-end. Em busca de uma internet mais rápida e acessível
+
+baseurl:           ""
+url:               "http://roneystones.github.io"
+permalink:         "/:categories/:title/" 
+
+markdown: kramdown
+
+include: 
+  - _pages
+  - _projects
+
+exclude: [
+  "node_modules",
+  "LICENSE",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "gulpfile.babel.js",
+  ".babelrc",
+  ".gitignore",
+  "validate"
+]

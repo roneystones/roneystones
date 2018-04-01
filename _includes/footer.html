@@ -1,0 +1,14 @@
+<footer class="cf bg-light-gray bt b--moon-gray pv5 ph3">
+  <div class="measure-wide center">
+    <h3 class="georgia i dark-red mb2">📪 Entre em contato:</h3>
+    <a href="#" class="f5 f2-ns fw7 link blue dim bb" target="_blank">{{ site.email }}</a>
+
+    <div class="cf mt4">
+      {% for social in site.data.social %}
+        <a class="link gray dim bg-transparent dib w2 pa1 mr3" href="{{ social.link }}" title="{{ social.nome }}" target="_blank">
+          {{ social.icone }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "normalize";
+@import "reset";
+@import "syntax";
+@import "tachyons";
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+article p {
+    margin-bottom: 2rem;
+}
+
+article p:last-child {
+    margin-bottom: 0;
+}

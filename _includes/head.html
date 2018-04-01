@@ -1,0 +1,46 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/images/favicons/apple-touch-icon.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/images/favicons/favicon-32x32.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/images/favicons/favicon-16x16.png" | relative_url }}">
+    <link rel="mask-icon" href="{{ "/images/favicons/safari-pinned-tab.svg" | relative_url }}" color="#5bbad5">
+
+    <title>{% if page.title %}{{ site.name }} • {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="designer, design, front-end, ux">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Portuguese">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="{{ canonicalUrl | trim }}" />
+    <meta property="og:title" content="{{ pageTitle | trim }}" />
+    <meta property="og:site_name" content="{{ site.name | trim }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/socialshare.jpg" /> 
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="600">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/socialshare.jpg">
+    <meta name="twitter:title" content="{{ pageTitle | trim }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:creator" content="@roneystones">
+
+
+    <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+</head>

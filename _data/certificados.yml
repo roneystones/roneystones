@@ -1,0 +1,61 @@
+ux: 
+  - ano: 2017
+    curso: "Rapid Prototyping: Building Apps for Web and Mobile"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/rapid-prototyping--ud723"
+
+  - ano: 2017
+    curso: "UX Design for Mobile Developers"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/ux-design-for-mobile-developers--ud849"
+
+  - ano: 2017
+    curso: "Product Design: Validation and UX through Design Sprints"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/product-design--ud509"
+
+  - ano: 2017
+    curso: "Product Design: The Delft Design Approach"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "edx.org"
+    link: "https://www.edx.org/course/product-design-delft-design-approach-delftx-dda691x-2"
+
+  - ano: 2017
+    curso: "Intro to the Design of Everyday Things"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/intro-to-the-design-of-everyday-things--design101"
+
+  - ano: 2017
+    curso: "Carreira UX (strategy, research, usability, microcopy & etc)"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Alura"
+    link: "https://www.alura.com.br/carreira-ux-designer"
+    
+  - ano: 2017
+    curso: "Digital Analytics Fundamentals"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "GoogleAcademy"
+    link: "https://analytics.google.com/analytics/academy/"
+
+frontend:
+  - ano: 2017
+    curso: "Lógica de programação I & II"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Alura"
+    link: "https://www.alura.com.br/carreira-iniciante-em-logica-de-programacao"
+
+  - ano: 2017
+    curso: "Performance Web I & II"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Alura"
+    link: "https://www.alura.com.br/curso-online-otimizacao-performance-web"
+
+  - ano: 2017
+    curso: "Introdução à Ciência da Computação"
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
+    onde: "Udacity"
+    link: "https://br.udacity.com/course/intro-to-computer-science--cs101"
