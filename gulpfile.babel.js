@@ -74,7 +74,7 @@ gulp.task('css', () => {
 
 // Compile scss to css.
 gulp.task('scss', () => {
-    return gulp.src('scss/main.scss')
+    return gulp.src('_scss/main.scss')
         .pipe($.sass({
             includePaths: ['css'],
             onError: browserSync.notify
@@ -94,19 +94,20 @@ gulp.task('serve', ['jekyll-build'], () => {
         port: 3000
     });
 
-    // Warch html changes.
+    // Watch html changes.
     gulp.watch([
         'assets/css/**/*.css',
         'assets/scripts/**/*.js',
         '_includes/**/*.html',
         '_layouts/**/*.html',
         '_pages/**/*.html',
+        '_projects/**/*.html',
         '_posts/**/*.md',
         'index.html'
     ], ['jekyll-build', browserSync.reload]);
 
     // Watch scss changes.
-    gulp.watch('scss/**/*.scss', ['scss']);
+    gulp.watch('_scss/**/*.scss', ['scss']);
 
     // Watch JavaScript changes.
     gulp.watch('_scripts/**/*.js', ['scripts']);
