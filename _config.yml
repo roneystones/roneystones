@@ -18,7 +18,6 @@ exclude: [
   "LICENSE",
   "package.json",
   "README.md",
-  "Gemfile",
   "gulpfile.babel.js",
   ".babelrc",
   ".gitignore",

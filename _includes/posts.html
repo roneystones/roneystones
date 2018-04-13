@@ -2,11 +2,12 @@
 	{% for post in site.posts %}
 		<li class="cf mb3 pb3 bb b--moon-gray">
 		  <div class="w-100 fl-ns w-80-ns">
-	    	<a class="link fw7 mb2" href="{{ post.url }}">{{ post.title }}</a>
+	    	<a class="link blue dim fw7 mb2" href="{{ post.url }}">{{ post.title }}</a>
 		  </div>
 
 		  <div class="w-100 fl-ns w-20-ns tr-ns">
-	    	<a class="link" href="{{ post.url }}"><span class="f7 blue dim bb mr4 mono tracked">{{ post.categories }}</span></a>
+	    	<p class="f7 ttu tracked-mega mono light-silver mt2 mr4">{{ post.date | date: "%m %Y" }}</p>
+	    	<!-- <a class="link" href="{{ post.url }}"><span class="f7 blue dim bb mr4 mono tracked">{{ post.categories }}</span></a> -->
 		  </div>
 		</li>
 	{% endfor %}

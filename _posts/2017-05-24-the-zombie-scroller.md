@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The Zombie Scroller"
-description: This is my awesome writup of this fantastic thing
+title: The Zombie Scroller
+description: The Zombie Scroller
 date: 2017-05-24 21:28:29 -0300
 author: Roney Stones
 categories: cat-teste
@@ -10,7 +10,7 @@ tags: tag-teste
 
 A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando é de seu interesse. Ao invés disso, apenas escaneiam (como rótulos de um produto no supermercado).
 
-Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso ["slow thinking"](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso <a class="link blue dim bb" href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">slow thinking</a>.
 
 Quanto mais pontos de atenção (focus points) o usuário localiza em uma página, mais energia se consome, causando desgaste.
 
@@ -22,11 +22,13 @@ Esse processo permite que o cérebro, mesmo em baixa atenção, consiga capturar
 
 Solução para o scrolling fatigue é criar conteúdo inesperado que se destaque de tempos em tempos. Reconquistar a atenção do usuário, mesmo que por um milésimo de segundo, acordando o cérebro e retomando atenção.
 
-Resumindo, manter o usuário o mais afastado possível do piloto automático.
+Resumindo: manter o usuário o mais afastado possível do piloto automático.
 
-* Usuários tem um limite quanto ao tempo de atenção
-* Usuários perdem foco conforme o tamanho do scroll
-* A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo
-* Usuários reagem a conteúdos imprevistos
+* Usuários tem um limite quanto ao tempo de atenção;
+* Usuários perdem foco conforme o tamanho do scroll;
+* A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo;
+* Usuários reagem a conteúdos imprevistos.
 
-[link](https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/)
+<p></p>
+
+Este é um resumo do artigo <a class="link blue dim bb" href="https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/">The UX of zombie scrollers and how to cure it</a>.

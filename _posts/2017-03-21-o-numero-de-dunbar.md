@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "O Número de Dunbar"
-description: Notas sobre a palestra “Connecting Anthropology and User Experience” na conferência UX Brighton de 2011
+title: O Número de Dunbar
+description: O Número de Dunbar
 date: 2017-03-26 21:31:29 -0300
 author: Roney Stones
 categories: cat-teste
 tags: tag-teste
 ---
+
+<!-- Notas sobre a palestra “Connecting Anthropology and User Experience” na conferência UX Brighton de 2011 -->
 
 Robin Dunbar é antropólogo especializado no estudo da evolução da sociabilidade. Seu trabalho é fundamental para Experiência do Usuário e suas descobertas significativas quando tratamos de projetar espaços sociais.
 

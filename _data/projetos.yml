@@ -1,17 +1,15 @@
----
+- nome: Detran
+  imagem: ../assets/images/loremipsum/projeto1.png
+  link: /detran/
 
-- nome: Datbike
-  imagem: ../assets/images/datbike/01_datbike-cover.jpg
-  link: /datbike/
+- nome: ActualSales
+  imagem: ../assets/images/loremipsum/projeto2.png
+  link: /actualsales/
 
-- nome: Dodoievski
-  imagem: ../assets/images/dodoievski/01_dodoievski-cover.jpg
-  link: /dodoievski/
-
-- nome: Quintal Zen
-  imagem: ../assets/images/quintalzen/01_quintalzen-cover.jpg
-  link: /quintalzen/
+- nome: Socorro Auto 24h
+  imagem: ../assets/images/loremipsum/projeto3.png
+  link: /detran/
 
 - nome: WikiAves
-  imagem: ../assets/images/wikiaves/01_wikiaves-cover.jpg
-  link: /wikiaves/
+  imagem: ../assets/images/loremipsum/projeto4.png
+  link: /actualsales/

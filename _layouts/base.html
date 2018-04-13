@@ -2,10 +2,14 @@
 <html lang="pt-br">
   {% include head.html %}
 
-  <body class="dark-gray f6 f5-ns f4-l lh-copy">
+  <body class="f6 f5-ns f4-l lh-copy near-black"> <!-- Talvez borda: bl bw2 bw5-ns b--blue -->
     {% include nav.html %}
 
-    <main class="mh3">
+    <main class="ph4">
+      <header class="cf w-90 center mb5">
+        <h1 class="f3 f2-ns f1-m f-subheadline-l fw7 black lh-title tl tc-l ma0">{{ page.description }}</h1>
+      </header>
+
       {{ content }}
     </main>
 
