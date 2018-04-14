@@ -1,0 +1,29 @@
+nav {
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 4rem;
+    border-bottom: 1px solid #ccc;
+
+    .logo {
+        color: #000;
+    }
+
+    a {
+        border-bottom: none;
+    }
+
+    ul {
+        display: flex;
+        margin: 0;
+    }
+
+    li {
+        margin-right: 4em;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

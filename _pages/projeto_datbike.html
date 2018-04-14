@@ -5,7 +5,11 @@ title: Datbike
 description: This is my awesome writup of this fantastic thing
 ---
 
-<div class="cf mb5">
+<header>
+  <h1 class="center">{{ page.description }}</h1>
+</header>
+
+<section class="cf">
   <div class="fl w-100 w-50-ns">
     <img src="../assets/images/datbike/02_datbike-mobile-landing.jpg">
   </div>
@@ -13,13 +17,13 @@ description: This is my awesome writup of this fantastic thing
   <div class="fl w-100 w-50-ns">
     <img src="../assets/images/datbike/03_datbike-mobile-quote.jpg">
   </div>
-</div>
+</section>
 
-<div class="cf mb5">
+<section class="cf">
 	<img src="../assets/images/datbike/04_datbike-screens.jpg">
-</div>
+</section>
 
-<section class="cf measure-wide center mb5">
+<section class="cf container-narrow">
   <blockquote class="ma0 pl4 bl bw2 b--dark-red">
     <p class="i mb3">
       Discipline in typography is a prime virtue. Individuality
@@ -32,8 +36,4 @@ description: This is my awesome writup of this fantastic thing
 
     <cite class="f6 ttu tracked">― Stanley Morison</cite>
   </blockquote>
-</section>
-
-<section class="cf mb5">
-  {% include projetos.html %}
 </section>

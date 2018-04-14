@@ -1,0 +1,11 @@
+.projetos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+        width: 50%;
+        border-bottom: none;
+        margin-bottom: 4rem;
+    }
+}

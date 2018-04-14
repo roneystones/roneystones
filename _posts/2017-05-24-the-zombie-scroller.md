@@ -10,7 +10,7 @@ tags: tag-teste
 
 A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando é de seu interesse. Ao invés disso, apenas escaneiam (como rótulos de um produto no supermercado).
 
-Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso <a class="link blue dim bb" href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">slow thinking</a>.
+Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">slow thinking</a>.
 
 Quanto mais pontos de atenção (focus points) o usuário localiza em uma página, mais energia se consome, causando desgaste.
 
@@ -31,4 +31,4 @@ Resumindo: manter o usuário o mais afastado possível do piloto automático.
 
 <p></p>
 
-Este é um resumo do artigo <a class="link blue dim bb" href="https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/">The UX of zombie scrollers and how to cure it</a>.
+Este é um resumo do artigo <a href="https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/">The UX of zombie scrollers and how to cure it</a>.

@@ -1,11 +1,11 @@
-<footer role="contentinfo" class="cf bg-near-white bt b--moon-gray pv5 ph4">
-  <div class="measure-wide center">
-    <h3 class="f5 orange b mb3">📪 Entre em contato:</h3>
-    <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)" class="f5 f2-ns fw7 link blue dim bb">{{ site.email }}</a>
+<footer role="contentinfo">
+  <div class="container-narrow">
+    <h3>📪 Entre em contato:</h3>
+    <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)" class="f5 f2-ns fw7">{{ site.email }}</a>
 
     <div class="cf mt4">
       {% for social in site.data.social %}
-        <a class="link gray dim bg-transparent dib w2 pa1 mr3" href="{{ social.link }}" title="{{ social.nome }}">
+        <a class="gray bg-transparent dib w2 pa1 mr3" href="{{ social.link }}" title="{{ social.nome }}">
           {{ social.icone }}
         </a>
       {% endfor %}

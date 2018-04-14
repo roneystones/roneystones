@@ -1,16 +1,17 @@
----
+--- 
 layout: base
 ---
 
-<article class="cf measure-wide center mb5">
-  <p class="f7 ttu tracked-mega mono light-silver mb4">
-    <time>{{ page.date | date: "%d %m %Y" }}</time><!--  • Tags: {{ page.tags }} --> 
-  </p>
+<header>
+	<h1 class="center">{{ page.description }}</h1>
+</header>
 
-  {{ content }}
+<article class="container-narrow ">
+	<!-- <time>{{ page.date | date: "%d %m %Y " }}</time> --><!--  • Tags: {{ page.tags }} --> 
+	{{ content }}
 </article>
 
-<section class="cf measure-wide center mb5">
-    <h2 class="f5 orange b mb4">Talvez você se interesse por...</h2>
+<section class="container-narrow ">
+	<h3>Talvez você se interesse por...</h3>
 	{% include posts.html %}
 </section>

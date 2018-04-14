@@ -5,8 +5,12 @@ title: Artigos
 description: Algumas anotações úteis para quem pula direto para o TL;DR
 ---
 
-<section class="cf measure-wide center mb5">
-  <p class="mb5">Assine <a class="link blue dim b bb b--blue" href="{{ "/feed.xml" | relative_url }}">via RSS</a> <!-- | <a class="link blue dim bb b--blue" href="/categorias.html">Ver todas categorias</a> --></p>
+<header>
+	<h1 class="center">{{ page.description }}</h1>
+</header>
+
+<section class="container-narrow">
+  <p>Assine <b><a href="{{ "/feed.xml" | relative_url }}">via RSS</a></b> <!-- | <a class="link blue dim bb b--blue" href="/categorias.html">Ver todas categorias</a> --></p>
 
   {% include posts.html %}
 </section>

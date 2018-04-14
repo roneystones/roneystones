@@ -1,0 +1,29 @@
+.posts_list {
+	li {
+		/* @extend %clearfix;*/
+
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #ccc;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&:last-child {
+	        border-bottom: none;
+	    }
+	
+		a {
+			font-weight: 700;
+			border-bottom: none;
+		}
+
+		p {
+			color: #aaa;
+			font-size: .75rem;
+			text-transform: uppercase;
+			letter-spacing: .25em;
+		}
+	}
+}

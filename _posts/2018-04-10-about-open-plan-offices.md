@@ -8,15 +8,15 @@ categories: cat-teste
 tags: tag-teste
 ---
 
-<blockquote class="db shadow-1 pa4 mb4" data-lang="pt"><p lang="en" dir="ltr">Open-plan offices have been found to reduce productivity and impair memory. They’re associated with high staff turnover. They make people sick, hostile, unmotivated, and insecure. Open-plan workers are more likely to argue more with their colleagues. <a class="link blue dim bb" href="https://t.co/fkz2g87iuu">pic.twitter.com/fkz2g87iuu</a></p>&mdash; Alina Manda (@comp2sch) <a class="link blue dim bb" href="https://twitter.com/comp2sch/status/982627553658724353?ref_src=twsrc%5Etfw">7 de abril de 2018</a></blockquote>
+<blockquote class="db shadow-1 pa4 mb4" data-lang="pt"><p lang="en" dir="ltr">Open-plan offices have been found to reduce productivity and impair memory. They’re associated with high staff turnover. They make people sick, hostile, unmotivated, and insecure. Open-plan workers are more likely to argue more with their colleagues. <a class="link dim" href="https://t.co/fkz2g87iuu">pic.twitter.com/fkz2g87iuu</a></p>&mdash; Alina Manda (@comp2sch) <a class="link dim" href="https://twitter.com/comp2sch/status/982627553658724353?ref_src=twsrc%5Etfw">7 de abril de 2018</a></blockquote>
 
 Most of the time hotdesks are even worse than open-plan offices. People like “owning” space to keep toys and can’t live without carrying loads of stuff with them. Now think of an introvert with noise sensitivity issues.
 
 Maybe that's why many tech startups make poor decisions. The human brain can't operate at optimum level with multiple distractions.
 
-<blockquote class="db shadow-1 pa4 mb4" data-conversation="none" data-lang="pt"><p lang="en" dir="ltr">So people complain about cubicles... Then they complain when they are taken away. It isn&#39;t the environment, its the person.</p>&mdash; Nigel Williams (@sniperpenguin) <a class="link blue dim bb" href="https://twitter.com/sniperpenguin/status/982985186806829057?ref_src=twsrc%5Etfw">8 de abril de 2018</a></blockquote>
+<blockquote class="db shadow-1 pa4 mb4" data-conversation="none" data-lang="pt"><p lang="en" dir="ltr">So people complain about cubicles... Then they complain when they are taken away. It isn&#39;t the environment, its the person.</p>&mdash; Nigel Williams (@sniperpenguin) <a class="link dim" href="https://twitter.com/sniperpenguin/status/982985186806829057?ref_src=twsrc%5Etfw">8 de abril de 2018</a></blockquote>
 
-<blockquote class="db shadow-1 pa4 mb4" data-conversation="none" data-lang="pt"><p lang="en" dir="ltr">I hate my open plan office. My desk is connected to a desk thumper. Ruins my concentration constantly.</p>&mdash; sore AF (@andrewfergusson) <a class="link blue dim bb" href="https://twitter.com/andrewfergusson/status/983030447230914560?ref_src=twsrc%5Etfw">8 de abril de 2018</a></blockquote>
+<blockquote class="db shadow-1 pa4 mb4" data-conversation="none" data-lang="pt"><p lang="en" dir="ltr">I hate my open plan office. My desk is connected to a desk thumper. Ruins my concentration constantly.</p>&mdash; sore AF (@andrewfergusson) <a class="link dim" href="https://twitter.com/andrewfergusson/status/983030447230914560?ref_src=twsrc%5Etfw">8 de abril de 2018</a></blockquote>
 
 <p class="i">* A desk thumper is someone who hits the table while working. Generally strong enough to shake monitors.</p>
 
