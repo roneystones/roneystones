@@ -8,7 +8,7 @@ description:
 <section class="projetos">
     {% for projeto in site.data.projetos %}
         <a href="{{ projeto.link }}">
-          <img src="{{ projeto.imagem }}">
+          <img src="{{ projeto.imagem }}" alt="{{ projeto.nome }}">
         </a>
     {% endfor %}
 </section>

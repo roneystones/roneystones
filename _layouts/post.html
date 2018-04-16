@@ -6,12 +6,12 @@ layout: base
 	<h1 class="center">{{ page.description }}</h1>
 </header>
 
-<article class="container-narrow ">
-	<!-- <time>{{ page.date | date: "%d %m %Y " }}</time> --><!--  • Tags: {{ page.tags }} --> 
+<article class="container ">
+	<time>{{ page.date | date: "%d / %m / %Y " }}</time><!--  • Tags: {{ page.tags }} --> 
 	{{ content }}
 </article>
 
-<section class="container-narrow ">
+<section class="container ">
 	<h3>Talvez você se interesse por...</h3>
 	{% include posts.html %}
 </section>
