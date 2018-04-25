@@ -6,16 +6,9 @@ description:
 
 <header>
   <h1>Olá! Eu me chamo Roney Lacerda e sou Designer Digital desde 2002. Qualquer coisa <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)">é só me chamar</a> ✉</h1>
+  
+  <img src="https://images.unsplash.com/photo-1498814217031-5a856f4a18ac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4b9b223c190c586990eb70296fad0beb&auto=format&fit=crop&w=1950&q=80" alt="Roney Lacerda">
 </header>
-
-<!-- <section>
-  <h2>* Ou será melhor <b>UX Designer Senior</b>? Quem sabe <b>Full Stack Designer</b>?</h2>
-  <p>Enfim... sou apaixonado por pesquisa (UX), criação (Design) e desenvolvimento (Front-end).</p>
-</section> -->
-
-<section>
-   <img src="https://images.unsplash.com/photo-1498814217031-5a856f4a18ac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4b9b223c190c586990eb70296fad0beb&auto=format&fit=crop&w=1950&q=80" alt="Roney Lacerda">
-</section>
 
 <section class="container">
   <h3>Data, User Experience & Visual Design</h3>
@@ -28,23 +21,14 @@ description:
 <section class="cursos container">
   <h2>Cursos e Certificados</h2>
   
-  <p>Em 2006 eu me formei em <b>Design Digital</b> pelo Centro Universitário Íbero-americano. Depois cursei <b>Arquitetura de Informação</b> no Instituto Faber-Ludens e desde então concluí diversos cursos online. Listei aqui alguns que considero mais relevantes.</p>
+  <p>Em 2006 eu me formei em <b>Design Digital</b> pelo Centro Universitário Íbero-americano. Depois cursei <b>Arquitetura de Informação</b> no Instituto Faber-Ludens e desde então concluí diversos cursos online.</p>
 
-  <h3>UX, Arquitetura e Design</h3>
+  <p>Listei aqui alguns que considero mais relevantes dentre as disciplinas de UX, Design, Front-end e Development:</p>
+
   <ul>
     {% for certificado in site.data.certificados.ux %}
       <li>
-        <p>{{ certificado.curso }}</p>
-        <a href="{{ certificado.link }}">{{ certificado.onde }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <h3>Front-end, Development e outras ferramentas</h3>
-  <ul>
-    {% for certificado in site.data.certificados.frontend %}
-      <li>
-        <p>{{ certificado.curso }}</p>
+        <span>{{ certificado.curso }}</span>
         <a href="{{ certificado.link }}">{{ certificado.onde }}</a>
       </li>
     {% endfor %}

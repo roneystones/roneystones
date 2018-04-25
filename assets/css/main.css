@@ -50,6 +50,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* ==========================================================================
+  Variables
+========================================================================== */
+/* ==========================================================================
+  Classes
+========================================================================== */
 .center {
   display: block;
   margin: 0 auto;
@@ -79,6 +85,96 @@ table {
   margin: rem(40) rem(40);
   https://github.com/nicholasruggeri/px-to-rem-sass-mixin
 ========================================================================== */
+html {
+  font-size: 20px;
+  line-height: 35px; }
+
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.75em;
+  color: #111; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700; }
+
+h1,
+.h1 {
+  color: #000;
+  font-size: 4em;
+  line-height: 1.3125em;
+  margin-top: 0.875em;
+  margin-bottom: 0.4375em; }
+
+h2,
+.h2 {
+  font-size: 2em;
+  line-height: 1.75em;
+  margin-top: 1.75em;
+  margin-bottom: 0.875em; }
+
+h3,
+.h3 {
+  color: #ff6300;
+  font-size: 1em;
+  line-height: 1.75em;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em; }
+
+h4,
+.h4 {
+  font-size: 1em;
+  line-height: 1.75em;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em; }
+
+p,
+ul,
+ol,
+li,
+pre,
+table,
+blockquote {
+  margin-top: 0em;
+  margin-bottom: 1.75em; }
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 0em;
+  margin-bottom: 0em; }
+
+/* Let's make sure all's aligned */
+hr,
+.hr {
+  border: 1px solid;
+  margin: -1px 0; }
+
+a,
+b,
+i,
+strong,
+em,
+small,
+code {
+  line-height: 0; }
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
 ::selection {
   color: #fff;
   background: #ff6300; }
@@ -88,114 +184,68 @@ table {
   background: #ff6300; }
 
 body {
-  margin: 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: #111;
-  line-height: 1.75; }
-  @media (min-width: 46.25em) {
-    body {
-      font-size: 1.25em; } }
+  margin: auto; }
 
 nav {
-  max-width: 2440px;
-  font-size: .75em;
+  max-width: 1530px;
   font-weight: 700;
-  text-align: center;
   margin: 0 auto;
-  padding: 2rem;
-  border-bottom: 1px solid #ccc; }
+  padding: 2rem; }
   @media (min-width: 46.25em) {
     nav {
-      text-align: left;
-      padding: 2.5rem 4rem;
+      padding: 2.5rem 4rem 0 4rem;
       display: flex;
-      justify-content: space-between; } }
+      justify-content: space-between;
+      align-items: center; } }
   nav .logo {
-    color: #000; }
+    color: #000;
+    margin-right: 4rem; }
   nav a {
     border-bottom: none; }
   nav ul {
-    margin-top: 1.5rem;
     display: flex;
     justify-content: space-between; }
     @media (min-width: 46.25em) {
       nav ul {
-        margin-top: 0; } }
-  @media (min-width: 46.25em) {
-    nav li {
-      margin-right: 4rem; }
-      nav li:last-child {
-        margin-right: 0; } }
+        margin: 0; } }
+  nav li {
+    margin-bottom: 0; }
+    @media (min-width: 46.25em) {
+      nav li {
+        margin-right: 4rem; }
+        nav li:last-child {
+          margin-right: 0; } }
 
 main {
-  max-width: 2440px;
+  max-width: 1530px;
   margin: 0 auto;
   padding: 2rem; }
   @media (min-width: 46.25em) {
     main {
       padding: 4rem; } }
 
-header {
-  margin-bottom: 2em; }
-  @media (min-width: 46.25em) {
-    header {
-      margin-bottom: 4rem; } }
-  @media (min-width: 61.25em) {
-    header {
-      margin: 2rem 0 6rem 0; } }
-
+header,
 section,
 article {
   margin: 0 auto 2rem; }
+  header:last-child,
   section:last-child,
   article:last-child {
     margin-bottom: 0; }
   @media (min-width: 46.25em) {
+    header,
     section,
     article {
       margin: 0 auto 5rem; } }
-  section p:not(:last-child),
-  article p:not(:last-child) {
-    margin-bottom: 2.5rem; }
+  header time,
   section time,
   article time {
     display: block;
     color: #919191;
-    margin-bottom: 2rem; }
+    margin-bottom: 1.75em; }
 
 .container {
-  max-width: 34em; }
-
-h1,
-h2,
-h3 {
-  font-weight: 700;
-  line-height: 1.25; }
-
-h1 {
-  font-size: 1.75em;
-  color: #000;
-  margin: 0; }
-  @media (min-width: 46.25em) {
-    h1 {
-      font-size: 3em; } }
-  @media (min-width: 61.25em) {
-    h1 {
-      font-size: 4em; } }
-  @media (min-width: 81.25em) {
-    h1 {
-      font-size: 5em; } }
-
-h2 {
-  margin-bottom: 1.5rem; }
-  @media (min-width: 46.25em) {
-    h2 {
-      font-size: 2em; } }
-
-h3 {
-  color: #ff6300;
-  font-size: 1em;
-  margin-bottom: 1rem; }
+  max-width: 38em; }
 
 a {
   color: #357edd;
@@ -211,25 +261,14 @@ a {
 img {
   max-width: 100%; }
 
-.cursos h3 {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #ccc; }
-
-.cursos ul:not(:last-child) {
-  margin-bottom: 4rem; }
-
-.cursos li:not(:last-child) {
-  margin-bottom: 1rem; }
-
 @media (min-width: 46.25em) {
   .cursos li {
     display: flex;
     justify-content: space-between;
     align-items: center; } }
 
-.cursos li p {
-  font-weight: 700;
-  margin-bottom: 0; }
+.cursos li span {
+  font-weight: 700; }
 
 .cursos li a {
   font-size: .75em; }
@@ -247,31 +286,26 @@ img {
       width: 50%;
       border-bottom: none; } }
 
-.posts_list li:not(:last-child) {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+.posts_list li {
   border-bottom: 1px solid #ccc; }
-
-@media (min-width: 46.25em) {
-  .posts_list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; } }
-
-.posts_list li a {
-  font-weight: 700;
-  border-bottom: none; }
-
-.posts_list li p {
-  color: #aaa;
-  font-size: .5em;
-  text-transform: uppercase;
-  letter-spacing: .1em; }
+  @media (min-width: 46.25em) {
+    .posts_list li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; } }
+  .posts_list li a {
+    font-weight: 700;
+    border-bottom: none; }
+  .posts_list li p {
+    color: #aaa;
+    font-size: .5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 0; }
 
 footer {
   background-color: #f4f4f4;
   border-top: 1px solid #ccc;
-  margin: 0 auto;
   padding: 5rem 2rem; }
   @media (min-width: 46.25em) {
     footer {
@@ -281,11 +315,12 @@ footer {
   footer a {
     border-bottom: none; }
   footer .email {
-    font-size: 1.25em;
-    font-weight: 700; }
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.875em; }
     @media (min-width: 46.25em) {
       footer .email {
-        font-size: 2.5em; } }
+        font-size: 2em; } }
   footer .social_icons {
     margin-top: 2rem;
     display: flex;
@@ -293,7 +328,6 @@ footer {
     flex-wrap: wrap; }
     @media (min-width: 46.25em) {
       footer .social_icons {
-        margin-top: 0;
         justify-content: flex-start; } }
     footer .social_icons a {
       color: #515151;
