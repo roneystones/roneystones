@@ -34,9 +34,11 @@ A pesquisadora também revela que prever falhas e evitá-las na fase inicial res
 
 Diferente do que algumas pessoas acreditam, testes A/B não expõem os usuários à más experiências. Pelo contrário, os testes A/B nos mostram:
 
-* O que realmente pode ser considerado melhoria em uma alteração;
-* Elimina os “achismos” e os erros derivados da intuição;
-* Apresenta dados objetivos que justificam as decisões tomadas;	
+• O que realmente pode ser considerado melhoria em uma alteração;
+
+• Elimina os “achismos” e os erros derivados da intuição;
+
+• Apresenta dados objetivos que justificam as decisões tomadas;	
 
 Nós sempre nos deparamos com clientes que insistem em adicionar elementos, geralmente baseados em gostos pessoais, que quase sempre não são uma boa escolha. Uma alternativa para essa situação é propor um teste e termos a nossa chance de provarmos ou refutarmos essas intervenções.
 

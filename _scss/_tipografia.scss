@@ -1,15 +1,14 @@
 // https://gridlover.net/try
 
-html, {
-    font-size: 20px;
-    line-height: 35px;
-}
-
 body, {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 1.75em;
     color: $cor-texto;
+
+    @include mq($from: tablet) {
+        font-size: 1.25em;
+    }
 }
 
 h1,
@@ -19,27 +18,26 @@ h4 {
     font-weight: 700;
 }
 
-// h1,
-// .h1 {
-//     font-size: 8em;
-//     line-height: 1.09375em;
-//     margin-top: 0.875em;
-//     margin-bottom: 0.4375em;
-// }
-
 h1,
 .h1 {
     color: #000;
-    font-size: 4em;
-    line-height: 1.3125em;
+    font-size: 1.5em;
+    line-height: 1.5em;
     margin-top: 0.875em;
-    margin-bottom: 0.4375em;
+    margin-bottom: 1.4375em;
+
+    @include mq($from: tablet) {
+        font-size: 4em;
+        line-height: 1.3125em;
+        margin-top: 0.875em;
+        margin-bottom: 0.4375em;
+    }
 }
 
 h2,
 .h2 {
     font-size: 2em;
-    line-height: 1.75em;
+    line-height: 1.25em;
     margin-top: 1.75em;
     margin-bottom: 0.875em;
 }
@@ -50,7 +48,7 @@ h3,
     font-size: 1em;
     line-height: 1.75em;
     margin-top: 1.75em;
-    margin-bottom: 1.75em;
+    margin-bottom: 0.875em;
 }
 
 h4,
@@ -80,9 +78,6 @@ ol ul {
     margin-bottom: 0em;
 }
 
-
-/* Let's make sure all's aligned */
-
 hr,
 .hr {
     border: 1px solid;
@@ -96,7 +91,7 @@ strong,
 em,
 small,
 code {
-    line-height: 0;
+    line-height: 1;
 }
 
 sub,

@@ -6,6 +6,8 @@ description:
 
 <header>
   <h1>Olá! Eu me chamo Roney Lacerda e sou Designer Digital desde 2002. Qualquer coisa <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)">é só me chamar</a> ✉</h1>
+
+  <!-- Full Stack Designer: is a term recently coined to describe cross-disciplinary designers skilled in UX Research (research, wireframing), Design (visual, UI, interaction, motion) as well as Front-End Development (HTML/CSS/js, prototyping) -->
   
   <img src="https://images.unsplash.com/photo-1498814217031-5a856f4a18ac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4b9b223c190c586990eb70296fad0beb&auto=format&fit=crop&w=1950&q=80" alt="Roney Lacerda">
 </header>
@@ -15,18 +17,18 @@ description:
   <p>Acredito no design que soluciona problemas com foco em resultados. Por isso, busco aplicar Testes AB e fazer uso de métricas como base para futuros insights. Possuo Google Analytics Certification e, como designer, meu objetivo é entender o comportamento dos usuários, suas motivações e identificar oportunidades de crescimento.</p>
 
   <h3>Também tenho interesse em... (hobbies e estudos)</h3>
-  <p>Data Visualization, Data UX, estatística, filosofia e desenvolvimento front-end — Mantenho um <a href="https://github.com/roneystones/learning-chest">repositório</a> e uma conta no <a href="https://codepen.io/roneystones/">Codepen</a> com meus estudos, lá você encontra brincadeiras com Sass, Javascript, Gulp, Angular (em breve Vue.js e D3.js) e outros.</p>
+  <p>Data Visualization, Data UX, estatística, filosofia e desenvolvimento front-end — Mantenho um <a href="https://github.com/roneystones/learning-chest">repositório</a> e uma conta no <a href="https://codepen.io/roneystones/">Codepen</a> com meus estudos, lá você encontra brincadeiras com Sass, Javascript, Gulp (em breve Vue.js e D3.js) e outros.</p>
 </section>
 
 <section class="cursos container">
-  <h2>Cursos e Certificados</h2>
+  <h2>Alguns cursos e certificados</h2>
   
   <p>Em 2006 eu me formei em <b>Design Digital</b> pelo Centro Universitário Íbero-americano. Depois cursei <b>Arquitetura de Informação</b> no Instituto Faber-Ludens e desde então concluí diversos cursos online.</p>
 
   <p>Listei aqui alguns que considero mais relevantes dentre as disciplinas de UX, Design, Front-end e Development:</p>
 
   <ul>
-    {% for certificado in site.data.certificados.ux %}
+    {% for certificado in site.data.certificados %}
       <li>
         <span>{{ certificado.curso }}</span>
         <a href="{{ certificado.link }}">{{ certificado.onde }}</a>
