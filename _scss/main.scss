@@ -19,7 +19,7 @@ nav {
     font-size: 75%;
     font-weight: 700;
     padding: 2rem;
-    
+
     @include mq($from: tablet) {
         padding: 2.5rem 4rem;
         display: flex;
