@@ -1,18 +1,16 @@
 ---
 layout: base
-title: Diário
-description: Anotações úteis para quem pula direto para o TL;DR
-permalink: "/artigos/" 
+permalink: /artigos/
+title: Artigos
+description: Algumas anotações úteis para quem pula direto para o TL;DR
 ---
 
-<header class="cf measure-wide center mb5">
-  <h1 class="f2 f1-ns fw7 black lh-title">{{ page.description }}</h1>
-  <!-- <h2 class="i">Anotações úteis para quem pula direto para o TL;DR</h2> -->
+<header>
+	<h1 class="center">{{ page.description }}</h1>
 </header>
 
-<section class="cf measure-wide center mb5">
-  {% include posts.html %}
+<section class="container">
+  <p>Assine <b><a href="{{ "/feed.xml" | relative_url }}">via RSS</a></b> <!-- | <a class="link blue dim bb b--blue" href="/categorias.html">Ver todas categorias</a> --></p>
 
-  <!-- <p class="cf mt4"><a class="f6 link blue dim bb b--blue" href="/categorias.html">Ver todas categorias</a></p> -->
-  <p class="cf mt4">Assine <a class="f6 link blue dim bb b--blue" href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {% include posts.html %}
 </section>

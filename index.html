@@ -1,25 +1,38 @@
 ---
 layout: base
-title: Designer Digital* desde 2002
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: Designer Digital desde 2002
+description: 
 ---
 
-<header class="cf measure-wide center mb5">
-  <h1 class="f2 f1-ns f-subheadline-l fw7 black lh-title mb4">{{ page.title }}</h1>
-
-  <h2 class="mb4">Bem-vindo(a). Eu me chamo Roney Lacerda, sou de São Paulo e trabalho com pesquisa (UX), criação (design) e desenvolvimento (front-end). Atualmente sou UX e coordenador de criação <a class="link blue dim bb" href="/actualsales/">na ActualSales</a>. Confira abaixo alguns projetos recentes e qualquer coisa <a class="link blue dim bb" href="mailto:roneylacerda@gmail.com">é só me chamar</a> ✉</h2>
-
-  <h2 class="f6 mb4 silver tracked">* ou será melhor <span class="i">UX Designer Senior</span>? Quem sabe <span class="i">Full Stack Designer</span>?</h2>
+<header>
+  <h1>Olá! Eu me chamo Roney Lacerda e sou Designer Digital desde 2002. Qualquer coisa <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)">é só me chamar</a> ✉</h1>
 </header>
 
-<section class="cf mb5">
-  {% include projetos.html %}
+<section class="container">
+  <img src="../assets/images/roneystones.jpg" alt="Roney Lacerda">
+
+  <h3>Data, User Experience & Visual Design</h3>
+  <p>Eu sempre fui um designer multidisciplinar ou o que alguns chamam de perfil "T-Shaped". Isso quer dizer que eu estudo constantemente UX (pesquisa, wireframing), Design (visual, interação) e desenvolvimento Front-end (HTML, CSS, JS).</p>
+
+  <p>Acredito no design que soluciona problemas com foco em resultados. Por isso, busco aplicar Testes AB e fazer uso de métricas como base para futuros insights. Possuo Google Analytics Certification e, como designer, meu objetivo é entender o comportamento dos usuários, suas motivações e identificar oportunidades de crescimento.</p>
+
+  <h3>Também tenho interesse em... (hobbies e estudos)</h3>
+  <p>Data Visualization, Data UX, estatística, filosofia e literatura — Mantenho um <a href="https://github.com/roneystones/learning-chest">repositório</a> e uma conta no <a href="https://codepen.io/roneystones/">Codepen</a> com meus estudos, lá você encontra brincadeiras com Sass, Javascript, Gulp (em breve Vue.js e D3.js) e outros.</p>
 </section>
 
-<section class="cf measure-wide center mb5">
-  <h3 class="georgia i dark-red mb2">Data, User Experience & Visual Design</h3>
-  <p class="mb5">Acredito no design que soluciona problemas com foco em resultados. Por isso, busco aplicar Testes AB e fazer uso de métricas como base para futuros insights. Possuo Google Analytics Certification e, como designer, meu objetivo é entender o comportamento dos usuários, suas motivações e identificar oportunidades de crescimento.</p>
+<section class="cursos container">
+  <h2>Alguns cursos e certificados</h2>
+  
+  <p>Em 2006 eu me formei em <b>Design Digital</b> pelo Centro Universitário Íbero-americano. Depois cursei <b>Arquitetura de Informação</b> no Instituto Faber-Ludens e desde então concluí diversos cursos online.</p>
 
-  <h3 class="georgia i dark-red mb2">Também tenho interesse em... (hobbies e estudos)</h3>
-  <p>Data Visualization, Data UX, estatística, filosofia e desenvolvimento front-end — Mantenho um <a class="link blue dim bb" href="https://github.com/roneystones/learning-chest">repositório</a> e uma conta no <a class="link blue dim bb" href="https://codepen.io/roneystones/#">Codepen</a> com meus estudos, lá você encontra brincadeiras com Sass, Javascript, Gulp, Angular (em breve Vue.js e D3.js) e outros.</p>
+  <p>Listei aqui alguns que considero mais relevantes dentre as disciplinas de UX, Design, Front-end e Development:</p>
+
+  <ul>
+    {% for certificado in site.data.certificados %}
+      <li>
+        <span>{{ certificado.curso }}</span>
+        <a href="{{ certificado.link }}">{{ certificado.onde }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 </section>

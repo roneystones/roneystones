@@ -1,0 +1,114 @@
+/* ==========================================================================
+  Variables
+========================================================================== */
+
+$width-maximo: 1530px;
+
+$cor-texto: #111;
+$cor-primaria: #357edd; //azul
+$cor-secundaria: #ff6300; //laranja
+$borda: 1px solid #ccc;
+
+
+
+
+/* ==========================================================================
+  Classes
+========================================================================== */
+
+.center {
+    @include mq($from: tablet) {
+      text-align: center;
+    }
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.shadow {
+    box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2);
+}
+
+
+
+
+
+/* ==========================================================================
+  Extend usage
+  @extend %nome;
+========================================================================== */
+
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+
+    & {
+        zoom: 1;
+    }
+}
+
+
+
+
+
+/* ==========================================================================
+  Usage
+  input {
+    @include input-placeholder {
+      color: [value];
+    }
+  }
+========================================================================== */
+
+@mixin input-placeholder {
+    &.placeholder {
+        @content;
+    }
+    &:-moz-placeholder {
+        @content;
+    }
+    &::-moz-placeholder {
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+    &::-webkit-input-placeholder {
+        @content;
+    }
+}
+
+
+
+
+
+/* ==========================================================================
+  PX to REM Usage:
+  font-size: rem(20)
+  margin: rem(40) rem(40);
+  https://github.com/nicholasruggeri/px-to-rem-sass-mixin
+========================================================================== */
+
+@function strip-units($value) {
+    @return ($value / ($value * 0 + 1));
+}
+
+@function rem($pxval) {
+    @if not unitless($pxval) {
+        $pxval: strip-units($pxval);
+    }
+
+    $base: $text-size;
+    @if not unitless($base) {
+        $base: strip-units($base);
+    }
+    @return ($pxval / $base) * 1rem;
+}

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Códigos comentados"
-description: This is my awesome writup of this fantastic thing
+title: Códigos comentados
+description: Códigos comentados
 date: 2017-07-05 22:09:00 -0300
 author: Roney Stones
 categories: cat-teste

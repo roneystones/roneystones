@@ -99,6 +99,7 @@ gulp.task('serve', ['jekyll-build'], () => {
         'assets/css/**/*.css',
         'assets/scripts/**/*.js',
         '_includes/**/*.html',
+        'data/**/*.yml',
         '_layouts/**/*.html',
         '_pages/**/*.html',
         '_projects/**/*.html',
@@ -163,7 +164,7 @@ gulp.task('deploy', () => {
         'minify-html',
         'css',
         'minify-images',
-        'gh-pages',
+        // 'gh-pages',
         'revert-config'
     )
 });

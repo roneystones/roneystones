@@ -1,17 +1,15 @@
----
-
-- nome: Detran
-  imagem: ../assets/images/detran/01_detran-cover.jpg
-  link: /detran/
-
 - nome: ActualSales
-  imagem: ../assets/images/actualsales/01_actualsales-cover.jpg
+  imagem: ../assets/images/actualsales/01_actualsales-cover.png
   link: /actualsales/
 
-- nome: Socorro Auto 24h
-  imagem: ../assets/images/socorroauto/01_socorroauto-cover.jpg
-  link: "#"
+- nome: Detran
+  imagem: ../assets/images/detran/01_detran-cover.png
+  link: /detran/
+
+# - nome: Socorro Auto 24h
+#   imagem: ../assets/images/loremipsum/projeto3.png
+#   link: /detran/
 
 # - nome: WikiAves
-#   imagem: ../assets/images/wikiaves/01_wikiaves-cover.jpg
-#   link: /wikiaves/
+#   imagem: ../assets/images/loremipsum/projeto4.png
+#   link: /actualsales/
