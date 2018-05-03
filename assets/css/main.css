@@ -99,42 +99,28 @@ h3,
 h4 {
   font-weight: 700; }
 
-h1,
-.h1 {
+h1 {
   color: #000;
   font-size: 1.5em;
-  line-height: 1.5em;
-  margin-top: 0.875em;
-  margin-bottom: 1.4375em; }
+  line-height: 1.5em; }
   @media (min-width: 46.25em) {
-    h1,
-    .h1 {
+    h1 {
       font-size: 4em;
-      line-height: 1.3125em;
-      margin-top: 0.875em;
-      margin-bottom: 0.4375em; } }
+      line-height: 1.2em; } }
 
-h2,
-.h2 {
+h2 {
   font-size: 2em;
-  line-height: 1.25em;
-  margin-top: 1.75em;
-  margin-bottom: 0.875em; }
+  line-height: 1.2em;
+  margin-top: 4rem;
+  margin-bottom: 2rem; }
 
-h3,
-.h3 {
+h3 {
   color: #ff6300;
   font-size: 1em;
-  line-height: 1.75em;
-  margin-top: 1.75em;
-  margin-bottom: 0.875em; }
+  margin-bottom: .5rem; }
 
-h4,
-.h4 {
-  font-size: 1em;
-  line-height: 1.75em;
-  margin-top: 1.75em;
-  margin-bottom: 1.75em; }
+h4 {
+  font-size: 1em; }
 
 p,
 ul,
@@ -187,23 +173,19 @@ sub {
   color: #fff;
   background: #ff6300; }
 
-body {
-  margin: auto; }
-
 nav {
   max-width: 1530px;
+  font-size: 75%;
   font-weight: 700;
-  margin: 0 auto;
   padding: 2rem; }
   @media (min-width: 46.25em) {
     nav {
-      padding: 2.5rem 4rem 0 4rem;
+      padding: 2.5rem 4rem;
       display: flex;
       justify-content: space-between;
       align-items: center; } }
   nav .logo {
-    color: #000;
-    margin-right: 4rem; }
+    color: #000; }
   nav a {
     border-bottom: none; }
   nav ul {
@@ -222,26 +204,27 @@ nav {
           margin-right: 0; } }
 
 main {
-  max-width: 1530px;
-  margin: 0 auto;
-  padding: 0 2rem 2rem 2rem; }
+  max-width: 1530px; }
+
+header {
+  padding: 2rem; }
   @media (min-width: 46.25em) {
-    main {
+    header {
       padding: 4rem; } }
 
-header,
 section,
 article {
-  margin: 0 auto 2rem; }
-  header:last-child,
+  padding: 2rem 2rem 0 2rem; }
   section:last-child,
   article:last-child {
-    margin-bottom: 0; }
+    margin-bottom: 2rem; }
   @media (min-width: 46.25em) {
-    header,
     section,
     article {
-      margin: 0 auto 5rem; } }
+      padding: 4rem 0 0 0; }
+      section:last-child,
+      article:last-child {
+        margin-bottom: 4rem; } }
 
 time {
   display: block;
@@ -253,7 +236,8 @@ figure {
   margin-bottom: 1.75em; }
 
 .container {
-  width: 38em; }
+  max-width: 36em;
+  margin: 0 auto; }
 
 a {
   color: #357edd;
@@ -267,59 +251,70 @@ a {
     transition: opacity .15s ease-out; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  margin-bottom: 1.75em; }
 
 @media (min-width: 46.25em) {
-  .cursos li {
+  li {
     display: flex;
     justify-content: space-between;
-    align-items: center; } }
+    align-items: baseline; } }
 
-.cursos li span {
+@media (min-width: 46.25em) {
+  li .space {
+    content: "";
+    display: block;
+    border-bottom: 1px dotted #ccc;
+    flex: 1 1 auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    min-width: 1em; } }
+
+.courses ul {
+  margin-top: 4rem; }
+
+.courses li span:first-child {
   font-weight: 700; }
 
-.cursos li a {
+.courses li span:last-child {
+  color: #919191;
+  font-size: .6em;
+  letter-spacing: .1em; }
+
+.courses li a {
   font-size: .75em; }
 
-.projetos a {
+.projects a {
   display: block;
   margin-bottom: 2rem; }
 
 @media (min-width: 46.25em) {
-  .projetos {
+  .projects {
     display: flex;
     align-items: center;
     flex-wrap: wrap; }
-    .projetos a {
+    .projects a {
       width: 50%;
       border-bottom: none; } }
 
-.posts_list li {
-  border-bottom: 1px solid #ccc; }
-  @media (min-width: 46.25em) {
-    .posts_list li {
-      display: flex;
-      justify-content: space-between;
-      align-items: center; } }
-  .posts_list li a {
-    font-weight: 700;
-    border-bottom: none; }
-  .posts_list li p {
-    color: #aaa;
-    font-size: .5em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    margin: 0; }
+.posts_list li a {
+  font-weight: 700;
+  border-bottom: none; }
+
+.posts_list li p {
+  color: #919191;
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 0; }
 
 footer {
   background-color: #f4f4f4;
   border-top: 1px solid #ccc;
-  padding: 5rem 2rem; }
+  padding: 2rem; }
   @media (min-width: 46.25em) {
     footer {
-      padding: 5rem 4rem; } }
-  footer div {
-    margin: 0 auto; }
+      padding: 4rem; } }
   footer a {
     border-bottom: none; }
   footer .email {

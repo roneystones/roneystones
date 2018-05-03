@@ -5,34 +5,36 @@ description:
 ---
 
 <header>
-  <h1>Olá! Eu me chamo Roney Lacerda e sou Designer Digital desde 2002. Qualquer coisa <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)">é só me chamar</a> ✉</h1>
+  <h1>Hello! My name is Roney Lacerda and I've been Digital Designer since 2002. If you need to <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)">just call me</a> ✉</h1>
 </header>
 
 <section class="container">
-  <img src="../assets/images/roneystones.jpg" alt="Roney Lacerda">
-
-  <h3>Data, User Experience & Visual Design</h3>
-  <p>Eu sempre fui um designer multidisciplinar ou o que alguns chamam de perfil "T-Shaped". Isso quer dizer que eu estudo constantemente UX (pesquisa, wireframing), Design (visual, interação) e desenvolvimento Front-end (HTML, CSS, JS).</p>
-
-  <p>Acredito no design que soluciona problemas com foco em resultados. Por isso, busco aplicar Testes AB e fazer uso de métricas como base para futuros insights. Possuo Google Analytics Certification e, como designer, meu objetivo é entender o comportamento dos usuários, suas motivações e identificar oportunidades de crescimento.</p>
-
-  <h3>Também tenho interesse em... (hobbies e estudos)</h3>
-  <p>Data Visualization, Data UX, estatística, filosofia e literatura — Mantenho um <a href="https://github.com/roneystones/learning-chest">repositório</a> e uma conta no <a href="https://codepen.io/roneystones/">Codepen</a> com meus estudos, lá você encontra brincadeiras com Sass, Javascript, Gulp (em breve Vue.js e D3.js) e outros.</p>
-</section>
-
-<section class="cursos container">
-  <h2>Alguns cursos e certificados</h2>
+  <img class="shadow" src="../assets/images/roneystones.jpg" alt="Roney Lacerda">
   
-  <p>Em 2006 eu me formei em <b>Design Digital</b> pelo Centro Universitário Íbero-americano. Depois cursei <b>Arquitetura de Informação</b> no Instituto Faber-Ludens e desde então concluí diversos cursos online.</p>
+  <h3>Data, User Experience & Visual Design</h3>
+  <p>I've always been a cross-disciplinary designer - or what they call a "T-Shaped" profile - so I study constantly to be skilled in UX (research, wireframing), Design (visual, interaction) and Front-End Development (HTML, CSS, JS). I really enjoy to keep up with all the creative ecosystem.</p>
 
-  <p>Listei aqui alguns que considero mais relevantes dentre as disciplinas de UX, Design, Front-end e Development:</p>
+  <p>I truly believe that the term <span style="font-style: italic">design</span> is strong enough to translate every step of a creative process, from research to the delivery of a project. I may seem a bit orthodox, but many of the fancy job titles we see today are the result of a dangerous fragmentation or desperate professionals to stand out in some way.</p>
 
-  <ul>
-    {% for certificado in site.data.certificados %}
-      <li>
-        <span>{{ certificado.curso }}</span>
-        <a href="{{ certificado.link }}">{{ certificado.onde }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  <h3>I am also interested in ... (hobbies and studies)</h3>
+  <p>Data Visualization, Data UX, Statistics, Philosophy, and Literature — I maintain a <a href="https://github.com/roneystones/learning-chest">repository</a> and an account in <a href="https://codepen.io/roneystones/">Codepen</a> with my studies, there you find some experiments with Sass, Javascript, Gulp (soon Vue.js and D3.js) and others.</p>
+  
+  <div class="courses">
+    <h2>Some courses and certificates</h2>
+    
+    <p>In 2006 I graduated in <b>Design Digital</b> at the Centro Universitário Íbero-americano. Then I studied <b>Information Architecture</b> at the Instituto Faber-Ludens and since then I have completed several online courses.</p>
+
+    <p>I have listed here some that I consider being most relevant among the disciplines of UX, Design, Front-end, and Development:</p>
+
+    <ul>
+      {% for course in site.data.courses %}
+        <li>
+          <span>{{ course.curso }}</span>
+          <span class="space"></span>
+          <span>{{ course.onde }}</span>
+          <!-- <a href="{{ course.link }}">{{ course.onde }}</a> -->
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>

@@ -2,7 +2,7 @@
 @import "vendor/reset";
 @import "vendor/mq";
 @import "utilities";
-@import "tipografia";
+@import "typography";
 
 ::selection {
     color: #fff;
@@ -14,18 +14,14 @@
     background: $cor-secundaria;
 }
 
-body {
-    margin: auto;
-}
-
 nav {
     max-width: $width-maximo;
+    font-size: 75%;
     font-weight: 700;
-    margin: 0 auto;
-    padding: 2rem; 
+    padding: 2rem;
     
     @include mq($from: tablet) {
-        padding: 2.5rem 4rem 0 4rem;
+        padding: 2.5rem 4rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -33,7 +29,6 @@ nav {
 
     .logo {
         color: #000;
-        margin-right: 4rem;
     }
 
     a {
@@ -65,25 +60,30 @@ nav {
 
 main {
     max-width: $width-maximo;
-    margin: 0 auto;
-    padding: 0 2rem 2rem 2rem;
+}
+
+header {
+    padding: 2rem;
 
     @include mq($from: tablet) {
         padding: 4rem;
     }
 }
 
-header,
 section,
 article {
-    margin: 0 auto 2rem;
+    padding: 2rem 2rem 0 2rem;
 
     &:last-child {
-        margin-bottom: 0;
+        margin-bottom: 2rem;
     }
 
     @include mq($from: tablet) {
-        margin: 0 auto 5rem;
+        padding: 4rem 0 0 0;
+
+        &:last-child {
+            margin-bottom: 4rem;
+        }
     }
 }
 
@@ -99,11 +99,12 @@ figure {
 }
 
 .container {
-    width: 38em;
+    max-width: $width-conteudo;
+    margin: 0 auto;
 }
 
 a {
-    color: $cor-primaria; // font-weight: bold;
+    color: $cor-primaria;
     text-decoration: none;
     border-bottom: 1px solid $cor-primaria;
 
@@ -120,18 +121,41 @@ a {
 
 img {
     max-width: 100%;
+    margin-bottom: 1.75em
 }
 
-.cursos {
-    li {
-        @include mq($from: tablet) {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+li {
+    @include mq($from: tablet) {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 
-        span {
+    .space {
+        @include mq($from: tablet) {
+            content: "";
+            display: block;
+            border-bottom: 1px dotted #ccc;
+            flex: 1 1 auto;
+            margin-right: 1rem;
+            margin-left: 1rem;
+            min-width: 1em;
+        }
+    }
+}
+
+.courses {
+    ul {
+        margin-top: 4rem;
+    }
+    li {
+        span:first-child {
             font-weight: 700;
+        }
+        span:last-child {
+            color: lighten($cor-texto, 50%);
+            font-size: .6em;
+            letter-spacing: .1em;
         }
 
         a {
@@ -140,7 +164,7 @@ img {
     }
 }
 
-.projetos {
+.projects {
     a {
         display: block;
         margin-bottom: 2rem;
@@ -160,22 +184,14 @@ img {
 
 .posts_list {
     li {
-        border-bottom: $borda;
-
-        @include mq($from: tablet) {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
         a {
             font-weight: 700;
             border-bottom: none;
         }
 
         p {
-            color: #aaa;
-            font-size: .5em;
+            color: lighten($cor-texto, 50%);
+            font-size: .6em;
             text-transform: uppercase;
             letter-spacing: .1em;
             margin: 0;
@@ -186,14 +202,10 @@ img {
 footer {
     background-color: #f4f4f4;
     border-top: $borda;
-    padding: 5rem 2rem;
+    padding: 2rem;
 
     @include mq($from: tablet) {
-        padding: 5rem 4rem;
-    }
-
-    div {
-        margin: 0 auto;
+        padding: 4rem;
     }
 
     a {

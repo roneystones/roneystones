@@ -17,7 +17,7 @@
   link: "https://www.edx.org/course/product-design-delft-design-approach-delftx-dda691x-2"
 
 - ano: 2017
-  curso: "Carreira UX (strategy, research, usability, microcopy & etc)"
+  curso: "UX Career (strategy, research, usability, microcopy & etc)"
   descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
   onde: "Alura"
   link: "https://www.alura.com.br/carreira-ux-designer"
@@ -35,13 +35,13 @@
   link: "https://www.alura.com.br/carreira-iniciante-em-logica-de-programacao"
 
 - ano: 2017
-  curso: "Performance Web I & II"
+  curso: "Web Performance I & II"
   descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
   onde: "Alura"
   link: "https://www.alura.com.br/curso-online-otimizacao-performance-web"
 
 - ano: 2017
-  curso: "Introdução à Ciência da Computação"
+  curso: "Intro to Computer Science"
   descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam libero perspiciatis, aut nemo dolor inventore quos saepe mollitia, sapiente porro tempora, facere itaque animi non tempore doloremque molestias. Non?"
   onde: "Udacity"
   link: "https://br.udacity.com/course/intro-to-computer-science--cs101"
