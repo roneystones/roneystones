@@ -1,15 +1,15 @@
 - nome: Detran
-  imagem: ../assets/images/loremipsum/projeto1.png
+  imagem: ../assets/images/detran/01_detran-cover.png
   link: /detran/
 
 - nome: ActualSales
-  imagem: ../assets/images/loremipsum/projeto2.png
+  imagem: ../assets/images/actualsales/01_actualsales-cover.png
   link: /actualsales/
 
 - nome: Socorro Auto 24h
   imagem: ../assets/images/loremipsum/projeto3.png
-  link: /detran/
+  link: /#/
 
 - nome: WikiAves
   imagem: ../assets/images/loremipsum/projeto4.png
-  link: /actualsales/
+  link: /#/
