@@ -253,7 +253,7 @@ figure {
   margin-bottom: 1.75em; }
 
 .container {
-  max-width: 38em; }
+  width: 38em; }
 
 a {
   color: #357edd;

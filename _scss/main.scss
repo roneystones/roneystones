@@ -22,8 +22,7 @@ nav {
     max-width: $width-maximo;
     font-weight: 700;
     margin: 0 auto;
-    padding: 2rem;
-    // border-bottom: $borda;
+    padding: 2rem; 
     
     @include mq($from: tablet) {
         padding: 2.5rem 4rem 0 4rem;
@@ -46,7 +45,7 @@ nav {
         justify-content: space-between;
         margin: 1rem 0 0 0;
 
-         @include mq($from: tablet) {
+        @include mq($from: tablet) {
             margin: 0;
         }
     }
@@ -100,7 +99,7 @@ figure {
 }
 
 .container {
-    max-width: 38em;
+    width: 38em;
 }
 
 a {
