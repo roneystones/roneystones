@@ -1,0 +1,14 @@
+---
+layout: base
+permalink: /projects/
+title: Projects
+description:
+---
+
+<section class="projects">
+    {% for project in site.data.projects %}
+        <a href="{{ project.link }}">
+          <img src="{{ project.imagem }}" alt="{{ project.nome }}">
+        </a>
+    {% endfor %}
+</section>

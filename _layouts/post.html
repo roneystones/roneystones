@@ -3,15 +3,15 @@ layout: base
 ---
 
 <header>
-	<h1 class="center">{{ page.description }}</h1>
+	<div class="container">
+		<h1>{{ page.description }}</h1>
+	</div>
 </header>
 
-<article class="container ">
+<article class="container">
 	<time>{{ page.date | date: "%d / %m / %Y " }}</time><!--  • Tags: {{ page.tags }} --> 
+	
 	{{ content }}
-</article>
-
-<section class="container ">
-	<h3>Talvez você se interesse por...</h3>
+	
 	{% include posts.html %}
-</section>
+</article>
