@@ -18,6 +18,7 @@ nav {
     max-width: $width-maximo;
     font-size: 75%;
     font-weight: 700;
+    margin: 0 auto;
     padding: 2rem;
 
     @include mq($from: tablet) {
@@ -60,6 +61,7 @@ nav {
 
 main {
     max-width: $width-maximo;
+    margin: 0 auto;
 }
 
 header {

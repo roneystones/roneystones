@@ -10,7 +10,7 @@ tags: tag-teste
 
 A maioria dos usuários não leem todo o conteúdo de uma página, mesmo quando é de seu interesse. Ao invés disso, apenas escaneiam (como rótulos de um produto no supermercado).
 
-Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">slow thinking</a>.
+Escaneamos o conteúdo porque buscamos pelo menor esforço mental, focando apenas no que é mais importante. Escaneamos até encontrar alguma palavra-chave que capture nossa atenção para ativarmos nosso [slow thinking](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow).
 
 Quanto mais pontos de atenção (focus points) o usuário localiza em uma página, mais energia se consome, causando desgaste.
 
@@ -24,11 +24,9 @@ Solução para o scrolling fatigue é criar conteúdo inesperado que se destaque
 
 Resumindo: manter o usuário o mais afastado possível do piloto automático.
 
-* Usuários tem um limite quanto ao tempo de atenção;
-* Usuários perdem foco conforme o tamanho do scroll;
-* A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo;
-* Usuários reagem a conteúdos imprevistos.
+• Usuários tem um limite quanto ao tempo de atenção;  
+• Usuários perdem foco conforme o tamanho do scroll;  
+• A fadiga faz o usuário abandonar a página ou perder inportantes informações para a compreensão do conteúdo;  
+• Usuários reagem a conteúdos imprevistos.
 
-<p></p>
-
-Este é um resumo do artigo <a href="https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/">The UX of zombie scrollers and how to cure it</a>.
+Este é um resumo do artigo [The UX of zombie scrollers and how to cure it](https://www.sitepoint.com/the-ux-of-zombie-scrollers-and-how-to-cure-it/).
