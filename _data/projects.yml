@@ -6,18 +6,18 @@
   imagem: ../assets/images/actualsales/01_actualsales-cover.jpg
   link: /actualsales/
 
-- nome: Socorro Auto 24h
-  imagem: ../assets/images/loremipsum/projeto1.jpg
-  link: /#/
+# - nome: Socorro Auto 24h
+#   imagem: ../assets/images/loremipsum/projeto1.jpg
+#   link: /#/
 
-- nome: WikiAves
-  imagem: ../assets/images/loremipsum/projeto2.jpg
-  link: /#/
+# - nome: WikiAves
+#   imagem: ../assets/images/loremipsum/projeto2.jpg
+#   link: /#/
 
-- nome: Socorro Auto 24h
-  imagem: ../assets/images/loremipsum/projeto3.jpg
-  link: /#/
+# - nome: Socorro Auto 24h
+#   imagem: ../assets/images/loremipsum/projeto3.jpg
+#   link: /#/
 
-- nome: WikiAves
-  imagem: ../assets/images/loremipsum/projeto4.jpg
-  link: /#/
+# - nome: WikiAves
+#   imagem: ../assets/images/loremipsum/projeto4.jpg
+#   link: /#/
