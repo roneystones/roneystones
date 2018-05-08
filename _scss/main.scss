@@ -14,6 +14,20 @@
     background: $cor-secundaria;
 }
 
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
 nav {
     max-width: $width-maximo;
     font-size: 75%;
@@ -100,6 +114,16 @@ figure {
     margin-bottom: 1.75em;
 }
 
+blockquote {
+    background-color: $cor-cinza;
+    border-left: 5px solid $cor-secundaria;
+    padding: 2rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
 .container {
     max-width: $width-conteudo;
     margin: 0 auto;
@@ -167,20 +191,30 @@ li {
 }
 
 .projects {
+    @extend %clearfix;
+
     a {
-        display: block;
-        margin-bottom: 2rem;
+        border: none;
     }
 
-    @include mq($from: tablet) {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+    // img {
+    //     margin: -1em;
+    // }
+}
 
-        a {
-            width: 50%;
-            border-bottom: none;
-        }
+.column {
+    width: 100%;
+
+    @include mq($from: tablet) {
+        width: 50%;
+        float: left;
+        _display: inline;
+    }
+}
+
+.pr, .pl {
+     @include mq($from: tablet) {
+        padding: 0 1rem
     }
 }
 
@@ -202,7 +236,7 @@ li {
 }
 
 footer {
-    background-color: #f4f4f4;
+    background-color: $cor-cinza;
     border-top: $borda;
     padding: 2rem;
 

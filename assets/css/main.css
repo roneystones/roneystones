@@ -64,12 +64,22 @@ table {
   text-decoration: line-through; }
 
 .shadow {
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2); }
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2); }
 
 /* ==========================================================================
   Extend usage
   @extend %nome;
 ========================================================================== */
+.projects:before, .projects:after {
+  content: "";
+  display: table; }
+
+.projects:after {
+  clear: both; }
+
+.projects {
+  zoom: 1; }
+
 /* ==========================================================================
   Usage
   input {
@@ -173,6 +183,17 @@ sub {
   color: #fff;
   background: #ff6300; }
 
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+.cf {
+  *zoom: 1; }
+
 nav {
   max-width: 1530px;
   font-size: 75%;
@@ -237,6 +258,14 @@ figure {
   text-align: center;
   margin-bottom: 1.75em; }
 
+blockquote {
+  background-color: #f5f5f5;
+  border-left: 5px solid #ff6300;
+  padding: 2rem; }
+
+strong {
+  font-weight: 700; }
+
 .container {
   max-width: 36em;
   margin: 0 auto; }
@@ -287,17 +316,19 @@ img {
   font-size: .75em; }
 
 .projects a {
-  display: block;
-  margin-bottom: 2rem; }
+  border: none; }
+
+.column {
+  width: 100%; }
+  @media (min-width: 46.25em) {
+    .column {
+      width: 50%;
+      float: left;
+      _display: inline; } }
 
 @media (min-width: 46.25em) {
-  .projects {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap; }
-    .projects a {
-      width: 50%;
-      border-bottom: none; } }
+  .pr, .pl {
+    padding: 0 1rem; } }
 
 .posts_list li a {
   font-weight: 700;
@@ -311,7 +342,7 @@ img {
   margin: 0; }
 
 footer {
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
   border-top: 1px solid #ccc;
   padding: 2rem; }
   @media (min-width: 46.25em) {

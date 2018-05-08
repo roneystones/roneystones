@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Teste A/B na prática
-description: Teste A/B na prática
+title: "Teste A/B: o que aprendi na prática"
+description: "Teste A/B: o que aprendi na prática"
 date: 2017-09-04 22:09:00 -0300
 author: Roney Stones
 categories: cat-teste
