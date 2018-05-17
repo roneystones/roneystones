@@ -1,7 +1,9 @@
-// https://gridlover.net/try
-body,
-{
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+.huge {
+    font-size: 3em;
+}
+
+body {
+    font-family: $font-texto;
     font-size: 1em;
     line-height: 1.75em;
     color: $cor-texto;
@@ -11,21 +13,18 @@ body,
     }
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, .h1, h2, h3 {
+    font-family: $font-titulo;
     font-weight: 700;
 }
 
-h1 {
-    color: #000;
+h1, .h1 {
     font-size: 1.5em;
-    line-height: 1.5em;
+    line-height: 1.4em;
+    margin-bottom: 1.75em;
 
     @include mq($from: tablet) {
-        font-size: 4em;
-        line-height: 1.2em;
+        font-size: 2em;
     }
 }
 
@@ -37,13 +36,9 @@ h2 {
 }
 
 h3 {
-    color: $cor-secundaria;
+    color: $cor-primaria;
     font-size: 1em;
     margin-bottom: .5rem;
-}
-
-h4 {
-    font-size: 1em;
 }
 
 p,

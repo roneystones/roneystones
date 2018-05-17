@@ -66,18 +66,29 @@ table {
 .shadow {
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2); }
 
+.destaque {
+  color: #ff6300; }
+
 /* ==========================================================================
   Extend usage
   @extend %nome;
 ========================================================================== */
-.projects:before, .projects:after {
+nav, main, footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem; }
+  @media (min-width: 46.25em) {
+    nav, main, footer .container {
+      padding: 4rem; } }
+
+.row:before, .row:after {
   content: "";
   display: table; }
 
-.projects:after {
+.row:after {
   clear: both; }
 
-.projects {
+.row {
   zoom: 1; }
 
 /* ==========================================================================
@@ -94,8 +105,11 @@ table {
   margin: rem(40) rem(40);
   https://github.com/nicholasruggeri/px-to-rem-sass-mixin
 ========================================================================== */
+.huge {
+  font-size: 3em; }
+
 body {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1em;
   line-height: 1.75em;
   color: #111; }
@@ -103,20 +117,17 @@ body {
     body {
       font-size: 1.25em; } }
 
-h1,
-h2,
-h3,
-h4 {
+h1, .h1, h2, h3 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
-h1 {
-  color: #000;
+h1, .h1 {
   font-size: 1.5em;
-  line-height: 1.5em; }
+  line-height: 1.4em;
+  margin-bottom: 1.75em; }
   @media (min-width: 46.25em) {
-    h1 {
-      font-size: 4em;
-      line-height: 1.2em; } }
+    h1, .h1 {
+      font-size: 2em; } }
 
 h2 {
   font-size: 2em;
@@ -128,9 +139,6 @@ h3 {
   color: #ff6300;
   font-size: 1em;
   margin-bottom: .5rem; }
-
-h4 {
-  font-size: 1em; }
 
 p,
 ul,
@@ -183,71 +191,22 @@ sub {
   color: #fff;
   background: #ff6300; }
 
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table; }
-
-.cf:after {
-  clear: both; }
-
-.cf {
-  *zoom: 1; }
-
 nav {
-  max-width: 1530px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 75%;
-  font-weight: 700;
-  margin: 0 auto;
-  padding: 2rem; }
-  @media (min-width: 46.25em) {
-    nav {
-      padding: 2.5rem 4rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; } }
+  font-weight: 700; }
   nav .logo {
-    color: #000; }
-  nav a {
+    color: #000;
     border-bottom: none; }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem 0 0 0; }
-    @media (min-width: 46.25em) {
-      nav ul {
-        margin: 0; } }
   nav li {
-    margin: 0 2rem 0 0; }
+    display: inline-block;
+    margin-right: 2rem;
+    margin-bottom: 0; }
     @media (min-width: 46.25em) {
       nav li {
         margin-right: 4rem; }
         nav li:last-child {
           margin-right: 0; } }
-
-main {
-  max-width: 1530px;
-  margin: 0 auto; }
-
-header {
-  padding: 2rem; }
-  @media (min-width: 46.25em) {
-    header {
-      padding: 4rem; } }
-
-section,
-article {
-  padding: 2rem 2rem 0 2rem; }
-  section:last-child,
-  article:last-child {
-    margin-bottom: 2rem; }
-  @media (min-width: 46.25em) {
-    section,
-    article {
-      padding: 4rem 0 0 0; }
-      section:last-child,
-      article:last-child {
-        margin-bottom: 4rem; } }
 
 time {
   display: block;
@@ -258,6 +217,10 @@ figure {
   text-align: center;
   margin-bottom: 1.75em; }
 
+img {
+  max-width: 100%;
+  margin-bottom: 1.75em; }
+
 blockquote {
   background-color: #f5f5f5;
   border-left: 5px solid #ff6300;
@@ -265,10 +228,6 @@ blockquote {
 
 strong {
   font-weight: 700; }
-
-.container {
-  max-width: 36em;
-  margin: 0 auto; }
 
 a {
   color: #357edd;
@@ -281,73 +240,49 @@ a {
     opacity: .8;
     transition: opacity .15s ease-out; }
 
-img {
-  max-width: 100%;
-  margin-bottom: 1.75em; }
+.posts_list, .projects_list {
+  font-family: "Roboto", Helvetica, Arial, sans-serif; }
+  .posts_list li a, .projects_list li a {
+    color: #111;
+    font-weight: 700;
+    border-bottom: none; }
+  .posts_list li p, .projects_list li p {
+    color: #919191;
+    font-size: .6em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 0; }
+  @media (min-width: 46.25em) {
+    .posts_list li, .projects_list li {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline; } }
+  @media (min-width: 46.25em) and (min-width: 46.25em) {
+    .posts_list li .space, .projects_list li .space {
+      content: "";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      flex: 1 1 auto;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      min-width: 1em; } }
 
-@media (min-width: 46.25em) {
-  li {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline; } }
-
-@media (min-width: 46.25em) {
-  li .space {
-    content: "";
-    display: block;
-    border-bottom: 1px dotted #ccc;
-    flex: 1 1 auto;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    min-width: 1em; } }
-
-.courses ul {
-  margin-top: 4rem; }
-
-.courses li span:first-child {
-  font-weight: 700; }
-
-.courses li span:last-child {
-  color: #919191;
-  font-size: .6em;
-  letter-spacing: .1em; }
-
-.courses li a {
-  font-size: .75em; }
-
-.projects a {
-  border: none; }
-
-.column {
+.row .column {
   width: 100%; }
   @media (min-width: 46.25em) {
-    .column {
+    .row .column {
       width: 50%;
       float: left;
       _display: inline; } }
 
 @media (min-width: 46.25em) {
-  .pr, .pl {
+  .row .pr, .row .pl {
     padding: 0 1rem; } }
 
-.posts_list li a {
-  font-weight: 700;
-  border-bottom: none; }
-
-.posts_list li p {
-  color: #919191;
-  font-size: .6em;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  margin: 0; }
-
 footer {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   background-color: #f5f5f5;
-  border-top: 1px solid #ccc;
-  padding: 2rem; }
-  @media (min-width: 46.25em) {
-    footer {
-      padding: 4rem; } }
+  border-top: 1px solid #ccc; }
   footer a {
     border-bottom: none; }
   footer .email {
@@ -360,11 +295,8 @@ footer {
   footer .social_icons {
     margin-top: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap; }
-    @media (min-width: 46.25em) {
-      footer .social_icons {
-        justify-content: flex-start; } }
     footer .social_icons a {
       color: #515151;
       background-color: transparent;

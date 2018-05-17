@@ -1,23 +1,29 @@
-- nome: Detran
-  imagem: ../assets/images/detran/01_detran-cover.jpg
-  link: /detran/
+- title: Redesign DetranSP
+  image: ../assets/images/detran/01_detran-cover.jpg
+  data: 2018
+  url: /detran/
 
-- nome: ActualSales
-  imagem: ../assets/images/actualsales/01_actualsales-cover.jpg
-  link: /actualsales/
+- title: Senior Designer at ActualSales
+  image: ../assets/images/actualsales/01_actualsales-cover.jpg
+  data: 2018
+  url: /actualsales/
 
-# - nome: Socorro Auto 24h
-#   imagem: ../assets/images/loremipsum/projeto1.jpg
-#   link: /#/
+- title: Socorro Auto 24h
+  image: ../assets/images/loremipsum/projeto1.jpg
+  data: 2018
+  url: /#/
 
-# - nome: WikiAves
-#   imagem: ../assets/images/loremipsum/projeto2.jpg
-#   link: /#/
+- title: DatBitke
+  image: ../assets/images/loremipsum/projeto2.jpg
+  data: 2018
+  url: /#/
 
-# - nome: Socorro Auto 24h
-#   imagem: ../assets/images/loremipsum/projeto3.jpg
-#   link: /#/
+- title: Socorro Auto 24h
+  image: ../assets/images/loremipsum/projeto3.jpg
+  data: 2018
+  url: /#/
 
-# - nome: WikiAves
-#   imagem: ../assets/images/loremipsum/projeto4.jpg
-#   link: /#/
+- title: WikiAves
+  image: ../assets/images/loremipsum/projeto4.jpg
+  data: 2018
+  url: /#/

@@ -6,62 +6,29 @@
 
 ::selection {
     color: #fff;
-    background: $cor-secundaria;
+    background: $cor-primaria;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: $cor-secundaria;
-}
-
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
-}
-
-.cf {
-    *zoom: 1;
+    background: $cor-primaria;
 }
 
 nav {
-    max-width: $width-maximo;
+    @extend %container;
+    font-family: $font-titulo;
     font-size: 75%;
     font-weight: 700;
-    margin: 0 auto;
-    padding: 2rem;
-
-    @include mq($from: tablet) {
-        padding: 2.5rem 4rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
     .logo {
         color: #000;
-    }
-
-    a {
         border-bottom: none;
     }
 
-    ul {
-        display: flex;
-        justify-content: space-between;
-        margin: 1rem 0 0 0;
-
-        @include mq($from: tablet) {
-            margin: 0;
-        }
-    }
-
     li {
-        margin: 0 2rem 0 0;
+        display: inline-block;
+        margin-right: 2rem;
+        margin-bottom: 0;
 
         @include mq($from: tablet) {
             margin-right: 4rem;
@@ -74,33 +41,7 @@ nav {
 }
 
 main {
-    max-width: $width-maximo;
-    margin: 0 auto;
-}
-
-header {
-    padding: 2rem;
-
-    @include mq($from: tablet) {
-        padding: 4rem;
-    }
-}
-
-section,
-article {
-    padding: 2rem 2rem 0 2rem;
-
-    &:last-child {
-        margin-bottom: 2rem;
-    }
-
-    @include mq($from: tablet) {
-        padding: 4rem 0 0 0;
-
-        &:last-child {
-            margin-bottom: 4rem;
-        }
-    }
+    @extend %container;
 }
 
 time {
@@ -114,9 +55,14 @@ figure {
     margin-bottom: 1.75em;
 }
 
+img {
+    max-width: 100%;
+    margin-bottom: 1.75em
+}
+
 blockquote {
     background-color: $cor-cinza;
-    border-left: 5px solid $cor-secundaria;
+    border-left: 5px solid $cor-primaria;
     padding: 2rem;
 }
 
@@ -124,15 +70,10 @@ strong {
     font-weight: 700;
 }
 
-.container {
-    max-width: $width-conteudo;
-    margin: 0 auto;
-}
-
 a {
-    color: $cor-primaria;
+    color: $cor-link;
     text-decoration: none;
-    border-bottom: 1px solid $cor-primaria;
+    border-bottom: 1px solid $cor-link;
 
     &:hover,
     &:focus {
@@ -145,82 +86,25 @@ a {
     }
 }
 
-img {
-    max-width: 100%;
-    margin-bottom: 1.75em
-}
+// .projects_list {
+//     font-family: $font-titulo;
 
-li {
-    @include mq($from: tablet) {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
+//     li {
+//         font-size: 2.5em;
 
-    .space {
-        @include mq($from: tablet) {
-            content: "";
-            display: block;
-            border-bottom: 1px dotted #ccc;
-            flex: 1 1 auto;
-            margin-right: 1rem;
-            margin-left: 1rem;
-            min-width: 1em;
-        }
-    }
-}
+//         a {
+//             font-weight: 700;
+//             border-bottom: none;
+//         }
+//     }
+// }
 
-.courses {
-    ul {
-        margin-top: 4rem;
-    }
-    li {
-        span:first-child {
-            font-weight: 700;
-        }
-        span:last-child {
-            color: lighten($cor-texto, 50%);
-            font-size: .6em;
-            letter-spacing: .1em;
-        }
-
-        a {
-            font-size: .75em;
-        }
-    }
-}
-
-.projects {
-    @extend %clearfix;
-
-    a {
-        border: none;
-    }
-
-    // img {
-    //     margin: -1em;
-    // }
-}
-
-.column {
-    width: 100%;
-
-    @include mq($from: tablet) {
-        width: 50%;
-        float: left;
-        _display: inline;
-    }
-}
-
-.pr, .pl {
-     @include mq($from: tablet) {
-        padding: 0 1rem
-    }
-}
-
-.posts_list {
+.posts_list, .projects_list {
+    font-family: $font-titulo;
+    
     li {
         a {
+            color: $cor-texto;
             font-weight: 700;
             border-bottom: none;
         }
@@ -232,16 +116,55 @@ li {
             letter-spacing: .1em;
             margin: 0;
         }
+        
+        @include mq($from: tablet) {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+    
+            .space {
+                @include mq($from: tablet) {
+                    content: "";
+                    display: block;
+                    border-bottom: $borda;
+                    flex: 1 1 auto;
+                    margin-right: 1rem;
+                    margin-left: 1rem;
+                    min-width: 1em;
+                }
+            }
+        }
     }
 }
 
+.row {
+    @extend %clearfix;
+    
+    .column {
+        width: 100%;
+
+        @include mq($from: tablet) {
+            width: 50%;
+            float: left;
+            _display: inline;
+        }
+    }
+
+    .pr, .pl {
+         @include mq($from: tablet) {
+            padding: 0 1rem
+        }
+    }
+}
+
+
 footer {
+    font-family: $font-titulo;
     background-color: $cor-cinza;
     border-top: $borda;
-    padding: 2rem;
 
-    @include mq($from: tablet) {
-        padding: 4rem;
+    .container {
+        @extend %container;
     }
 
     a {
@@ -261,12 +184,8 @@ footer {
     .social_icons {
         margin-top: 2rem;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
-
-        @include mq($from: tablet) {
-            justify-content: flex-start;
-        }
 
         a {
             color: lighten($cor-texto, 25%);
