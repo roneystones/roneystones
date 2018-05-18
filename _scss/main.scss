@@ -4,25 +4,25 @@
 @import "utilities";
 @import "typography";
 
-::selection {
-    color: #fff;
-    background: $cor-primaria;
-}
-
-::-moz-selection {
-    color: #fff;
-    background: $cor-primaria;
-}
-
 nav {
     @extend %container;
     font-family: $font-titulo;
-    font-size: 75%;
+    font-size: .6em;
     font-weight: 700;
+
+    @include mq($from: tablet) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .logo {
         color: #000;
         border-bottom: none;
+    }
+
+    ul {
+        margin-bottom: 0;
     }
 
     li {
@@ -42,71 +42,51 @@ nav {
 
 main {
     @extend %container;
-}
-
-time {
-    display: block;
-    color: lighten($cor-texto, 50%);
-    margin-bottom: 1.75em;
-}
-
-figure {
-    text-align: center;
-    margin-bottom: 1.75em;
-}
-
-img {
-    max-width: 100%;
-    margin-bottom: 1.75em
-}
-
-blockquote {
-    background-color: $cor-cinza;
-    border-left: 5px solid $cor-primaria;
-    padding: 2rem;
-}
-
-strong {
-    font-weight: 700;
-}
-
-a {
-    color: $cor-link;
-    text-decoration: none;
-    border-bottom: 1px solid $cor-link;
-
-    &:hover,
-    &:focus {
-        opacity: .5;
-        transition: opacity .15s ease-in;
-    }
-    &:active {
-        opacity: .8;
-        transition: opacity .15s ease-out;
-    }
-}
-
-// .projects_list {
-//     font-family: $font-titulo;
-
-//     li {
-//         font-size: 2.5em;
-
-//         a {
-//             font-weight: 700;
-//             border-bottom: none;
-//         }
-//     }
-// }
-
-.posts_list, .projects_list {
-    font-family: $font-titulo;
     
+    time,
+    .assine {
+        display: block;
+        font-family: $font-titulo;
+        font-size: 75%;
+        color: lighten($cor-texto, 50%);
+        margin-bottom: 2em;
+    }
+
+    figure {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    img {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    blockquote {
+        background-color: $cor-cinza;
+        border-left: 5px solid $cor-primaria;
+        padding: 2rem;
+        margin-bottom: 2em;
+    }
+    
+    strong {
+        font-weight: 700;
+    }
+}
+
+.posts_list,
+.projects_list {
+    font-family: $font-titulo;
+
     li {
+        margin-bottom: 1em;
+
         a {
+            // font-size: 2em;
             color: $cor-texto;
             font-weight: 700;
             border-bottom: none;
+            margin-bottom: 0;
         }
 
         p {
@@ -116,12 +96,12 @@ a {
             letter-spacing: .1em;
             margin: 0;
         }
-        
+
         @include mq($from: tablet) {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-    
+
             .space {
                 @include mq($from: tablet) {
                     content: "";
@@ -139,7 +119,7 @@ a {
 
 .row {
     @extend %clearfix;
-    
+
     .column {
         width: 100%;
 
@@ -150,13 +130,13 @@ a {
         }
     }
 
-    .pr, .pl {
-         @include mq($from: tablet) {
+    .pr,
+    .pl {
+        @include mq($from: tablet) {
             padding: 0 1rem
         }
     }
 }
-
 
 footer {
     font-family: $font-titulo;
@@ -169,16 +149,6 @@ footer {
 
     a {
         border-bottom: none;
-    }
-
-    .email {
-        font-size: 1.25em;
-        font-weight: 700;
-        margin-bottom: 0.875em;
-
-        @include mq($from: tablet) {
-            font-size: 2em;
-        }
     }
 
     .social_icons {

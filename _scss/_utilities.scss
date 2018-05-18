@@ -2,7 +2,7 @@
   Variables
 ========================================================================== */
 
-$width-maximo: 1200px;
+$width-maximo: 1000px;
 
 $font-titulo: 'Roboto', Helvetica, Arial, sans-serif;
 $font-texto: Georgia, Times, "Times New Roman", serif;
@@ -67,52 +67,15 @@ $borda: 1px solid #ccc;
 }
 
 /* ==========================================================================
-  Usage
-  input {
-    @include input-placeholder {
-      color: [value];
-    }
-  }
+  +
 ========================================================================== */
 
-@mixin input-placeholder {
-    &.placeholder {
-        @content;
-    }
-    &:-moz-placeholder {
-        @content;
-    }
-    &::-moz-placeholder {
-        @content;
-    }
-    &:-ms-input-placeholder {
-        @content;
-    }
-    &::-webkit-input-placeholder {
-        @content;
-    }
+::selection {
+    color: #fff;
+    background: $cor-primaria;
 }
 
-/* ==========================================================================
-  PX to REM Usage:
-  font-size: rem(20)
-  margin: rem(40) rem(40);
-  https://github.com/nicholasruggeri/px-to-rem-sass-mixin
-========================================================================== */
-
-@function strip-units($value) {
-  @return ($value / ($value * 0 + 1));
-}
-
-
-@function rem($pxval) {
-  @if not unitless($pxval) {
-    $pxval: strip-units($pxval);
-  }
-
-  $base: 16px;
-  @if not unitless($base) {
-    $base: strip-units($base);
-  }
-  @return ($pxval / $base) * 1rem;
+::-moz-selection {
+    color: #fff;
+    background: $cor-primaria;
 }
