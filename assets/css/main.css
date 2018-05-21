@@ -60,14 +60,12 @@ table {
   .center {
     text-align: center; } }
 
-.strike {
-  text-decoration: line-through; }
-
 .shadow {
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2); }
 
 .destaque {
-  color: #ff6300; }
+  color: #ff6300;
+  font-weight: 700; }
 
 /* ==========================================================================
   Extend usage
@@ -103,24 +101,23 @@ nav, main, footer .container {
   background: #ff6300; }
 
 body {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.75em;
   color: #111; }
   @media (min-width: 46.25em) {
     body {
-      font-size: 1.5em; } }
+      font-size: 1.25em; } }
 
 h1,
 h2,
 .big {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 h1,
 .big {
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.6em;
+  line-height: 1.6em;
   margin-bottom: 3rem; }
 
 h2 {
@@ -141,6 +138,7 @@ ol {
 
 a {
   color: #357edd;
+  font-weight: 700;
   text-decoration: none;
   border-bottom: 1px solid #357edd; }
   a:hover, a:focus {
@@ -151,8 +149,7 @@ a {
     transition: opacity .15s ease-out; }
 
 nav {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: .6em;
+  font-size: .75em;
   font-weight: 700; }
   @media (min-width: 46.25em) {
     nav {
@@ -177,7 +174,6 @@ nav {
 main time,
 main .assine {
   display: block;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 75%;
   color: #919191;
   margin-bottom: 2em; }
@@ -199,31 +195,28 @@ main blockquote {
 main strong {
   font-weight: 700; }
 
-.posts_list,
-.projects_list {
-  font-family: "Roboto", Helvetica, Arial, sans-serif; }
-  .posts_list li,
-  .projects_list li {
-    margin-bottom: 1em; }
-    .posts_list li a,
-    .projects_list li a {
-      color: #111;
-      font-weight: 700;
-      border-bottom: none;
-      margin-bottom: 0; }
-    .posts_list li p,
-    .projects_list li p {
-      color: #919191;
-      font-size: .6em;
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      margin: 0; }
-    @media (min-width: 46.25em) {
-      .posts_list li,
-      .projects_list li {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline; } }
+.posts_list li,
+.projects_list li {
+  margin-bottom: 1em; }
+  .posts_list li a,
+  .projects_list li a {
+    color: #111;
+    font-weight: 700;
+    border-bottom: none;
+    margin-bottom: 0; }
+  .posts_list li p,
+  .projects_list li p {
+    color: #919191;
+    font-size: .6em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 0; }
+  @media (min-width: 46.25em) {
+    .posts_list li,
+    .projects_list li {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline; } }
   @media (min-width: 46.25em) and (min-width: 46.25em) {
     .posts_list li .space,
     .projects_list li .space {
@@ -249,7 +242,6 @@ main strong {
     padding: 0 1rem; } }
 
 footer {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   background-color: #f5f5f5;
   border-top: 1px solid #ccc; }
   footer a {

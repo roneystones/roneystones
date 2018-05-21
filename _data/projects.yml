@@ -1,8 +1,3 @@
-- title: Redesign DetranSP
-  image: ../assets/images/detran/01_detran-cover.jpg
-  data: 2018
-  url: /detran/
-
 - title: Senior Designer at ActualSales
   image: ../assets/images/actualsales/01_actualsales-cover.jpg
   data: 2018
@@ -13,17 +8,12 @@
   data: 2018
   url: /#/
 
-- title: DatBitke
+- title: Medicare
   image: ../assets/images/loremipsum/projeto2.jpg
   data: 2018
   url: /#/
 
-- title: Socorro Auto 24h
-  image: ../assets/images/loremipsum/projeto3.jpg
+- title: Redesign DetranSP
+  image: ../assets/images/detran/01_detran-cover.jpg
   data: 2018
-  url: /#/
-
-- title: WikiAves
-  image: ../assets/images/loremipsum/projeto4.jpg
-  data: 2018
-  url: /#/
+  url: /detran/

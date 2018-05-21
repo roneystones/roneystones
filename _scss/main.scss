@@ -6,8 +6,7 @@
 
 nav {
     @extend %container;
-    font-family: $font-titulo;
-    font-size: .6em;
+    font-size: .75em;
     font-weight: 700;
 
     @include mq($from: tablet) {
@@ -46,7 +45,6 @@ main {
     time,
     .assine {
         display: block;
-        font-family: $font-titulo;
         font-size: 75%;
         color: lighten($cor-texto, 50%);
         margin-bottom: 2em;
@@ -76,8 +74,6 @@ main {
 
 .posts_list,
 .projects_list {
-    font-family: $font-titulo;
-
     li {
         margin-bottom: 1em;
 
@@ -139,7 +135,6 @@ main {
 }
 
 footer {
-    font-family: $font-titulo;
     background-color: $cor-cinza;
     border-top: $borda;
 

@@ -4,8 +4,7 @@
 
 $width-maximo: 1000px;
 
-$font-titulo: 'Roboto', Helvetica, Arial, sans-serif;
-$font-texto: Georgia, Times, "Times New Roman", serif;
+$font-base: 'Roboto', Helvetica, Arial, sans-serif;
 
 $cor-primaria: #ff6300; //laranja
 $cor-texto: #111;
@@ -23,16 +22,13 @@ $borda: 1px solid #ccc;
     }
 }
 
-.strike {
-    text-decoration: line-through;
-}
-
 .shadow {
     box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2);
 }
 
 .destaque {
     color: $cor-primaria;
+    font-weight: 700;
 }
 
 /* ==========================================================================
