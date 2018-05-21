@@ -1,57 +1,170 @@
 @charset "utf-8";
 @import "vendor/reset";
 @import "vendor/mq";
-@import "utilities";
-@import "typography";
 
-nav {
-    @extend %container;
-    font-family: $font-titulo;
-    font-size: .6em;
+
+/* ==========================================================================
+  Variables
+========================================================================== */
+
+$font-base: 'Roboto',
+Helvetica,
+Arial,
+sans-serif;
+
+$cor-primaria: #FF4136; //vermelho
+$cor-texto: #111;
+$cor-link: #357edd; //azul
+$cor-cinza: #f5f5f5;
+$borda: 1px solid #ccc;
+
+
+/* ==========================================================================
+  Classes
+========================================================================== */
+
+.container-narrow {
+    max-width: 42rem;
+}
+
+.shadow {
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2);
+}
+
+.destaque {
+    color: $cor-primaria;
     font-weight: 700;
+}
+
+
+/* ==========================================================================
+  Extend usage
+  @extend %nome;
+========================================================================== */
+
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+
+    & {
+        zoom: 1;
+    }
+}
+
+
+/* ==========================================================================
+  +
+========================================================================== */
+
+::selection {
+    color: #fff;
+    background: $cor-primaria;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: $cor-primaria;
+}
+
+
+/* ==========================================================================
+  Typography
+========================================================================== */
+
+body {
+    font-family: $font-base;
+    font-size: 1em;
+    line-height: 1.75em;
+    color: $cor-texto;
 
     @include mq($from: tablet) {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        font-size: 1.25em;
     }
+}
 
+h1,
+h2,
+.big {
+    font-weight: 700;
+}
+
+h1,
+.big {
+    font-size: 1.75em;
+    line-height: 1.5em;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.huge {
+    font-size: 4em;
+    line-height: 1.2em;
+}
+
+p,
+ul,
+ol {
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+
+a {
+    color: $cor-link;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid $cor-link;
+
+    &:hover,
+    &:focus {
+        opacity: .5;
+        transition: opacity .15s ease-in;
+    }
+    &:active {
+        opacity: .8;
+        transition: opacity .15s ease-out;
+    }
+}
+
+
+/* ==========================================================================
+  Main
+========================================================================== */
+
+nav,
+main,
+footer {
+    margin: 0 auto;
+    padding: 2rem;
+
+    @include mq($from: tablet) {
+        padding: 4rem 16rem;
+    }
+}
+
+nav {
     .logo {
-        color: #000;
+        font-size: .65em;
+        font-weight: 700;
+        color: $cor-texto;
+        letter-spacing: .05em;
         border-bottom: none;
-    }
-
-    ul {
-        margin-bottom: 0;
-    }
-
-    li {
-        display: inline-block;
-        margin-right: 2rem;
-        margin-bottom: 0;
-
-        @include mq($from: tablet) {
-            margin-right: 4rem;
-
-            &:last-child {
-                margin-right: 0;
-            }
-        }
     }
 }
 
 main {
-    @extend %container;
-    
-    time,
-    .assine {
-        display: block;
-        font-family: $font-titulo;
-        font-size: 75%;
-        color: lighten($cor-texto, 50%);
-        margin-bottom: 2em;
-    }
-
     figure {
         text-align: center;
         margin-bottom: 2em;
@@ -62,28 +175,19 @@ main {
         margin-bottom: 2em;
     }
 
-    blockquote {
-        background-color: $cor-cinza;
-        border-left: 5px solid $cor-primaria;
-        padding: 2rem;
-        margin-bottom: 2em;
-    }
-    
     strong {
         font-weight: 700;
     }
 }
 
-.posts_list,
 .projects_list {
-    font-family: $font-titulo;
-
+    margin-bottom: 4rem;
     li {
         margin-bottom: 1em;
 
         a {
             // font-size: 2em;
-            color: $cor-texto;
+            // color: $cor-texto;
             font-weight: 700;
             border-bottom: none;
             margin-bottom: 0;
@@ -139,13 +243,8 @@ main {
 }
 
 footer {
-    font-family: $font-titulo;
     background-color: $cor-cinza;
     border-top: $borda;
-
-    .container {
-        @extend %container;
-    }
 
     a {
         border-bottom: none;

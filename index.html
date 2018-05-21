@@ -4,12 +4,34 @@ title: Designer Digital desde 2002
 description: 
 ---
 
-<h1>Hello! <span class="destaque">My name is Roney Lacerda and I've been Digital Designer since 2002</span>. I've always been a cross-disciplinary designer, so I work to maintain my skills in <span class="destaque">User Experience</span> (research), <span class="destaque">Visual Design</span> (visual) and <span class="destaque">Front-End Development</span>. Yes, I really enjoy keeping up with the creative ecosystem.</h1>
+<header>
+	<h1>Hello! My name is <span class="destaque">Roney Lacerda</span> and I've been <span class="destaque">Digital Designer since 2002</span>. I've always been a cross-disciplinary designer, so I work to maintain my skills in <span class="destaque">User Experience</span>, <span class="destaque">Visual Design</span> and <span class="destaque">Front-End Development</span>. Yes, I really enjoy keeping up with the creative ecosystem.</h1>
+</header>
 
-<img class="shadow" src="../assets/images/roneystones.jpg" alt="Roney Lacerda">
+<section class="container-narrow">
+	<!-- <img class="shadow" src="../assets/images/roneystones.jpg" alt="Roney Lacerda"> -->
 
-<p>I am also interested in Data Visualization, Data UX, Statistics, Philosophy, and Literature — I maintain a <a href="https://github.com/roneystones/learning-chest">repository</a> and an account in <a href="https://codepen.io/roneystones/">Codepen</a> with my studies. There you can find some experiments with Sass, Javascript, Gulp (soon Vue.js and D3.js) and others.</p>
+	<p>In 2006 I graduated in <span class="destaque">Design Digital at the Centro Universitário Íbero-americano</span>. Then I studied <span class="destaque">Information Architecture at the Instituto Faber-Ludens</span> and since then I have completed several online courses among the disciplines of UX, Design and Front-end.</p>
 
-<p>In 2006 I graduated in <span class="destaque">Design Digital at the Centro Universitário Íbero-americano</span>. Then I studied <span class="destaque">Information Architecture at the Instituto Faber-Ludens</span> and since then I have completed several online courses among the disciplines of UX, Design and Front-end. I truly believe that the term <span style="font-style: italic">'design'</span> is strong enough to translate every step of a creative process, from research to the delivery of a project. I may seem a little orthodox, but I think that many of the fancy job titles that we see today are the result of dangerous fragmentation or desperate professionals to stand out in some way.</p>
+	<p>I am also interested in Data Visualization, Data UX, Statistics, Philosophy, and Literature — I maintain a <a href="https://github.com/roneystones/learning-chest">repository</a> and an account in <a href="https://codepen.io/roneystones/">Codepen</a> with my studies. There you can find some experiments with Sass, Javascript, Gulp (soon Vue.js and D3.js) and others.</p> 
+</section>
+
+<section>
+	<h2>Recent projects:</h2>
+
+	<ul class="projects_list">	
+		{% for project in site.data.projects %}
+		<li>
+			<a class="big" href="{{ project.url }}">{{ project.title }}</a>
+			<span class="space"></span>
+	    	<p>{{ project.data }}</p>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+
+<section class="container-narrow">
+	<p>I truly believe that the term <span style="font-style: italic">'design'</span> is strong enough to translate every step of a creative process, from research to the delivery of a project. I may seem a little orthodox, but I think that many of the fancy job titles that we see today are the result of dangerous fragmentation or desperate professionals to stand out in some way.</p>
+</section>
 
 <!-- if you need anything, <a href="mailto:roneylacerda@gmail.com?Subject=Olá!%20(contato%20pelo%20site)">call me</a> ✉ -->
