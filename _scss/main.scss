@@ -154,12 +154,39 @@ footer {
 }
 
 nav {
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: .75em;
+    font-weight: 700;
+
+    @include mq($from: tablet) {
+        padding: 2rem 10rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
     .logo {
-        font-size: .65em;
-        font-weight: 700;
-        color: $cor-texto;
-        letter-spacing: .05em;
+        color: #000;
         border-bottom: none;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 2rem;
+        margin-bottom: 0;
+
+        @include mq($from: tablet) {
+            margin-right: 4rem;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
     }
 }
 

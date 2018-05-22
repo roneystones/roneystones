@@ -153,12 +153,31 @@ footer {
     footer {
       padding: 5rem 10rem; } }
 
-nav .logo {
-  font-size: .65em;
-  font-weight: 700;
-  color: #111;
-  letter-spacing: .05em;
-  border-bottom: none; }
+nav {
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: .75em;
+  font-weight: 700; }
+  @media (min-width: 46.25em) {
+    nav {
+      padding: 2rem 10rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; } }
+  nav .logo {
+    color: #000;
+    border-bottom: none; }
+  nav ul {
+    margin-bottom: 0; }
+  nav li {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-bottom: 0; }
+    @media (min-width: 46.25em) {
+      nav li {
+        margin-right: 4rem; }
+        nav li:last-child {
+          margin-right: 0; } }
 
 main figure {
   text-align: center;
