@@ -1,0 +1,17 @@
+--- 
+layout: base
+---
+
+<header>
+	<h1 class="huge">{{ page.description }}</h1>
+</header>
+
+<article class="container-narrow">
+	<time>{{ page.date | date: "%d / %m / %Y " }}</time><!--  • Tags: {{ page.tags }} --> 
+	
+	{{ content }}
+	
+	<section>
+		{% include posts.html %}
+	</section>
+</article>

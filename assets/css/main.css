@@ -179,6 +179,13 @@ nav {
         nav li:last-child {
           margin-right: 0; } }
 
+main time,
+main .pre {
+  display: block;
+  font-size: 75%;
+  color: #919191;
+  margin-bottom: 2em; }
+
 main figure {
   text-align: center;
   margin-bottom: 2em; }
@@ -190,14 +197,18 @@ main img {
 main strong {
   font-weight: 700; }
 
+.posts_list,
 .projects_list {
   margin-bottom: 4rem; }
+  .posts_list li,
   .projects_list li {
     margin-bottom: 1em; }
+    .posts_list li a,
     .projects_list li a {
       font-weight: 700;
       border-bottom: none;
       margin-bottom: 0; }
+    .posts_list li p,
     .projects_list li p {
       color: #919191;
       font-size: .6em;
@@ -205,11 +216,13 @@ main strong {
       letter-spacing: .1em;
       margin: 0; }
     @media (min-width: 46.25em) {
+      .posts_list li,
       .projects_list li {
         display: flex;
         justify-content: space-between;
         align-items: baseline; } }
   @media (min-width: 46.25em) and (min-width: 46.25em) {
+    .posts_list li .space,
     .projects_list li .space {
       content: "";
       display: block;

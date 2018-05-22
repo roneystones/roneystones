@@ -7,10 +7,7 @@
   Variables
 ========================================================================== */
 
-$font-base: 'Roboto',
-Helvetica,
-Arial,
-sans-serif;
+$font-base: 'Roboto', Helvetica, Arial, sans-serif;
 
 $cor-primaria: #FF4136; //vermelho
 $cor-texto: #111;
@@ -191,6 +188,14 @@ nav {
 }
 
 main {
+    time,
+    .pre {
+        display: block;
+        font-size: 75%;
+        color: lighten($cor-texto, 50%);
+        margin-bottom: 2em;
+    }
+    
     figure {
         text-align: center;
         margin-bottom: 2em;
@@ -206,6 +211,7 @@ main {
     }
 }
 
+.posts_list,
 .projects_list {
     margin-bottom: 4rem;
     li {
