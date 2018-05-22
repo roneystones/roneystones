@@ -183,7 +183,7 @@ main {
     @extend %container;
     
     time,
-    .assine {
+    .pre {
         display: block;
         font-size: 75%;
         color: lighten($cor-texto, 50%);
