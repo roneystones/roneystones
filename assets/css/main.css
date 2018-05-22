@@ -66,6 +66,10 @@ table {
 .shadow {
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2); }
 
+.destaque {
+  color: #ff6300;
+  font-weight: 700; }
+
 /* ==========================================================================
   Extend usage
   @extend %nome;
@@ -272,6 +276,7 @@ strong {
 
 a {
   color: #357edd;
+  font-weight: 700;
   text-decoration: none;
   border-bottom: 1px solid #357edd; }
   a:hover, a:focus {
@@ -302,7 +307,7 @@ img {
     min-width: 1em; } }
 
 .courses ul {
-  margin-top: 4rem; }
+  margin-bottom: 4rem; }
 
 .courses li span:first-child {
   font-weight: 700; }
