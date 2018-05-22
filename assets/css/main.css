@@ -56,10 +56,6 @@ table {
 /* ==========================================================================
   Classes
 ========================================================================== */
-@media (min-width: 46.25em) {
-  .center {
-    text-align: center; } }
-
 .shadow {
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2); }
 
@@ -100,6 +96,9 @@ nav, main, footer .container {
   color: #fff;
   background: #ff6300; }
 
+/* ==========================================================================
+  Typography
+========================================================================== */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -127,7 +126,7 @@ h2 {
   margin-bottom: 3rem; }
 
 .huge {
-  font-size: 4em;
+  font-size: 2.5em;
   line-height: 1.2em; }
 
 p,
@@ -148,6 +147,9 @@ a {
     opacity: .8;
     transition: opacity .15s ease-out; }
 
+/* ==========================================================================
+  Main
+========================================================================== */
 nav {
   font-size: .75em;
   font-weight: 700; }
