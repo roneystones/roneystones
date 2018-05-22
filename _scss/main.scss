@@ -25,6 +25,7 @@ $borda: 1px solid #ccc;
 
 .container-narrow {
     max-width: 42rem;
+    // margin: 0 auto;
 }
 
 .shadow {
@@ -105,8 +106,7 @@ h1,
 h2 {
     font-size: 1.5em;
     line-height: 1.5em;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .huge {
@@ -143,14 +143,13 @@ a {
   Main
 ========================================================================== */
 
-nav,
 main,
 footer {
     margin: 0 auto;
     padding: 2rem;
 
     @include mq($from: tablet) {
-        padding: 4rem 16rem;
+        padding: 5rem 10rem;
     }
 }
 

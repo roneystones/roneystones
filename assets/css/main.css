@@ -117,8 +117,7 @@ h1,
 h2 {
   font-size: 1.5em;
   line-height: 1.5em;
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 2rem; }
 
 .huge {
   font-size: 4em;
@@ -145,16 +144,14 @@ a {
 /* ==========================================================================
   Main
 ========================================================================== */
-nav,
 main,
 footer {
   margin: 0 auto;
   padding: 2rem; }
   @media (min-width: 46.25em) {
-    nav,
     main,
     footer {
-      padding: 4rem 16rem; } }
+      padding: 5rem 10rem; } }
 
 nav .logo {
   font-size: .65em;
