@@ -24,7 +24,7 @@ h1 {
     line-height: 1.5em;
 
     @include mq($from: tablet) {
-        font-size: 4em;
+        font-size: 3.8em;
         line-height: 1.2em;
     }
 }
