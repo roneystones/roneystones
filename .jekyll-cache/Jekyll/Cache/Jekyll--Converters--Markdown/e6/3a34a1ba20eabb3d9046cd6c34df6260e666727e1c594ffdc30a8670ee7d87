@@ -1,0 +1,10 @@
+I"R<p>Deixar comentários no código é uma prática comum para documentação e facilita a compreensão para novos membros em uma equipe.</p>
+
+<p>Certa vez me recomendaram para aprendizado e desde então se tornou um hábito. Por exemplo: comentar um .js com descrição do que faz cada função é um ótimo guia para iniciantes traduzirem  rapidamente o código e evitar repetir erros.</p>
+
+<p>Essa prática ficou tão comum que passei a dialogar com o código. As vezes insiro ideias, observações e até tarefas futuras. Se tornou uma conversa entre desenvolvedor e projeto.</p>
+
+<p>Claro que tenho liberdade para esse dialogo quando estou trabalhando em projetos pessoais. Quando colaborativo, procuro ser mais sussinto.</p>
+
+<p>Vale lembrar que o código final passa por um processador, no meu caso Gulp, que o enxuga para a distribuição.</p>
+:ET
